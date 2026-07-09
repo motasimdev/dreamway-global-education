@@ -5,7 +5,7 @@ import plane from "/src/assets/svg/plane.svg";
 const Banner = () => {
   return (
     <>
-      <section className="fixed lg:top-18 left-0 w-full bg-[url(/src/assets/homeBanner2.png)] bg-cover bg-center bg-no-repeat ">
+      <section className="relative lg:fixed lg:top-18 left-0 w-full bg-[url(/src/assets/homeBanner2.png)] bg-cover bg-center bg-no-repeat z-0 scroll-smooth">
         <div className="pt-15 pb-5 md:py-20 lg:py-30 bg-[#00000073]">
           <Container>
             <div className="flex justify-between items-center flex-col lg:flex-row gap-10">
