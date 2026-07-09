@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router";
 import Container from "../Container";
 import logo from "/src/assets/logo.png";
+import { FaXmark } from "react-icons/fa6";
+import { HiBars3 } from "react-icons/hi2";
 
 const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
-    <nav className="lg:py-3 shadow-sm sticky w-full top-0 z-1000 bg-gray-200">
+    <nav className="lg:py-3 shadow-sm sticky w-full top-0 z-1000 ">
       <Container>
         <div className="hidden lg:flex justify-between items-center">
           {/* Logo */}
@@ -27,7 +31,7 @@ const Header = () => {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
+                    `px-3 py-2 rounded-full font-bold text-base uppercase font-jost ${
                       isActive
                         ? " text-primary   border-primary  shadow-sm"
                         : "text-secondary hover:text-primary  "
@@ -79,7 +83,7 @@ const Header = () => {
                     }`
                   }
                 >
-                 Blogs
+                  Blogs
                 </NavLink>
               </li>
 
@@ -116,6 +120,137 @@ const Header = () => {
           </div>
         </div>
       </Container>
+
+      {/* =============Mobile Menu============= */}
+
+      <div className={`lg:hidden py-2 px-3 md:px-5 bg-white z-50`}>
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <NavLink to={"/"} className="max-w-25">
+            <picture>
+              <img src={logo} alt="logo" />
+            </picture>
+          </NavLink>
+          {/* Logo */}
+
+          <div className="flex items-center gap-x-3 ">
+            <button
+              className="lg:hidden "
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              {isMobileMenuOpen ? (
+                <FaXmark className="text-4xl text-secondary" />
+              ) : (
+                <HiBars3 className="text-4xl text-primary" />
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Menu - Dropdown */}
+        {isMobileMenuOpen && (
+          <>
+            <div
+              className="fixed inset-0 z-30"
+              onClick={() => setIsMobileMenuOpen(false)}
+            ></div>
+            <div className="relative pb-4 border-t border-gray-200 z-50">
+              <ul className="flex flex-col pt-2 text-center">
+                <li>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                        isActive
+                          ? " text-primary shadow-sm"
+                          : "text-secondary hover:text-primary  "
+                      }`
+                    }
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/courses"
+                    className={({ isActive }) =>
+                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                        isActive
+                          ? " text-primary shadow-sm"
+                          : "text-secondary hover:text-primary  "
+                      }`
+                    }
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Courses
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/destinations"
+                    className={({ isActive }) =>
+                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                        isActive
+                          ? " text-primary shadow-sm"
+                          : "text-secondary hover:text-primary  "
+                      }`
+                    }
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Destinations
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/blogs"
+                    className={({ isActive }) =>
+                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                        isActive
+                          ? " text-primary shadow-sm"
+                          : "text-secondary hover:text-primary  "
+                      }`
+                    }
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Blog
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/faq"
+                    className={({ isActive }) =>
+                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                        isActive
+                          ? " text-primary shadow-sm"
+                          : "text-secondary hover:text-primary  "
+                      }`
+                    }
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    FAQ
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                      `block px-4 py-3 rounded-lg  font-medium ${
+                        isActive
+                          ? "bg-primary text-secondary "
+                          : "text-secondary bg-primary "
+                      }`
+                    }
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Contact
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </>
+        )}
+      </div>
     </nav>
   );
 };
