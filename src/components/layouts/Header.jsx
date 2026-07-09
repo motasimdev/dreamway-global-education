@@ -9,7 +9,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="lg:py-3 shadow-sm sticky w-full top-0 z-1000 ">
+    <nav className="lg:py-3 shadow-sm sticky w-full top-0 z-1000 bg-gray-200">
       <Container>
         <div className="hidden lg:flex justify-between items-center">
           {/* Logo */}
@@ -106,7 +106,7 @@ const Header = () => {
                 <NavLink
                   to="/contact"
                   className={({ isActive }) =>
-                    `px-3 ml-7 py-2 rounded-full bg-primary font-bold text-base uppercase   font-jost ${
+                    `px-5 ml-7 py-2 rounded-full bg-primary font-bold text-base uppercase   font-jost ${
                       isActive
                         ? " text-primary bg-secondary shadow-sm  "
                         : "text-secondary hover:text-primary hover:bg-secondary transition duration-300 shadow-sm"
@@ -160,7 +160,7 @@ const Header = () => {
                   <NavLink
                     to="/"
                     className={({ isActive }) =>
-                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                      `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
                         isActive
                           ? " text-primary shadow-sm"
                           : "text-secondary hover:text-primary  "
@@ -175,7 +175,7 @@ const Header = () => {
                   <NavLink
                     to="/courses"
                     className={({ isActive }) =>
-                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                      `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
                         isActive
                           ? " text-primary shadow-sm"
                           : "text-secondary hover:text-primary  "
@@ -190,7 +190,7 @@ const Header = () => {
                   <NavLink
                     to="/destinations"
                     className={({ isActive }) =>
-                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                      `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
                         isActive
                           ? " text-primary shadow-sm"
                           : "text-secondary hover:text-primary  "
@@ -205,7 +205,7 @@ const Header = () => {
                   <NavLink
                     to="/blogs"
                     className={({ isActive }) =>
-                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                      `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
                         isActive
                           ? " text-primary shadow-sm"
                           : "text-secondary hover:text-primary  "
@@ -220,7 +220,7 @@ const Header = () => {
                   <NavLink
                     to="/faq"
                     className={({ isActive }) =>
-                      `block px-4 py-3 font-jost rounded-full font-medium ${
+                      `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
                         isActive
                           ? " text-primary shadow-sm"
                           : "text-secondary hover:text-primary  "
@@ -235,7 +235,7 @@ const Header = () => {
                   <NavLink
                     to="/contact"
                     className={({ isActive }) =>
-                      `block px-4 py-3 rounded-lg  font-medium ${
+                      `block px-4 py-3 rounded-full font-jost  font-medium text-base ${
                         isActive
                           ? "bg-primary text-secondary "
                           : "text-secondary bg-primary "
