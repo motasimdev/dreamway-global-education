@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router";
 import Container from "../Container";
+import logo from "/src/assets/logo.png";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
           {/* Logo */}
           <NavLink to={"/"} className="w-35 h-12.5 block">
             <img
-              src="Logo"
+              src={logo}
               alt="Dreamway Global Education Logo"
               className="w-full h-full"
               loading="lazy"
@@ -26,10 +27,10 @@ const Header = () => {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    `px-3 py-2 font-bold text-base uppercase border-b-2 ${
+                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
                       isActive
-                        ? " text-primary border-b-2 border-primary shadow-lg"
-                        : "text-secondary hover:text-primary border-transparent "
+                        ? " text-primary   border-primary  shadow-sm"
+                        : "text-secondary hover:text-primary  "
                     }`
                   }
                 >
@@ -39,46 +40,31 @@ const Header = () => {
 
               <li>
                 <NavLink
-                  to="/about-us"
+                  to="/courses"
                   className={({ isActive }) =>
-                    `px-3 py-2 font-bold text-base uppercase border-b-2 ${
+                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
                       isActive
-                        ? " text-primary border-b-2 border-primary shadow-lg"
-                        : "text-secondary hover:text-primary border-transparent "
+                        ? " text-primary   border-primary  shadow-sm"
+                        : "text-secondary hover:text-primary  "
                     }`
                   }
                 >
-                  About Us
+                  Courses
                 </NavLink>
               </li>
 
               <li>
                 <NavLink
-                  to="/university"
+                  to="/destinations"
                   className={({ isActive }) =>
-                    `px-3 py-2 font-bold text-base uppercase border-b-2 ${
+                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
                       isActive
-                        ? " text-primary border-b-2 border-primary shadow-lg  "
-                        : "text-secondary hover:text-primary border-transparent "
+                        ? " text-primary   border-primary  shadow-sm  "
+                        : "text-secondary hover:text-primary  "
                     }`
                   }
                 >
-                  Universities
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/our-services"
-                  className={({ isActive }) =>
-                    `px-3 py-2 font-bold text-base uppercase border-b-2 ${
-                      isActive
-                        ? " text-primary border-b-2 border-primary shadow-lg  "
-                        : "text-secondary hover:text-primary border-transparent "
-                    }`
-                  }
-                >
-                  Our Services
+                  Destinations
                 </NavLink>
               </li>
 
@@ -86,14 +72,29 @@ const Header = () => {
                 <NavLink
                   to="/blogs"
                   className={({ isActive }) =>
-                    `px-3 py-2 font-bold text-base uppercase border-b-2 ${
+                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
                       isActive
-                        ? " text-primary border-b-2 border-primary shadow-lg  "
-                        : "text-secondary hover:text-primary border-transparent "
+                        ? " text-primary   border-primary  shadow-sm  "
+                        : "text-secondary hover:text-primary  "
                     }`
                   }
                 >
-                  Blog
+                 Blogs
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/faq"
+                  className={({ isActive }) =>
+                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
+                      isActive
+                        ? " text-primary   border-primary  shadow-sm  "
+                        : "text-secondary hover:text-primary  "
+                    }`
+                  }
+                >
+                  FAQ
                 </NavLink>
               </li>
 
@@ -101,10 +102,10 @@ const Header = () => {
                 <NavLink
                   to="/contact"
                   className={({ isActive }) =>
-                    `px-3 py-2 font-bold text-base uppercase border-b-2 ${
+                    `px-3 ml-7 py-2 rounded-full bg-primary font-bold text-base uppercase   font-jost ${
                       isActive
-                        ? " text-primary border-b-2 border-primary shadow-lg  "
-                        : "text-secondary hover:text-primary border-transparent "
+                        ? " text-primary bg-secondary shadow-sm  "
+                        : "text-secondary hover:text-primary hover:bg-secondary transition duration-300 shadow-sm"
                     }`
                   }
                 >
