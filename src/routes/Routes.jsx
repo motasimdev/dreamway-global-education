@@ -6,6 +6,7 @@ import Blog from "../pages/Blog";
 import Courses from "../pages/Courses";
 import Destinations from "../pages/Destinations";
 import Faq from "../pages/Faq";
+import Error from "../pages/Error";
 
 const Routes = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const Routes = createBrowserRouter([
       { path: "blogs", Component: Blog },
       { path: "faq", Component: Faq },
       { path: "contact", Component: Contact },
+      { path: "*", Component: Error },
     ],
   },
 ]);
