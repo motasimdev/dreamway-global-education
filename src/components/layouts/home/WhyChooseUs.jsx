@@ -3,6 +3,7 @@ import Container from "../../Container";
 import { FaGraduationCap } from "react-icons/fa";
 import Heading from "../../Heading";
 import RoundProgressbar from "../../../hooks/RoundProgressbar";
+import ques from "/src/assets/svg/question.svg";
 
 const WhyChooseUs = () => {
   return (
@@ -18,9 +19,18 @@ const WhyChooseUs = () => {
             </div>
           </div>
           {/* ===== circle sm ======= */}
+
           <Heading
             text={"Why Choose Us?"}
-            className={"text-center pb-9 lg:pb-14 font-chivo text-secondary"}
+            className={
+              "relative z-10 text-center pb-9 lg:pb-14 font-chivo text-secondary drop-shadow-[0_4px_2px_rgba(0,0,0,0.5)]"
+            }
+          />
+
+          <img
+            src={ques}
+            alt="Question Mark"
+            className="absolute top-45 md:top-14 lg:top-10 left-1/2 -translate-x-1/2 size-30 lg:size-50"
           />
           <div className="relative flex flex-col md:flex-row justify-between items-center md:gap-x-6">
             {/* ===== circle lg ======= */}

@@ -1,3 +1,4 @@
+.
 ==========pages ======
 Home
 Courses
@@ -16,4 +17,4 @@ our google reviews
 get free consultation
 popup always on top (choose your course)
 
-========== 
+==========

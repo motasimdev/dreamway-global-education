@@ -48,7 +48,7 @@ const Progressbar = ({ title, description, target }) => {
   return (
     <>
       <div className="mb-6" ref={progressBarRef}>
-        <h4 className="text-xl text-center md:text-left lg:text-2xl font-jost font-medium text-secondary">
+        <h4 className="text-xl text-center md:text-left lg:text-2xl font-jost font-medium text-secondary drop-shadow-[0_3px_2px_rgba(0,0,0,0.4)]">
           {title}
         </h4>
         <p className="text-sm text-center md:text-left lg:text-base font-jost font-normal text-secondary">
