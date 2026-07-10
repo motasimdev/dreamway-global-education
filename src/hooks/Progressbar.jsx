@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import prgplane from "/src/assets/svg/progressplane.svg";
 
-const Progressbar = ({ title, description, target, prgplane }) => {
+const Progressbar = ({ title, description, target }) => {
   const [isVisual, setIsVisual] = useState(false);
   const [count, setCount] = useState(0);
   const progressBarRef = useRef(null);
@@ -29,7 +29,7 @@ const Progressbar = ({ title, description, target, prgplane }) => {
     if (isVisual) {
       let start = 0;
       const end = target;
-      const duration = 1900;
+      const duration = 2500;
       const incrementTime = Math.floor(duration / end);
 
       const timer = setInterval(() => {
@@ -58,7 +58,7 @@ const Progressbar = ({ title, description, target, prgplane }) => {
         <div className="relative flex justify-between items-center mt-4">
           <div className="w-full h-2.5 bg-gray-300 rounded-full">
             <div
-              className="relative h-2.5 bg-primary rounded-full transition-all duration-1900 ease-out"
+              className="relative h-2.5 bg-primary rounded-full transition-all duration-2500 ease-out"
               style={{ width: isVisual ? `${target}%` : "0%" }}
             >
               {/* ডাইনামিক সংখ্যা */}
