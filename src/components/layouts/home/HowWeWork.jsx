@@ -39,14 +39,14 @@ const HOW_WE_WORK_STEPS = [
   },
   {
     number: "05",
-    title: "Visa Submission with right/professional hand",
+    title: "Visa Submission with professional hand",
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
     Icon: FaWallet,
   },
   {
     number: "06",
-    title: "Pre and Post-Departure Support",
+    title: "Pre & Post-Departure Support",
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
     Icon: FaUniversity,
