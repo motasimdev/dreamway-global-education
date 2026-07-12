@@ -15,7 +15,7 @@ const HOW_WE_WORK_STEPS = [
   },
   {
     number: "02",
-    title: "Application & Documentation",
+    title: "Find the Right Destination, University & Course",
     description:
       "From university selection to a polished application, we make every document clear, complete and ready to submit. From university selection to a polished application, we make every document clear, complete and ready to submit.From university selection to a polished application, we make every document clear, complete and ready to submit.",
     Icon: FaFileSignature,
