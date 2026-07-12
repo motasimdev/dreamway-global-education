@@ -9,11 +9,11 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="lg:py-3 shadow-sm sticky w-full top-0 z-1000 bg-gray-200">
+    <nav className="lg:py-3 shadow-sm sticky w-full top-0 z-1000 bg-tertiary">
       <Container>
         <div className="hidden lg:flex justify-between items-center">
           {/* Logo */}
-          <NavLink to={"/"} className="w-35 h-12.5 block">
+          <NavLink to={"/"} className="w-50 h-12.5 block">
             <img
               src={logo}
               alt="Dreamway Global Education Logo"
