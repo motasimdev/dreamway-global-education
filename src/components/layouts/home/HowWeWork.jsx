@@ -15,14 +15,14 @@ const HOW_WE_WORK_STEPS = [
   },
   {
     number: "02",
-    title: "Find the Right Destination, University & Course",
+    title: "Find the Best Options",
     description:
       "From university selection to a polished application, we make every document clear, complete and ready to submit. From university selection to a polished application, we make every document clear, complete and ready to submit.From university selection to a polished application, we make every document clear, complete and ready to submit.",
     Icon: FaFileSignature,
   },
   {
     number: "03",
-    title: "Visa & Fly Abroad",
+    title: "Application Through Expert Team",
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
     Icon: FaPlaneDeparture,
@@ -135,7 +135,7 @@ const HowWeWork = () => {
                   key={number}
                   className="relative flex min-h-[340px] flex-1 items-center lg:pt-20 lg:min-h-0 lg:w-1/3 lg:px-28"
                 >
-                  <div className="w-full rounded-2xl border border-white/80 bg-white/80 p-7 shadow-[0_20px_60px_rgba(31,41,55,0.08)] backdrop-blur-sm sm:p-10 lg:mx-auto lg:max-w-2xl lg:p-12">
+                  <div className="w-full rounded-2xl border border-white/80 bg-white/80 p-7 shadow-[0_20px_60px_rgba(31,41,55,0.08)] backdrop-blur-sm sm:p-10 lg:mx-auto lg:max-w-[700px] lg:p-12">
                     <div className="flex items-start justify-between gap-6">
                       <span className="font-chivo text-5xl font-bold text-primary/20 sm:text-6xl">
                         {number}

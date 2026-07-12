@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
 
             {/* ==== flex ==== */}
             <div className="md:w-1/2 flex flex-col gap-y-6 mb-6 md:mb-0">
-              <div className="py-9 px-3 md:py-11 lg:px-11 bg-gray-300 shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
+              <div className="py-9 px-3 md:py-11 lg:px-11 bg-tertiary shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
                 <FaGraduationCap className="mx-auto text-6xl" />
                 <p className="pt-3 lg:pt-3 text-[17px] font-jost font-medium text-justify md:text-center text-secondary">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
                 </p>
               </div>
 
-              <div className="py-9 px-3 md:py-11 lg:px-11 bg-gray-300 shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
+              <div className="py-9 px-3 md:py-11 lg:px-11 bg-tertiary shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
                 <FaGraduationCap className="mx-auto text-6xl" />
                 <p className="pt-3 lg:pt-3 text-[17px] font-jost font-medium text-justify md:text-center text-secondary">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -68,7 +68,7 @@ const WhyChooseUs = () => {
             {/* ===== flex ==== */}
 
             <div className="md:w-1/2 flex flex-col gap-y-7">
-              <div className="py-9 px-3 md:py-11 lg:px-11 bg-gray-300 shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
+              <div className="py-9 px-3 md:py-11 lg:px-11 bg-tertiary shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
                 <FaGraduationCap className="mx-auto text-6xl" />
                 <p className="pt-3 lg:pt-3 text-[17px] font-jost font-medium text-justify md:text-center text-secondary">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
                 </p>
               </div>
 
-              <div className="py-9 px-3 md:py-11 lg:px-11 bg-gray-300 shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
+              <div className="py-9 px-3 md:py-11 lg:px-11 bg-tertiary shadow-md hover:shadow-lg hover:shadow-gray-500 rounded-md hover:-translate-y-2 transition-all duration-200">
                 <FaGraduationCap className="mx-auto text-6xl" />
                 <p className="pt-3 lg:pt-3 text-[17px] font-jost font-medium text-justify md:text-center text-secondary">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
