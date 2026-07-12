@@ -3,6 +3,9 @@ import {
   FaFileSignature,
   FaPlaneDeparture,
   FaRegComments,
+  FaRegHandshake,
+  FaUniversity,
+  FaWallet,
 } from "react-icons/fa";
 
 const HOW_WE_WORK_STEPS = [
@@ -26,6 +29,27 @@ const HOW_WE_WORK_STEPS = [
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
     Icon: FaPlaneDeparture,
+  },
+  {
+    number: "04",
+    title: "Documentation Guidance",
+    description:
+      "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence..",
+    Icon: FaRegHandshake,
+  },
+  {
+    number: "05",
+    title: "Visa Submission with right/professional hand",
+    description:
+      "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
+    Icon: FaWallet,
+  },
+  {
+    number: "06",
+    title: "Pre and Post-Departure Support",
+    description:
+      "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
+    Icon: FaUniversity,
   },
 ];
 
@@ -93,7 +117,7 @@ const HowWeWork = () => {
         </p>
         <h3
           id="how-we-work-heading"
-          className="mt- text-center font-chivo text-4xl font-bold sm:text-5xl"
+          className="mt- text-center font-chivo text-4xl font-bold sm:text-[42px]"
         >
           How We Work
         </h3>
@@ -105,7 +129,7 @@ const HowWeWork = () => {
 
       <div
         ref={sectionRef}
-        className="relative overflow-x-clip pb-16 lg:h-[300vh] lg:pb-0"
+        className="relative overflow-x-clip pb-16 lg:h-[600vh] lg:pb-0"
       >
         <div className="mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:sticky lg:top-0 lg:flex lg:h-screen lg:items-center lg:px-12">
           <div className="relative w-full">
@@ -128,12 +152,12 @@ const HowWeWork = () => {
 
             <div
               ref={trackRef}
-              className="flex flex-col gap-6 lg:w-[300%] lg:flex-row lg:gap-0 lg:will-change-transform"
+              className="flex flex-col gap-6 lg:w-[600%] lg:flex-row lg:gap-0 lg:will-change-transform"
             >
               {HOW_WE_WORK_STEPS.map(({ number, title, description, Icon }) => (
                 <article
                   key={number}
-                  className="relative flex min-h-[340px] flex-1 items-center lg:pt-20 lg:min-h-0 lg:w-1/3 lg:px-28"
+                  className="relative flex min-h-[340px] flex-1 items-center lg:pt-20 lg:min-h-0 lg:w-1/6 lg:px-28"
                 >
                   <div className="w-full rounded-2xl border border-white/80 bg-white/80 p-7 shadow-[0_20px_60px_rgba(31,41,55,0.08)] backdrop-blur-sm sm:p-10 lg:mx-auto lg:max-w-[700px] lg:p-12">
                     <div className="flex items-start justify-between gap-6">
