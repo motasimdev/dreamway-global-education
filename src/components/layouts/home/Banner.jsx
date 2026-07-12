@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <>
       <section className="relative w-full h-auto lg:h-[160vh] bg-transparent">
-        <div className="relative lg:sticky lg:top-19 lg:h-screen left-0 w-full bg-[url(/src/assets/homeBanner2.png)] bg-cover bg-center bg-no-repeat z-0 scroll-smooth">
+        <div className="relative lg:sticky lg:top-19 lg:h-screen left-0 w-full bg-[url(/src/assets/homeBanner2.png)] bg-cover bg-center bg-no-repeat z-0">
           <div className="pt-15 pb-5 md:py-20 lg:py-0 lg:pb-0 lg:h-screen bg-[#00000073]">
             <Container>
               <div className="lg:py-30 flex justify-between items-center flex-col lg:flex-row gap-10">

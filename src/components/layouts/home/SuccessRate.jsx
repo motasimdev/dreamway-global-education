@@ -1,19 +1,19 @@
 import React, { useEffect, useRef, useState } from "react";
 import Container from "../../Container";
-import succeed from "/src/assets/svg/succeed.svg";
+import succeed from "/src/assets/svg/succeed2.svg";
 import Progressbar from "../../../hooks/Progressbar";
 
 const SuccessRate = () => {
   return (
     <>
-      <section className="relative py-15 md:py-20 lg:pt-25 lg:pb-40 lg:-mt-100 z-20 bg-[#f7f8fa] scroll-smooth">
+      <section className="relative py-15 md:py-20 lg:pt-25 lg:pb-40 lg:-mt-100 z-20 bg-[#f7f8fa]">
         <Container>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="relative mb-10 md:mb-0 md:w-1/2 md:pl-10 md:pr-12 lg:pr-15 md:py-33 lg:py-40">
               <img
                 src={succeed}
                 alt=""
-                className="absolute -top-10 lg:-top-15 left-0 md:-left-8 lg:left-1/2 lg:-translate-x-1/2"
+                className="absolute -top-10 lg:-top-15 left-0 md:-left-8 lg:left-1/2 lg:-translate-x-1/2 text-tertiary"
               />
               <div className="relative z-10 text-center md:text-left">
                 <h3 className="text-3xl md:text-4xl lg:text-5xl lg:text-center font-bold text-secondary font-chivo drop-shadow-[0_4px_2px_rgba(0,0,0,0.4)]">
