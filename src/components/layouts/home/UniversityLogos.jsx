@@ -37,10 +37,10 @@ const UniversityLogos = () => {
     <section className="overflow-hidden bg-white py-16 sm:py-20" aria-labelledby="partner-universities-heading">
       <div className="mx-auto max-w-[1320px] px-5 text-center sm:px-8 lg:px-12">
         <span className="font-jost text-xs font-bold tracking-[0.22em] text-primary uppercase">
-          Global connections
+          Join The Success
         </span>
         <h2 id="partner-universities-heading" className="mt-3 font-chivo text-3xl font-bold text-secondary sm:text-4xl">
-          Our Partner Universities
+          Our Students Study At
         </h2>
       </div>
 
