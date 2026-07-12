@@ -6,7 +6,7 @@ import Progressbar from "../../../hooks/Progressbar";
 const SuccessRate = () => {
   return (
     <>
-      <section className="relative py-15 md:py-20 lg:pt-25 lg:pb-40 lg:-mt-100 z-20 bg-gray-200 scroll-smooth">
+      <section className="relative py-15 md:py-20 lg:pt-25 lg:pb-40 lg:-mt-100 z-20 bg-[#f7f8fa] scroll-smooth">
         <Container>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="relative mb-10 md:mb-0 md:w-1/2 md:pl-10 md:pr-12 lg:pr-15 md:py-33 lg:py-40">

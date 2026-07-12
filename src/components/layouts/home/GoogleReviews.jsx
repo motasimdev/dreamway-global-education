@@ -39,6 +39,14 @@ const reviews = [
     review:
       "Dreamway Global made the journey to Canada much less stressful. Their pre-departure briefing was especially useful and gave my family confidence too.",
   },
+  {
+    name: "Mahfuj Rahman",
+    date: "5 months ago",
+    image:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=160&q=85",
+    review:
+      "Dreamway Global made the journey to Canada much less stressful. Their pre-departure briefing was especially useful and gave my family confidence too.",
+  },
 ];
 
 const getVisibleCount = () => (typeof window !== "undefined" && window.innerWidth >= 768 ? 2 : 1);
@@ -93,17 +101,17 @@ const GoogleReviews = () => {
       }}
     >
       <Container>
-        <div className="mb-10 max-w-2xl md:mb-14">
-          <p className="mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+        <div className="mb-10 max-w-2xl md:mb-14 mx-auto">
+          <p className="text-center mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
             Community feedback
           </p>
           <h2
             id="google-reviews-heading"
-            className="font-chivo text-3xl font-bold text-secondary md:text-4xl lg:text-[42px]"
+            className="text-center font-chivo text-3xl font-bold text-secondary md:text-4xl lg:text-[42px]"
           >
             Our Google Reviews
           </h2>
-          <p className="mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
+          <p className="text-center mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
             Families trust us with an important decision. Here is what they say
             about their experience with Dreamway Global.
           </p>
@@ -145,7 +153,7 @@ const GoogleReviews = () => {
           </aside>
 
           <div className="min-w-0">
-            <div className="overflow-hidden px-1 pb-4">
+            <div className="overflow-hidden px-1 pb-4 lg:pt-2">
               <div
                 className="flex transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]"
                 style={{ transform: `translateX(-${activePage * 100}%)` }}

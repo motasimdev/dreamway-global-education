@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router";
 import Container from "../Container";
-import logo from "/src/assets/logo.png";
+import logo from "/src/assets/loogo.png";
 import { FaXmark } from "react-icons/fa6";
 import { HiBars3 } from "react-icons/hi2";
 
@@ -13,7 +13,7 @@ const Header = () => {
       <Container>
         <div className="hidden lg:flex justify-between items-center">
           {/* Logo */}
-          <NavLink to={"/"} className="w-50 h-12.5 block">
+          <NavLink to={"/"} className="w-50 block">
             <img
               src={logo}
               alt="Dreamway Global Education Logo"

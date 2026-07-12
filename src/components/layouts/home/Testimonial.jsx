@@ -127,10 +127,10 @@ const Testimonial = () => {
           >
             Trusted guidance. Transformative futures.
           </h2>
-          <p className="mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
+          {/* <p className="mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
             Real experiences from students who began their international study
             journey with Dreamway Global.
-          </p>
+          </p> */}
         </div>
 
         <div className="relative">
@@ -141,7 +141,7 @@ const Testimonial = () => {
             >
               {pages.map((page, pageIndex) => (
                 <div
-                  className="grid min-w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7"
+                  className="grid min-w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7 lg:pt-2"
                   key={pageIndex}
                 >
                   {page.map((student) => (

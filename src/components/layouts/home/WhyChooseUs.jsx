@@ -8,13 +8,13 @@ import ques from "/src/assets/svg/question.svg";
 const WhyChooseUs = () => {
   return (
     <>
-      <section className="relative pb-15 pt-53 md:py-20 lg:py-25 bg-gray-100 scroll-smooth z-20 ">
+      <section className="relative pb-15 pt-53 md:py-20 lg:py-25 bg-[#fffaf6] scroll-smooth z-20 ">
         <Container>
           <div className="lg:hidden absolute top-13 md:top-85 left-1/2 -translate-x-1/2 bg-gray-100 rounded-full z-50 shadow-lg shadow-gray-500">
             <RoundProgressbar duration={3000} target={90} size={100} />
             <div className="absolute top-1/2 left-1/2 -translate-1/2">
               <p className="font-jost font-semibold text-secondary text-xl bg-transparent ">
-                Ovarall <br /> Success
+                Overall <br /> Success
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
               <RoundProgressbar duration={3000} target={90} size={150} />
               <div className="absolute top-1/2 left-1/2 -translate-1/2">
                 <p className="font-jost font-semibold text-secondary text-2xl">
-                  Ovarall <br /> Success
+                  Overall <br /> Success
                 </p>
               </div>
             </div>
