@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaQuoteRight, FaStar } from "react-icons/fa";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import Container from "../../Container";
+import Heading from "../../Heading";
 
 const testimonials = [
   {
@@ -102,7 +103,10 @@ const Testimonial = () => {
   };
 
   const pages = Array.from({ length: pageCount }, (_, pageIndex) =>
-    testimonials.slice(pageIndex * visibleCount, (pageIndex + 1) * visibleCount),
+    testimonials.slice(
+      pageIndex * visibleCount,
+      (pageIndex + 1) * visibleCount,
+    ),
   );
 
   return (
@@ -113,7 +117,8 @@ const Testimonial = () => {
       onMouseLeave={() => setIsPaused(false)}
       onFocus={() => setIsPaused(true)}
       onBlur={(event) => {
-        if (!event.currentTarget.contains(event.relatedTarget)) setIsPaused(false);
+        if (!event.currentTarget.contains(event.relatedTarget))
+          setIsPaused(false);
       }}
     >
       <Container>
@@ -121,12 +126,14 @@ const Testimonial = () => {
           <p className="mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
             Student stories
           </p>
-          <h2
-            id="testimonials-heading"
-            className="font-chivo text-3xl font-bold text-secondary md:text-4xl lg:text-[42px]"
-          >
-            Trusted guidance. Transformative futures.
-          </h2>
+          <div id="testimonials-heading">
+            <Heading
+              text={"Trusted guidance. Transformative futures."}
+              className={
+                "font-chivo font-bold text-secondary"
+              }
+            />
+          </div>
           {/* <p className="mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
             Real experiences from students who began their international study
             journey with Dreamway Global.
@@ -205,7 +212,10 @@ const Testimonial = () => {
               <FiArrowLeft aria-hidden="true" />
             </button>
 
-            <div className="flex items-center gap-2" aria-label="Testimonial slides">
+            <div
+              className="flex items-center gap-2"
+              aria-label="Testimonial slides"
+            >
               {Array.from({ length: pageCount }, (_, index) => (
                 <button
                   type="button"

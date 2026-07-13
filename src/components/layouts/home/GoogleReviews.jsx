@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaGoogle, FaStar } from "react-icons/fa";
 import { FiArrowLeft, FiArrowRight, FiExternalLink } from "react-icons/fi";
 import Container from "../../Container";
+import Heading from "../../Heading";
 
 const googleReviewsUrl =
   "https://www.google.com/search?q=Dreamway+Global+Education+Google+Reviews";
@@ -49,7 +50,8 @@ const reviews = [
   },
 ];
 
-const getVisibleCount = () => (typeof window !== "undefined" && window.innerWidth >= 768 ? 2 : 1);
+const getVisibleCount = () =>
+  typeof window !== "undefined" && window.innerWidth >= 768 ? 2 : 1;
 
 const GoogleReviews = () => {
   const [visibleCount, setVisibleCount] = useState(getVisibleCount);
@@ -97,7 +99,8 @@ const GoogleReviews = () => {
       onMouseLeave={() => setIsPaused(false)}
       onFocus={() => setIsPaused(true)}
       onBlur={(event) => {
-        if (!event.currentTarget.contains(event.relatedTarget)) setIsPaused(false);
+        if (!event.currentTarget.contains(event.relatedTarget))
+          setIsPaused(false);
       }}
     >
       <Container>
@@ -105,12 +108,14 @@ const GoogleReviews = () => {
           <p className="text-center mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
             Community feedback
           </p>
-          <h2
-            id="google-reviews-heading"
-            className="text-center font-chivo text-3xl font-bold text-secondary md:text-4xl lg:text-[42px]"
-          >
-            Our Google Reviews
-          </h2>
+          <div id="google-reviews-heading">
+            <Heading
+              text={" Our Google Reviews"}
+              className={
+                "text-center font-chivo font-bold text-secondary"
+              }
+            />
+          </div>
           <p className="text-center mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
             Families trust us with an important decision. Here is what they say
             about their experience with Dreamway Global.
@@ -128,25 +133,36 @@ const GoogleReviews = () => {
                 </span>
                 <div>
                   <p className="font-chivo text-lg font-bold">Google Reviews</p>
-                  <p className="font-jost text-sm text-white/65">Verified customer feedback</p>
+                  <p className="font-jost text-sm text-white/65">
+                    Verified customer feedback
+                  </p>
                 </div>
               </div>
 
               <div className="mb-5 flex items-end gap-3">
-                <strong className="font-chivo text-6xl font-bold tracking-tight">4.9</strong>
-                <span className="mb-2 font-jost text-lg text-white/65">/ 5</span>
+                <strong className="font-chivo text-6xl font-bold tracking-tight">
+                  4.9
+                </strong>
+                <span className="mb-2 font-jost text-lg text-white/65">
+                  / 5
+                </span>
               </div>
-              <div className="mb-3 flex gap-1.5 text-primary" aria-label="4.9 out of 5 stars">
+              <div
+                className="mb-3 flex gap-1.5 text-primary"
+                aria-label="4.9 out of 5 stars"
+              >
                 {Array.from({ length: 5 }, (_, index) => (
                   <FaStar aria-hidden="true" key={index} />
                 ))}
               </div>
-              <p className="font-jost text-sm text-white/70">Based on 127 Google reviews</p>
+              <p className="font-jost text-sm text-white/70">
+                Based on 127 Google reviews
+              </p>
 
               <div className="mt-auto border-t border-white/15 pt-7">
                 <p className="font-jost text-sm leading-6 text-white/75">
-                  Every review reflects a real journey, and the care our team puts
-                  into helping students move forward with confidence.
+                  Every review reflects a real journey, and the care our team
+                  puts into helping students move forward with confidence.
                 </p>
               </div>
             </div>
@@ -159,7 +175,10 @@ const GoogleReviews = () => {
                 style={{ transform: `translateX(-${activePage * 100}%)` }}
               >
                 {pages.map((page, pageIndex) => (
-                  <div className="grid min-w-full gap-5 md:grid-cols-2" key={pageIndex}>
+                  <div
+                    className="grid min-w-full gap-5 md:grid-cols-2"
+                    key={pageIndex}
+                  >
                     {page.map((customer) => (
                       <article
                         className="group flex min-h-[310px] flex-col rounded-[1.75rem] border border-white bg-white p-6 shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:border-orange-100 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)] md:p-7"
@@ -182,10 +201,16 @@ const GoogleReviews = () => {
                               </p>
                             </div>
                           </div>
-                          <FaGoogle aria-label="Google review" className="shrink-0 text-xl text-[#4285F4]" />
+                          <FaGoogle
+                            aria-label="Google review"
+                            className="shrink-0 text-xl text-[#4285F4]"
+                          />
                         </header>
 
-                        <div className="mt-6 flex gap-1 text-primary" aria-label="5 out of 5 stars">
+                        <div
+                          className="mt-6 flex gap-1 text-primary"
+                          aria-label="5 out of 5 stars"
+                        >
                           {Array.from({ length: 5 }, (_, index) => (
                             <FaStar aria-hidden="true" key={index} />
                           ))}

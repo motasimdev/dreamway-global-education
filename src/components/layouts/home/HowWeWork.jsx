@@ -7,11 +7,15 @@ import {
   FaUniversity,
   FaWallet,
 } from "react-icons/fa";
+import Heading from "../../Heading";
+import { MdFactCheck } from "react-icons/md";
+import { RiTeamFill } from "react-icons/ri";
+import map from "/src/assets/svg/worldd.svg";
 
 const HOW_WE_WORK_STEPS = [
   {
     number: "01",
-    title: "Free Consultation",
+    title: "One-on-One Counselling",
     description:
       "Share your ambitions with us. We will help you choose the right destination, programme and path forward. Share your ambitions with us. We will help you choose the right destination, programme and path forward.Share your ambitions with us. We will help you choose the right destination, programme and path forward.",
     Icon: FaRegComments,
@@ -21,35 +25,35 @@ const HOW_WE_WORK_STEPS = [
     title: "Find the Best Options",
     description:
       "From university selection to a polished application, we make every document clear, complete and ready to submit. From university selection to a polished application, we make every document clear, complete and ready to submit.From university selection to a polished application, we make every document clear, complete and ready to submit.",
-    Icon: FaFileSignature,
+    Icon: MdFactCheck,
   },
   {
     number: "03",
     title: "Application Through Expert Team",
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
-    Icon: FaPlaneDeparture,
+    Icon: RiTeamFill,
   },
   {
     number: "04",
     title: "Documentation Guidance",
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence..",
-    Icon: FaRegHandshake,
+    Icon: FaFileSignature,
   },
   {
     number: "05",
     title: "Visa Submission with professional hand",
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
-    Icon: FaWallet,
+    Icon: FaRegHandshake,
   },
   {
     number: "06",
     title: "Pre & Post-Departure Support",
     description:
       "We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence. We guide your visa preparation and pre-departure plans, so you can begin your new chapter with confidence.",
-    Icon: FaUniversity,
+    Icon: FaPlaneDeparture,
   },
 ];
 
@@ -111,16 +115,16 @@ const HowWeWork = () => {
       className="bg-[#f7f8fa] text-secondary"
       aria-labelledby="how-we-work-heading"
     >
-      <header className="mx-auto w-full max-w-[1320px] px-5 pt-16 pb-18 sm:px-8 lg:px-12 lg:pt-24 lg:pb-4">
+      <header className="mx-auto w-full max-w-[1320px] px-5 pt-16 pb-18 sm:px-8 lg:px-12 lg:pt-24 lg:pb-0">
         <p className="font-jost text-center text-xs font-bold tracking-[0.22em] text-primary uppercase">
           Your global journey
         </p>
-        <h3
-          id="how-we-work-heading"
-          className="mt- text-center font-chivo text-4xl font-bold sm:text-[42px]"
-        >
-          How We Work
-        </h3>
+        <div id="how-we-work-heading">
+          <Heading
+            text={"How We Work"}
+            className={"mt-0 text-center font-chivo font-bold text-secondary"}
+          />
+        </div>
         <h5 className="mt-4 max-w-2xl font-jost mx-auto text-center text-base leading-7 text-secondary/70 sm:text-lg">
           Thoughtful support at every milestone, from your first question to
           your first flight.
@@ -133,6 +137,11 @@ const HowWeWork = () => {
       >
         <div className="mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:sticky lg:top-0 lg:flex lg:h-screen lg:items-center lg:px-12">
           <div className="relative w-full">
+            <img
+              src={map}
+              alt="plane route"
+              className="pointer-events-none absolute top-1/2 left-1/2 hidden -translate-1/2 lg:block"
+            />
             <svg
               className="pointer-events-none absolute top-1/2 left-[16%] hidden h-28 w-[68%] -translate-y-1/2 lg:block"
               viewBox="0 0 800 120"
