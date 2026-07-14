@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
             <div className="hidden lg:block absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 bg-gray-100 rounded-full z-50 shadow-lg shadow-gray-500">
               <RoundProgressbar duration={3000} target={90} size={150} />
               <div className="absolute top-1/2 left-1/2 -translate-1/2">
-                <p className="font-jost font-semibold text-secondary text-2xl">
+                <p className="font-jost font-semibold text-secondary text-2xl drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)]">
                   Overall <br /> Success
                 </p>
               </div>

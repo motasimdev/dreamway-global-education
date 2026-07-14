@@ -12,7 +12,7 @@ const Banner = () => {
             <Container>
               <div className="lg:py-30 flex justify-between items-center flex-col lg:flex-row gap-10">
                 <div className="lg:w-2/3">
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white pr-20 md:pr-70 lg:pr-30 md:pb-4 lg:pb-5 font-chivo drop-shadow-[0_4px_2px_rgba(0,0,0,0.5)] lg:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]">
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white pr-20 md:pr-70 lg:pr-60 md:pb-4 lg:pb-5 font-chivo drop-shadow-[0_4px_2px_rgba(0,0,0,0.5)] lg:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]">
                     One step closer to your dream university
                   </h1>
                   <p className="inline text-sm md:text-lg lg:text-[27px] lg:font-medium border-b-2 border-primary text-white mt-4 font-jost drop-shadow-[0_4px_2px_rgba(0,0,0,0.5)] lg:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]">

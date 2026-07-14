@@ -40,7 +40,7 @@ const UniversityLogos = () => {
 
   return (
     <section
-      className="overflow-hidden bg-white py-16 sm:py-20"
+      className="overflow-hidden bg-[#fffaf6] py-16 sm:py-20"
       aria-labelledby="partner-universities-heading"
     >
       <div className="mx-auto max-w-[1320px] px-5 text-center sm:px-8 lg:px-12">
@@ -51,7 +51,7 @@ const UniversityLogos = () => {
           <Heading
             text={"Our Students Study At"}
             className={
-              "mt-3 font-chivo font-bold text-secondary"
+              "mt-2 font-chivo font-bold text-secondary"
             }
           />
         </div>
