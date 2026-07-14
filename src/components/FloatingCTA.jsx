@@ -9,7 +9,7 @@ const FloatingCTA = () => {
     <>
       <button
         type="button"
-        onClick={() => navigate("/contact")}
+        onClick={() => navigate("/courses")}
         className="animate-fade-in-up flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-jost text-sm font-semibold text-white shadow-lg shadow-orange-200/60 transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-xl hover:shadow-orange-200/70 active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary cursor-pointer"
         aria-label="Choose your course"
       >

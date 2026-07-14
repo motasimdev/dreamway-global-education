@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
           <img
             src={ques}
             alt="Question Mark"
-            className="absolute top-45 md:top-14 lg:top-10 left-1/2 -translate-x-1/2 size-30 lg:size-50"
+            className="absolute top-45 md:top-14 lg:top-15 left-1/2 -translate-x-1/2 size-30 lg:size-50"
           />
           <div className="relative flex flex-col md:flex-row justify-between items-center md:gap-x-6">
             {/* ===== circle lg ======= */}
