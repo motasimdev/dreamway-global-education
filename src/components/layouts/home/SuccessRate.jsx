@@ -13,13 +13,16 @@ const SuccessRate = () => {
               <img
                 src={succeed}
                 alt=""
-                className="absolute -top-10 lg:-top-4 left-0 md:-left-8 lg:left-1/2 lg:-translate-x-1/2 text-tertiary size-120"
+                className="absolute -top-10 lg:-top-4 left-0 md:-left-8 md:left-1/2 md:-translate-x-1/2 text-tertiary size-120"
               />
               <div className="relative z-10 text-center md:text-left">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl lg:text-center font-bold text-secondary font-chivo drop-shadow-[0_4px_2px_rgba(0,0,0,0.4)]">
+                <p className="mb-3 md:text-center font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+                  Meet our successor
+                </p>
+                <h3 className="text-3xl md:text-4xl lg:text-5xl md:text-center font-bold text-secondary font-chivo drop-shadow-[0_4px_2px_rgba(0,0,0,0.4)]">
                   Our Success Rate
                 </h3>
-                <p className="text-sm lg:text-xl lg:text-center font-medium font-jost text-secondary mt-4">
+                <p className="text-sm lg:text-xl md:text-center font-medium font-jost text-secondary mt-4">
                   We have helped thousands of students achieve their dreams of
                   studying abroad.
                 </p>

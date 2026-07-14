@@ -37,7 +37,7 @@ const Footer = () => {
     <footer className="bg-[#f7f8fa] text-secondary z-50">
       <Container>
         <div className="py-16 md:py-20">
-          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-4">
             {/* Column 1: About */}
             <div className="sm:col-span-2 lg:col-span-1">
               <Link to="/" className="mb-5 inline-block w-48">

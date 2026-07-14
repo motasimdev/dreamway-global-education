@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router";
+import { useParams, Link } from "react-router";
+import { FaArrowLeft } from "react-icons/fa6";
 import Container from "../components/Container";
 import Heading from "../components/Heading";
 
@@ -84,75 +85,85 @@ const blogs = [
   },
 ];
 
-const BlogCard = ({ blog }) => (
-  <article
-    className="group flex flex-col overflow-hidden rounded-[1.5rem] border border-orange-100 bg-white shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)]"
-  >
-    <div className="relative h-56 overflow-hidden">
-      <img
-        src={blog.image}
-        alt={blog.title}
-        className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-        loading="lazy"
-      />
-      <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 font-jost text-xs font-semibold uppercase tracking-[0.14em] text-primary backdrop-blur-sm">
-        {blog.category}
-      </span>
-    </div>
-    <div className="flex flex-1 flex-col p-6">
-      <time
-        className="font-jost text-xs font-semibold uppercase tracking-[0.14em] text-secondary/60"
-        dateTime={blog.publishDate}
-      >
-        {blog.publishDate}
-      </time>
-      <h3 className="mt-2 font-chivo text-xl font-bold text-secondary">
-        {blog.title}
-      </h3>
-      <p className="mt-3 font-jost text-sm leading-7 text-secondary/75">
-        {blog.excerpt}
-      </p>
-      <Link
-        to={`/blogs/${blog.slug}`}
-        className="mt-auto pt-4 inline-block text-left font-jost text-sm font-semibold text-primary transition-colors duration-300 hover:text-primary/80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-      >
-        Read More
-      </Link>
-    </div>
-  </article>
-);
+const BlogDetails = () => {
+  const { slug } = useParams();
+  const blog = blogs.find((b) => b.slug === slug);
 
-const Blog = () => {
-  return (
-    <section
-      className="bg-[#fffaf6] py-16 md:py-20 lg:py-24"
-      aria-labelledby="blog-heading"
-    >
-      <Container>
-        <div className="mx-auto mb-10 max-w-2xl text-center md:mb-14">
-          <p className="mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-            Insights & Updates
-          </p>
-          <div id="blog-heading">
+  if (!blog) {
+    return (
+      <section className="bg-[#fffaf6] py-16 md:py-20 lg:py-24">
+        <Container>
+          <div className="mx-auto max-w-2xl text-center">
             <Heading
-              text="Latest Blogs"
+              text="Blog Not Found"
               className="font-chivo font-bold text-secondary"
             />
+            <p className="mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
+              The blog you are looking for does not exist or has been removed.
+            </p>
+            <Link
+              to="/blogs"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-jost text-sm font-semibold text-white transition-colors duration-300 hover:bg-primary/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+            >
+              <FaArrowLeft aria-hidden="true" />
+              Back to Blogs
+            </Link>
           </div>
-          <p className="mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
-            Stay informed with expert advice, destination guides, and student
-            success stories.
-          </p>
-        </div>
+        </Container>
+      </section>
+    );
+  }
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {blogs.map((blog) => (
-            <BlogCard key={blog.id} blog={blog} />
-          ))}
-        </div>
+  return (
+    <section className="bg-[#fffaf6] py-16 md:py-20 lg:py-24">
+      <Container>
+        <article className="mx-auto max-w-3xl">
+          <div className="mb-8">
+            <Link
+              to="/blogs"
+              className="inline-flex items-center gap-2 font-jost text-sm font-semibold text-primary transition-colors duration-300 hover:text-primary/80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+            >
+              <FaArrowLeft aria-hidden="true" />
+              Back to Blogs
+            </Link>
+          </div>
+
+          <div className="overflow-hidden rounded-[1.5rem] border border-orange-100 bg-white shadow-[0_14px_35px_rgba(54,69,79,0.08)]">
+            <div className="relative h-64 overflow-hidden sm:h-80 md:h-96">
+              <img
+                src={blog.image}
+                alt={blog.title}
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="p-6 md:p-10">
+              <div className="mb-4 flex flex-wrap items-center gap-3">
+                <span className="rounded-full bg-primary/10 px-3 py-1 font-jost text-xs font-semibold uppercase tracking-[0.14em] text-primary">
+                  {blog.category}
+                </span>
+                <time
+                  className="font-jost text-xs font-semibold uppercase tracking-[0.14em] text-secondary/60"
+                  dateTime={blog.publishDate}
+                >
+                  {blog.publishDate}
+                </time>
+              </div>
+
+              <h1 className="font-chivo text-2xl font-bold text-secondary md:text-3xl lg:text-4xl">
+                {blog.title}
+              </h1>
+
+              <div className="mt-6 font-jost text-base leading-7 text-secondary/75 md:text-lg">
+                <p>{blog.content}</p>
+              </div>
+            </div>
+          </div>
+        </article>
       </Container>
     </section>
   );
 };
 
-export default Blog;
+export default BlogDetails;

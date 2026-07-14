@@ -20,6 +20,9 @@ const WhyChooseUs = () => {
           </div>
           {/* ===== circle sm ======= */}
 
+          <p className="relative mb-2 font-jost text-sm text-center font-semibold uppercase tracking-[0.2em] text-primary z-10">
+            Unite with trusted hands
+          </p>
           <Heading
             text={"Why Choose Us?"}
             className={
