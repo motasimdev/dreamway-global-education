@@ -4,6 +4,7 @@ import { Outlet } from "react-router";
 import Footer from "./Footer";
 import whatsapp from "/src/assets/whatsapp.svg";
 import { FaChevronCircleUp } from "react-icons/fa";
+import FloatingCTA from "../FloatingCTA";
 
 
 const Root = () => {
@@ -42,7 +43,7 @@ const Root = () => {
       <Header />
       <main>
         <Outlet />
-        <div className="fixed bottom-5 right-5 z-50 flex flex-col items-center gap-3">
+        <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3">
           {/* Back-to-top Button (শর্তসাপেক্ষে স্ট্যাকের ওপরে রেন্ডার হবে) */}
           {show && (
             <button
@@ -53,6 +54,9 @@ const Root = () => {
               <FaChevronCircleUp className="text-2xl text-primary" />
             </button>
           )}
+
+          {/* Floating CTA */}
+          <FloatingCTA />
 
           {/* WhatsApp Icon Widget */}
           <div className="relative w-12 h-12 md:w-13 md:h-13 bg-green-600 rounded-full flex items-center justify-center shadow-xl">
