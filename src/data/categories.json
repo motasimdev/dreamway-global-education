@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "slug": "information-technology",
+    "name": "Information Technology",
+    "shortName": "IT",
+    "icon": "Laptop",
+    "image": "/images/categories/it.jpg",
+    "description": "Explore career-focused technology and computing programs.",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "business",
+    "name": "Business",
+    "shortName": "Business",
+    "icon": "Briefcase",
+    "image": "/images/categories/business.jpg",
+    "description": "Build leadership and management skills for global business careers.",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "engineering",
+    "name": "Engineering",
+    "shortName": "Engineering",
+    "icon": "Cog",
+    "image": "/images/categories/engineering.jpg",
+    "description": "Innovative engineering programs in various disciplines.",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "health-sciences",
+    "name": "Health Sciences",
+    "shortName": "Health",
+    "icon": "Heart",
+    "image": "/images/categories/health.jpg",
+    "description": "Study programs focused on healthcare, public health and medical sciences.",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "slug": "nursing",
+    "name": "Nursing",
+    "shortName": "Nursing",
+    "icon": "UserPlus",
+    "image": "/images/categories/nursing.jpg",
+    "description": "High-demand nursing and healthcare support programs.",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "slug": "hospitality",
+    "name": "Hospitality & Tourism",
+    "shortName": "Hospitality",
+    "icon": "Hotel",
+    "image": "/images/categories/hospitality.jpg",
+    "description": "Programs in hotel management, tourism and culinary arts.",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "slug": "arts-design",
+    "name": "Arts & Design",
+    "shortName": "Arts",
+    "icon": "Palette",
+    "image": "/images/categories/arts.jpg",
+    "description": "Creative programs in design, fine arts, and digital media.",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "slug": "law",
+    "name": "Law",
+    "shortName": "Law",
+    "icon": "Scale",
+    "image": "/images/categories/law.jpg",
+    "description": "Legal studies and international law programs.",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "education",
+    "name": "Education",
+    "shortName": "Education",
+    "icon": "GraduationCap",
+    "image": "/images/categories/education.jpg",
+    "description": "Teaching and educational leadership programs.",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "slug": "accounting",
+    "name": "Accounting & Finance",
+    "shortName": "Accounting",
+    "icon": "Calculator",
+    "image": "/images/categories/accounting.jpg",
+    "description": "Professional accounting, finance and banking programs.",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "slug": "architecture",
+    "name": "Architecture",
+    "shortName": "Architecture",
+    "icon": "Building",
+    "image": "/images/categories/architecture.jpg",
+    "description": "Creative and technical architecture and design programs.",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "slug": "agriculture",
+    "name": "Agriculture & Environmental Sciences",
+    "shortName": "Agriculture",
+    "icon": "Leaf",
+    "image": "/images/categories/agriculture.jpg",
+    "description": "Modern agriculture, agribusiness and environmental studies.",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "slug": "aviation",
+    "name": "Aviation",
+    "shortName": "Aviation",
+    "icon": "Plane",
+    "image": "/images/categories/aviation.jpg",
+    "description": "Pilot training, aviation management and aerospace programs.",
+    "featured": false
+  },
+  {
+    "id": 14,
+    "slug": "media-communication",
+    "name": "Media & Communication",
+    "shortName": "Media",
+    "icon": "Tv",
+    "image": "/images/categories/media.jpg",
+    "description": "Journalism, digital media, public relations and communication studies.",
+    "featured": false
+  }
+]

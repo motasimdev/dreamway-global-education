@@ -10,13 +10,20 @@
     "city": "Melbourne",
     "state": "Victoria",
     "type": "Public",
-    "ranking": { "qsWorld": 13, "country": 1 },
+    "ranking": {
+      "qsWorld": 13,
+      "country": 1
+    },
     "founded": 1853,
     "website": "https://www.unimelb.edu.au",
     "description": "One of Australia's leading research-intensive universities with excellent global reputation.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Melbourne | Dreamway Global Education",
       "seoDescription": "Study at University of Melbourne from Bangladesh."
@@ -33,13 +40,20 @@
     "city": "Canberra",
     "state": "ACT",
     "type": "Public",
-    "ranking": { "qsWorld": 30, "country": 2 },
+    "ranking": {
+      "qsWorld": 30,
+      "country": 2
+    },
     "founded": 1946,
     "website": "https://www.anu.edu.au",
     "description": "Australia's top research university located in the capital city.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Australian National University",
       "seoDescription": "Study at ANU from Bangladesh."
@@ -56,13 +70,20 @@
     "city": "Sydney",
     "state": "NSW",
     "type": "Public",
-    "ranking": { "qsWorld": 18, "country": 3 },
+    "ranking": {
+      "qsWorld": 18,
+      "country": 3
+    },
     "founded": 1850,
     "website": "https://www.sydney.edu.au",
     "description": "One of the oldest and most prestigious universities in Australia.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Sydney",
       "seoDescription": "Study at University of Sydney."
@@ -79,13 +100,20 @@
     "city": "Brisbane",
     "state": "Queensland",
     "type": "Public",
-    "ranking": { "qsWorld": 40, "country": 4 },
+    "ranking": {
+      "qsWorld": 40,
+      "country": 4
+    },
     "founded": 1909,
     "website": "https://www.uq.edu.au",
     "description": "Renowned for research and innovation in Australia.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Queensland",
       "seoDescription": "Study at UQ from Bangladesh."
@@ -102,19 +130,25 @@
     "city": "Melbourne",
     "state": "Victoria",
     "type": "Public",
-    "ranking": { "qsWorld": 42, "country": 5 },
+    "ranking": {
+      "qsWorld": 42,
+      "country": 5
+    },
     "founded": 1958,
     "website": "https://www.monash.edu",
     "description": "A modern, research-intensive university with strong industry links.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Monash University",
       "seoDescription": "Study at Monash University."
     }
   },
-
   {
     "id": 6,
     "countryId": 2,
@@ -126,13 +160,20 @@
     "city": "Toronto",
     "state": "Ontario",
     "type": "Public",
-    "ranking": { "qsWorld": 25, "country": 1 },
+    "ranking": {
+      "qsWorld": 25,
+      "country": 1
+    },
     "founded": 1827,
     "website": "https://www.utoronto.ca",
     "description": "Canada's top-ranked university and a global leader in research.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Toronto",
       "seoDescription": "Study at University of Toronto from Bangladesh."
@@ -149,13 +190,20 @@
     "city": "Vancouver",
     "state": "British Columbia",
     "type": "Public",
-    "ranking": { "qsWorld": 38, "country": 2 },
+    "ranking": {
+      "qsWorld": 38,
+      "country": 2
+    },
     "founded": 1908,
     "website": "https://www.ubc.ca",
     "description": "One of the world's top public universities with beautiful campuses.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of British Columbia",
       "seoDescription": "Study at UBC Canada."
@@ -172,13 +220,20 @@
     "city": "Montreal",
     "state": "Quebec",
     "type": "Public",
-    "ranking": { "qsWorld": 29, "country": 3 },
+    "ranking": {
+      "qsWorld": 29,
+      "country": 3
+    },
     "founded": 1821,
     "website": "https://www.mcgill.ca",
     "description": "Canada's most international university with excellent reputation.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "McGill University",
       "seoDescription": "Study at McGill University."
@@ -195,13 +250,20 @@
     "city": "Edmonton",
     "state": "Alberta",
     "type": "Public",
-    "ranking": { "qsWorld": 110, "country": 4 },
+    "ranking": {
+      "qsWorld": 110,
+      "country": 4
+    },
     "founded": 1906,
     "website": "https://www.ualberta.ca",
     "description": "Leading research university known for engineering and energy programs.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Alberta",
       "seoDescription": "Study at University of Alberta."
@@ -218,19 +280,25 @@
     "city": "Waterloo",
     "state": "Ontario",
     "type": "Public",
-    "ranking": { "qsWorld": 115, "country": 5 },
+    "ranking": {
+      "qsWorld": 115,
+      "country": 5
+    },
     "founded": 1957,
     "website": "https://uwaterloo.ca",
     "description": "Famous for technology, engineering, and co-op programs.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Waterloo",
       "seoDescription": "Study at University of Waterloo."
     }
   },
-
   {
     "id": 11,
     "countryId": 3,
@@ -242,13 +310,20 @@
     "city": "Oxford",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 3, "country": 1 },
+    "ranking": {
+      "qsWorld": 3,
+      "country": 1
+    },
     "founded": 1096,
     "website": "https://www.ox.ac.uk",
     "description": "One of the world's oldest and most prestigious universities.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Oxford",
       "seoDescription": "Study at Oxford from Bangladesh."
@@ -265,13 +340,20 @@
     "city": "Cambridge",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 5, "country": 2 },
+    "ranking": {
+      "qsWorld": 5,
+      "country": 2
+    },
     "founded": 1209,
     "website": "https://www.cam.ac.uk",
     "description": "World-renowned for academic excellence and research.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Cambridge",
       "seoDescription": "Study at Cambridge University."
@@ -288,13 +370,20 @@
     "city": "London",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 6, "country": 3 },
+    "ranking": {
+      "qsWorld": 6,
+      "country": 3
+    },
     "founded": 1907,
     "website": "https://www.imperial.ac.uk",
     "description": "World leader in science, technology, engineering, and medicine.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Imperial College London",
       "seoDescription": "Study at Imperial College."
@@ -311,13 +400,20 @@
     "city": "London",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 9, "country": 4 },
+    "ranking": {
+      "qsWorld": 9,
+      "country": 4
+    },
     "founded": 1826,
     "website": "https://www.ucl.ac.uk",
     "description": "A world-leading multidisciplinary university in central London.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University College London",
       "seoDescription": "Study at UCL."
@@ -334,251 +430,27 @@
     "city": "Edinburgh",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 22, "country": 5 },
+    "ranking": {
+      "qsWorld": 22,
+      "country": 5
+    },
     "founded": 1583,
     "website": "https://www.ed.ac.uk",
     "description": "One of the UK's most prestigious and historic universities.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Edinburgh",
       "seoDescription": "Study at University of Edinburgh."
     }
   },
-
   {
     "id": 16,
-    "countryId": 2,
-    "slug": "university-of-toronto",
-    "name": "University of Toronto",
-    "shortName": "UofT",
-    "logo": "/src/assets/university-logos/uoft-logo.png",
-    "banner": "/src/assets/university-logos/uoft-banner.jpg",
-    "city": "Toronto",
-    "state": "Ontario",
-    "type": "Public",
-    "ranking": { "qsWorld": 25, "country": 1 },
-    "founded": 1827,
-    "website": "https://www.utoronto.ca",
-    "description": "Canada's top-ranked university and a global leader in research and innovation.",
-    "featured": true,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University of Toronto | Dreamway Global Education",
-      "seoDescription": "Study at University of Toronto from Bangladesh."
-    }
-  },
-  {
-    "id": 17,
-    "countryId": 2,
-    "slug": "university-of-british-columbia",
-    "name": "University of British Columbia",
-    "shortName": "UBC",
-    "logo": "/src/assets/university-logos/ubc-logo.png",
-    "banner": "/src/assets/university-logos/ubc-banner.jpg",
-    "city": "Vancouver",
-    "state": "British Columbia",
-    "type": "Public",
-    "ranking": { "qsWorld": 38, "country": 2 },
-    "founded": 1908,
-    "website": "https://www.ubc.ca",
-    "description": "One of Canada's most prestigious universities with stunning campuses.",
-    "featured": true,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University of British Columbia | Dreamway Global Education",
-      "seoDescription": "Study at UBC from Bangladesh."
-    }
-  },
-  {
-    "id": 18,
-    "countryId": 2,
-    "slug": "mcgill-university",
-    "name": "McGill University",
-    "shortName": "McGill",
-    "logo": "/src/assets/university-logos/mcgill-logo.png",
-    "banner": "/src/assets/university-logos/mcgill-banner.jpg",
-    "city": "Montreal",
-    "state": "Quebec",
-    "type": "Public",
-    "ranking": { "qsWorld": 29, "country": 3 },
-    "founded": 1821,
-    "website": "https://www.mcgill.ca",
-    "description": "Highly respected Canadian university known for medicine, law, and engineering.",
-    "featured": false,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "McGill University | Dreamway Global Education",
-      "seoDescription": "Study at McGill University."
-    }
-  },
-  {
-    "id": 19,
-    "countryId": 2,
-    "slug": "university-of-alberta",
-    "name": "University of Alberta",
-    "shortName": "UAlberta",
-    "logo": "/src/assets/university-logos/ualberta-logo.png",
-    "banner": "/src/assets/university-logos/ualberta-banner.jpg",
-    "city": "Edmonton",
-    "state": "Alberta",
-    "type": "Public",
-    "ranking": { "qsWorld": 110, "country": 4 },
-    "founded": 1906,
-    "website": "https://www.ualberta.ca",
-    "description": "Strong in engineering, energy, and environmental sciences.",
-    "featured": false,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University of Alberta | Dreamway Global Education",
-      "seoDescription": "Study at University of Alberta from Bangladesh."
-    }
-  },
-  {
-    "id": 20,
-    "countryId": 2,
-    "slug": "university-of-waterloo",
-    "name": "University of Waterloo",
-    "shortName": "Waterloo",
-    "logo": "/src/assets/university-logos/waterloo-logo.png",
-    "banner": "/src/assets/university-logos/waterloo-banner.jpg",
-    "city": "Waterloo",
-    "state": "Ontario",
-    "type": "Public",
-    "ranking": { "qsWorld": 115, "country": 5 },
-    "founded": 1957,
-    "website": "https://uwaterloo.ca",
-    "description": "World-renowned for technology, computer science, and co-op programs.",
-    "featured": false,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University of Waterloo | Dreamway Global Education",
-      "seoDescription": "Study at University of Waterloo."
-    }
-  },
-  {
-    "id": 21,
-    "countryId": 3,
-    "slug": "university-of-oxford",
-    "name": "University of Oxford",
-    "shortName": "Oxford",
-    "logo": "/src/assets/university-logos/oxford-logo.png",
-    "banner": "/src/assets/university-logos/oxford-banner.jpg",
-    "city": "Oxford",
-    "state": "",
-    "type": "Public",
-    "ranking": { "qsWorld": 3, "country": 1 },
-    "founded": 1096,
-    "website": "https://www.ox.ac.uk",
-    "description": "One of the world's most prestigious and historic universities.",
-    "featured": true,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University of Oxford | Dreamway Global Education",
-      "seoDescription": "Study at University of Oxford from Bangladesh."
-    }
-  },
-  {
-    "id": 22,
-    "countryId": 3,
-    "slug": "university-of-cambridge",
-    "name": "University of Cambridge",
-    "shortName": "Cambridge",
-    "logo": "/src/assets/university-logos/cambridge-logo.png",
-    "banner": "/src/assets/university-logos/cambridge-banner.jpg",
-    "city": "Cambridge",
-    "state": "",
-    "type": "Public",
-    "ranking": { "qsWorld": 5, "country": 2 },
-    "founded": 1209,
-    "website": "https://www.cam.ac.uk",
-    "description": "Legendary university known for outstanding academic excellence.",
-    "featured": true,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University of Cambridge | Dreamway Global Education",
-      "seoDescription": "Study at University of Cambridge."
-    }
-  },
-  {
-    "id": 23,
-    "countryId": 3,
-    "slug": "imperial-college-london",
-    "name": "Imperial College London",
-    "shortName": "Imperial",
-    "logo": "/src/assets/university-logos/imperial-logo.png",
-    "banner": "/src/assets/university-logos/imperial-banner.jpg",
-    "city": "London",
-    "state": "",
-    "type": "Public",
-    "ranking": { "qsWorld": 6, "country": 3 },
-    "founded": 1907,
-    "website": "https://www.imperial.ac.uk",
-    "description": "World leader in science, technology, engineering, and medicine.",
-    "featured": false,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "Imperial College London | Dreamway Global Education",
-      "seoDescription": "Study at Imperial College London."
-    }
-  },
-  {
-    "id": 24,
-    "countryId": 3,
-    "slug": "ucl",
-    "name": "University College London",
-    "shortName": "UCL",
-    "logo": "/src/assets/university-logos/ucl-logo.png",
-    "banner": "/src/assets/university-logos/ucl-banner.jpg",
-    "city": "London",
-    "state": "",
-    "type": "Public",
-    "ranking": { "qsWorld": 9, "country": 4 },
-    "founded": 1826,
-    "website": "https://www.ucl.ac.uk",
-    "description": "A leading multidisciplinary university in the heart of London.",
-    "featured": false,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University College London | Dreamway Global Education",
-      "seoDescription": "Study at UCL from Bangladesh."
-    }
-  },
-  {
-    "id": 25,
-    "countryId": 3,
-    "slug": "university-of-edinburgh",
-    "name": "The University of Edinburgh",
-    "shortName": "Edinburgh",
-    "logo": "/src/assets/university-logos/edinburgh-logo.png",
-    "banner": "/src/assets/university-logos/edinburgh-banner.jpg",
-    "city": "Edinburgh",
-    "state": "",
-    "type": "Public",
-    "ranking": { "qsWorld": 22, "country": 5 },
-    "founded": 1583,
-    "website": "https://www.ed.ac.uk",
-    "description": "One of the UK's most prestigious and historic universities.",
-    "featured": false,
-    "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
-    "meta": {
-      "seoTitle": "University of Edinburgh | Dreamway Global Education",
-      "seoDescription": "Study at University of Edinburgh."
-    }
-  },
-  {
-    "id": 26,
     "countryId": 4,
     "slug": "harvard-university",
     "name": "Harvard University",
@@ -588,20 +460,27 @@
     "city": "Cambridge",
     "state": "Massachusetts",
     "type": "Private",
-    "ranking": { "qsWorld": 4, "country": 1 },
+    "ranking": {
+      "qsWorld": 4,
+      "country": 1
+    },
     "founded": 1636,
     "website": "https://www.harvard.edu",
     "description": "The world's most famous university with unparalleled academic prestige.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Harvard University | Dreamway Global Education",
       "seoDescription": "Study at Harvard from Bangladesh."
     }
   },
   {
-    "id": 27,
+    "id": 17,
     "countryId": 4,
     "slug": "massachusetts-institute-of-technology",
     "name": "Massachusetts Institute of Technology",
@@ -611,20 +490,27 @@
     "city": "Cambridge",
     "state": "Massachusetts",
     "type": "Private",
-    "ranking": { "qsWorld": 1, "country": 2 },
+    "ranking": {
+      "qsWorld": 1,
+      "country": 2
+    },
     "founded": 1861,
     "website": "https://www.mit.edu",
     "description": "Global leader in science, technology, and innovation.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "MIT | Dreamway Global Education",
       "seoDescription": "Study at Massachusetts Institute of Technology."
     }
   },
   {
-    "id": 28,
+    "id": 18,
     "countryId": 4,
     "slug": "stanford-university",
     "name": "Stanford University",
@@ -634,20 +520,27 @@
     "city": "Stanford",
     "state": "California",
     "type": "Private",
-    "ranking": { "qsWorld": 6, "country": 3 },
+    "ranking": {
+      "qsWorld": 6,
+      "country": 3
+    },
     "founded": 1885,
     "website": "https://www.stanford.edu",
     "description": "World-renowned for entrepreneurship, technology, and research.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Stanford University | Dreamway Global Education",
       "seoDescription": "Study at Stanford University."
     }
   },
   {
-    "id": 29,
+    "id": 19,
     "countryId": 4,
     "slug": "university-of-california-berkeley",
     "name": "University of California, Berkeley",
@@ -657,20 +550,27 @@
     "city": "Berkeley",
     "state": "California",
     "type": "Public",
-    "ranking": { "qsWorld": 12, "country": 4 },
+    "ranking": {
+      "qsWorld": 12,
+      "country": 4
+    },
     "founded": 1868,
     "website": "https://www.berkeley.edu",
     "description": "Top public university known for academic excellence and innovation.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "UC Berkeley | Dreamway Global Education",
       "seoDescription": "Study at UC Berkeley."
     }
   },
   {
-    "id": 30,
+    "id": 20,
     "countryId": 4,
     "slug": "university-of-california-los-angeles",
     "name": "University of California, Los Angeles",
@@ -680,20 +580,27 @@
     "city": "Los Angeles",
     "state": "California",
     "type": "Public",
-    "ranking": { "qsWorld": 42, "country": 5 },
+    "ranking": {
+      "qsWorld": 42,
+      "country": 5
+    },
     "founded": 1919,
     "website": "https://www.ucla.edu",
     "description": "Prestigious public research university in sunny California.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "UCLA | Dreamway Global Education",
       "seoDescription": "Study at UCLA from Bangladesh."
     }
   },
   {
-    "id": 31,
+    "id": 21,
     "countryId": 5,
     "slug": "university-of-auckland",
     "name": "University of Auckland",
@@ -703,20 +610,27 @@
     "city": "Auckland",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 65, "country": 1 },
+    "ranking": {
+      "qsWorld": 65,
+      "country": 1
+    },
     "founded": 1883,
     "website": "https://www.auckland.ac.nz",
     "description": "New Zealand's highest-ranked and largest university.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Auckland | Dreamway Global Education",
       "seoDescription": "Study at University of Auckland from Bangladesh."
     }
   },
   {
-    "id": 32,
+    "id": 22,
     "countryId": 5,
     "slug": "university-of-otago",
     "name": "University of Otago",
@@ -726,20 +640,27 @@
     "city": "Dunedin",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 206, "country": 2 },
+    "ranking": {
+      "qsWorld": 206,
+      "country": 2
+    },
     "founded": 1869,
     "website": "https://www.otago.ac.nz",
     "description": "New Zealand's oldest university, known for research and student life.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Otago | Dreamway Global Education",
       "seoDescription": "Study at University of Otago."
     }
   },
   {
-    "id": 33,
+    "id": 23,
     "countryId": 5,
     "slug": "victoria-university-of-wellington",
     "name": "Victoria University of Wellington",
@@ -749,20 +670,27 @@
     "city": "Wellington",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 244, "country": 3 },
+    "ranking": {
+      "qsWorld": 244,
+      "country": 3
+    },
     "founded": 1897,
     "website": "https://www.wgtn.ac.nz",
     "description": "Strong in law, humanities, and public policy.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Victoria University of Wellington | Dreamway Global Education",
       "seoDescription": "Study at Victoria University."
     }
   },
   {
-    "id": 34,
+    "id": 24,
     "countryId": 5,
     "slug": "university-of-canterbury",
     "name": "University of Canterbury",
@@ -772,20 +700,27 @@
     "city": "Christchurch",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 256, "country": 4 },
+    "ranking": {
+      "qsWorld": 256,
+      "country": 4
+    },
     "founded": 1873,
     "website": "https://www.canterbury.ac.nz",
     "description": "Known for engineering, science, and strong research output.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Canterbury | Dreamway Global Education",
       "seoDescription": "Study at University of Canterbury."
     }
   },
   {
-    "id": 35,
+    "id": 25,
     "countryId": 5,
     "slug": "massey-university",
     "name": "Massey University",
@@ -795,20 +730,27 @@
     "city": "Palmerston North",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 239, "country": 5 },
+    "ranking": {
+      "qsWorld": 239,
+      "country": 5
+    },
     "founded": 1963,
     "website": "https://www.massey.ac.nz",
     "description": "Known for business, aviation, and creative arts.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Massey University | Dreamway Global Education",
       "seoDescription": "Study at Massey University."
     }
   },
   {
-    "id": 36,
+    "id": 26,
     "countryId": 6,
     "slug": "university-of-copenhagen",
     "name": "University of Copenhagen",
@@ -818,20 +760,27 @@
     "city": "Copenhagen",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 107, "country": 1 },
+    "ranking": {
+      "qsWorld": 107,
+      "country": 1
+    },
     "founded": 1479,
     "website": "https://www.ku.dk",
     "description": "Denmark's oldest and highest-ranked university.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Copenhagen | Dreamway Global Education",
       "seoDescription": "Study at University of Copenhagen."
     }
   },
   {
-    "id": 37,
+    "id": 27,
     "countryId": 6,
     "slug": "technical-university-of-denmark",
     "name": "Technical University of Denmark",
@@ -841,20 +790,27 @@
     "city": "Kongens Lyngby",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 121, "country": 2 },
+    "ranking": {
+      "qsWorld": 121,
+      "country": 2
+    },
     "founded": 1829,
     "website": "https://www.dtu.dk",
     "description": "Leading technical university in engineering and technology.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Technical University of Denmark | Dreamway Global Education",
       "seoDescription": "Study at DTU."
     }
   },
   {
-    "id": 38,
+    "id": 28,
     "countryId": 6,
     "slug": "aarhus-university",
     "name": "Aarhus University",
@@ -864,20 +820,27 @@
     "city": "Aarhus",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 109, "country": 3 },
+    "ranking": {
+      "qsWorld": 109,
+      "country": 3
+    },
     "founded": 1928,
     "website": "https://www.au.dk",
     "description": "Highly respected research university in Denmark.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Aarhus University | Dreamway Global Education",
       "seoDescription": "Study at Aarhus University."
     }
   },
   {
-    "id": 39,
+    "id": 29,
     "countryId": 6,
     "slug": "university-of-southern-denmark",
     "name": "University of Southern Denmark",
@@ -887,20 +850,27 @@
     "city": "Odense",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 326, "country": 4 },
+    "ranking": {
+      "qsWorld": 326,
+      "country": 4
+    },
     "founded": 1998,
     "website": "https://www.sdu.dk",
     "description": "Strong in engineering, business, and social sciences.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Southern Denmark | Dreamway Global Education",
       "seoDescription": "Study at SDU."
     }
   },
   {
-    "id": 40,
+    "id": 30,
     "countryId": 6,
     "slug": "aalborg-university",
     "name": "Aalborg University",
@@ -910,20 +880,27 @@
     "city": "Aalborg",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 336, "country": 5 },
+    "ranking": {
+      "qsWorld": 336,
+      "country": 5
+    },
     "founded": 1974,
     "website": "https://www.aau.dk",
     "description": "Known for problem-based learning and strong industry connections.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Aalborg University | Dreamway Global Education",
       "seoDescription": "Study at Aalborg University."
     }
   },
   {
-    "id": 41,
+    "id": 31,
     "countryId": 7,
     "slug": "kth-royal-institute-of-technology",
     "name": "KTH Royal Institute of Technology",
@@ -933,20 +910,27 @@
     "city": "Stockholm",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 73, "country": 1 },
+    "ranking": {
+      "qsWorld": 73,
+      "country": 1
+    },
     "founded": 1827,
     "website": "https://www.kth.se",
     "description": "Sweden's leading technical university.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "KTH Royal Institute of Technology | Dreamway Global Education",
       "seoDescription": "Study at KTH Sweden."
     }
   },
   {
-    "id": 42,
+    "id": 32,
     "countryId": 7,
     "slug": "lund-university",
     "name": "Lund University",
@@ -956,20 +940,27 @@
     "city": "Lund",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 85, "country": 2 },
+    "ranking": {
+      "qsWorld": 85,
+      "country": 2
+    },
     "founded": 1666,
     "website": "https://www.lunduniversity.lu.se",
     "description": "One of the oldest and most prestigious universities in Sweden.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Lund University | Dreamway Global Education",
       "seoDescription": "Study at Lund University."
     }
   },
   {
-    "id": 43,
+    "id": 33,
     "countryId": 7,
     "slug": "uppsala-university",
     "name": "Uppsala University",
@@ -979,20 +970,27 @@
     "city": "Uppsala",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 105, "country": 3 },
+    "ranking": {
+      "qsWorld": 105,
+      "country": 3
+    },
     "founded": 1477,
     "website": "https://www.uu.se",
     "description": "Sweden's oldest university with strong research tradition.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Uppsala University | Dreamway Global Education",
       "seoDescription": "Study at Uppsala University."
     }
   },
   {
-    "id": 44,
+    "id": 34,
     "countryId": 7,
     "slug": "chalmers-university-of-technology",
     "name": "Chalmers University of Technology",
@@ -1002,20 +1000,27 @@
     "city": "Gothenburg",
     "state": "",
     "type": "Private",
-    "ranking": { "qsWorld": 129, "country": 4 },
+    "ranking": {
+      "qsWorld": 129,
+      "country": 4
+    },
     "founded": 1829,
     "website": "https://www.chalmers.se",
     "description": "Leading Swedish university in engineering and technology.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Chalmers University of Technology | Dreamway Global Education",
       "seoDescription": "Study at Chalmers."
     }
   },
   {
-    "id": 45,
+    "id": 35,
     "countryId": 7,
     "slug": "stockholm-university",
     "name": "Stockholm University",
@@ -1025,20 +1030,27 @@
     "city": "Stockholm",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 128, "country": 5 },
+    "ranking": {
+      "qsWorld": 128,
+      "country": 5
+    },
     "founded": 1878,
     "website": "https://www.su.se",
     "description": "Strong in social sciences, humanities, and natural sciences.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Stockholm University | Dreamway Global Education",
       "seoDescription": "Study at Stockholm University."
     }
   },
   {
-    "id": 46,
+    "id": 36,
     "countryId": 8,
     "slug": "university-of-helsinki",
     "name": "University of Helsinki",
@@ -1048,20 +1060,27 @@
     "city": "Helsinki",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 106, "country": 1 },
+    "ranking": {
+      "qsWorld": 106,
+      "country": 1
+    },
     "founded": 1640,
     "website": "https://www.helsinki.fi",
     "description": "Finland's oldest and highest-ranked university with strong research focus.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Helsinki | Dreamway Global Education",
       "seoDescription": "Study at University of Helsinki from Bangladesh."
     }
   },
   {
-    "id": 47,
+    "id": 37,
     "countryId": 8,
     "slug": "aalto-university",
     "name": "Aalto University",
@@ -1071,20 +1090,27 @@
     "city": "Espoo",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 113, "country": 2 },
+    "ranking": {
+      "qsWorld": 113,
+      "country": 2
+    },
     "founded": 2010,
     "website": "https://www.aalto.fi",
     "description": "Modern university known for technology, design, and business.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Aalto University | Dreamway Global Education",
       "seoDescription": "Study at Aalto University."
     }
   },
   {
-    "id": 48,
+    "id": 38,
     "countryId": 8,
     "slug": "university-of-turku",
     "name": "University of Turku",
@@ -1094,20 +1120,27 @@
     "city": "Turku",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 315, "country": 3 },
+    "ranking": {
+      "qsWorld": 315,
+      "country": 3
+    },
     "founded": 1920,
     "website": "https://www.utu.fi",
     "description": "One of Finland's major multidisciplinary universities.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Turku | Dreamway Global Education",
       "seoDescription": "Study at University of Turku."
     }
   },
   {
-    "id": 49,
+    "id": 39,
     "countryId": 8,
     "slug": "tampere-university",
     "name": "Tampere University",
@@ -1117,20 +1150,27 @@
     "city": "Tampere",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 436, "country": 4 },
+    "ranking": {
+      "qsWorld": 436,
+      "country": 4
+    },
     "founded": 2019,
     "website": "https://www.tuni.fi",
     "description": "Strong in technology, health, and society.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Tampere University | Dreamway Global Education",
       "seoDescription": "Study at Tampere University."
     }
   },
   {
-    "id": 50,
+    "id": 40,
     "countryId": 8,
     "slug": "university-of-oulu",
     "name": "University of Oulu",
@@ -1140,20 +1180,27 @@
     "city": "Oulu",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 344, "country": 5 },
+    "ranking": {
+      "qsWorld": 344,
+      "country": 5
+    },
     "founded": 1958,
     "website": "https://www.oulu.fi",
     "description": "Known for technology, engineering, and Arctic research.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Oulu | Dreamway Global Education",
       "seoDescription": "Study at University of Oulu."
     }
   },
   {
-    "id": 51,
+    "id": 41,
     "countryId": 9,
     "slug": "ku-leuven",
     "name": "KU Leuven",
@@ -1163,20 +1210,27 @@
     "city": "Leuven",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 61, "country": 1 },
+    "ranking": {
+      "qsWorld": 61,
+      "country": 1
+    },
     "founded": 1425,
     "website": "https://www.kuleuven.be",
     "description": "Belgium's highest-ranked university with rich history and strong research.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "KU Leuven | Dreamway Global Education",
       "seoDescription": "Study at KU Leuven from Bangladesh."
     }
   },
   {
-    "id": 52,
+    "id": 42,
     "countryId": 9,
     "slug": "ghent-university",
     "name": "Ghent University",
@@ -1186,20 +1240,27 @@
     "city": "Ghent",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 169, "country": 2 },
+    "ranking": {
+      "qsWorld": 169,
+      "country": 2
+    },
     "founded": 1817,
     "website": "https://www.ugent.be",
     "description": "One of Belgium's major universities with excellent research output.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Ghent University | Dreamway Global Education",
       "seoDescription": "Study at Ghent University."
     }
   },
   {
-    "id": 53,
+    "id": 43,
     "countryId": 9,
     "slug": "universite-catholique-de-louvain",
     "name": "Université catholique de Louvain",
@@ -1209,20 +1270,27 @@
     "city": "Louvain-la-Neuve",
     "state": "",
     "type": "Private",
-    "ranking": { "qsWorld": 194, "country": 3 },
+    "ranking": {
+      "qsWorld": 194,
+      "country": 3
+    },
     "founded": 1425,
     "website": "https://uclouvain.be",
     "description": "Leading French-speaking university in Belgium.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "UCLouvain | Dreamway Global Education",
       "seoDescription": "Study at UCLouvain."
     }
   },
   {
-    "id": 54,
+    "id": 44,
     "countryId": 9,
     "slug": "university-of-liege",
     "name": "University of Liège",
@@ -1232,20 +1300,27 @@
     "city": "Liège",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 400, "country": 4 },
+    "ranking": {
+      "qsWorld": 400,
+      "country": 4
+    },
     "founded": 1817,
     "website": "https://www.uliege.be",
     "description": "Major public university in Wallonia region.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Liège | Dreamway Global Education",
       "seoDescription": "Study at University of Liège."
     }
   },
   {
-    "id": 55,
+    "id": 45,
     "countryId": 9,
     "slug": "vrije-universiteit-brussel",
     "name": "Vrije Universiteit Brussel",
@@ -1255,20 +1330,27 @@
     "city": "Brussels",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 251, "country": 5 },
+    "ranking": {
+      "qsWorld": 251,
+      "country": 5
+    },
     "founded": 1834,
     "website": "https://www.vub.be",
     "description": "Dynamic university in the heart of Brussels.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Vrije Universiteit Brussel | Dreamway Global Education",
       "seoDescription": "Study at VUB."
     }
   },
   {
-    "id": 56,
+    "id": 46,
     "countryId": 10,
     "slug": "university-of-malta",
     "name": "University of Malta",
@@ -1278,20 +1360,27 @@
     "city": "Msida",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 801, "country": 1 },
+    "ranking": {
+      "qsWorld": 801,
+      "country": 1
+    },
     "founded": 1769,
     "website": "https://www.um.edu.mt",
     "description": "Malta's leading higher education institution with Mediterranean charm.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Malta | Dreamway Global Education",
       "seoDescription": "Study at University of Malta."
     }
   },
   {
-    "id": 57,
+    "id": 47,
     "countryId": 10,
     "slug": "mcast",
     "name": "Malta College of Arts, Science and Technology",
@@ -1301,20 +1390,27 @@
     "city": "Paola",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 999, "country": 2 },
+    "ranking": {
+      "qsWorld": 999,
+      "country": 2
+    },
     "founded": 2001,
     "website": "https://www.mcast.edu.mt",
     "description": "Leading vocational and applied education institution in Malta.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Diploma", "Bachelor", "Master"],
+    "availableLevels": [
+      "Diploma",
+      "Bachelor",
+      "Master"
+    ],
     "meta": {
       "seoTitle": "MCAST Malta | Dreamway Global Education",
       "seoDescription": "Study at MCAST Malta."
     }
   },
   {
-    "id": 58,
+    "id": 48,
     "countryId": 10,
     "slug": "american-university-of-malta",
     "name": "American University of Malta",
@@ -1324,20 +1420,26 @@
     "city": "Bormla",
     "state": "",
     "type": "Private",
-    "ranking": { "qsWorld": 999, "country": 3 },
+    "ranking": {
+      "qsWorld": 999,
+      "country": 3
+    },
     "founded": 2015,
     "website": "https://www.aum.edu.mt",
     "description": "American-style education in the Mediterranean.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master"],
+    "availableLevels": [
+      "Bachelor",
+      "Master"
+    ],
     "meta": {
       "seoTitle": "American University of Malta | Dreamway Global Education",
       "seoDescription": "Study at AUM Malta."
     }
   },
   {
-    "id": 59,
+    "id": 49,
     "countryId": 10,
     "slug": "institute-of-tourism-studies-malta",
     "name": "Institute of Tourism Studies",
@@ -1347,20 +1449,27 @@
     "city": "Luqa",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 999, "country": 4 },
+    "ranking": {
+      "qsWorld": 999,
+      "country": 4
+    },
     "founded": 1993,
     "website": "https://www.its.edu.mt",
     "description": "Specialized institute for tourism, hospitality and related fields.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Diploma", "Bachelor", "Master"],
+    "availableLevels": [
+      "Diploma",
+      "Bachelor",
+      "Master"
+    ],
     "meta": {
       "seoTitle": "Institute of Tourism Studies Malta | Dreamway Global Education",
       "seoDescription": "Study at ITS Malta."
     }
   },
   {
-    "id": 60,
+    "id": 50,
     "countryId": 10,
     "slug": "st-martins-institute-of-it",
     "name": "St Martin's Institute of Higher Education",
@@ -1370,21 +1479,26 @@
     "city": "Hamrun",
     "state": "",
     "type": "Private",
-    "ranking": { "qsWorld": 999, "country": 5 },
+    "ranking": {
+      "qsWorld": 999,
+      "country": 5
+    },
     "founded": 2000,
     "website": "https://www.stmartins.edu",
     "description": "Focuses on IT, business, and finance programs.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master"],
+    "availableLevels": [
+      "Bachelor",
+      "Master"
+    ],
     "meta": {
       "seoTitle": "St Martin's Institute Malta | Dreamway Global Education",
       "seoDescription": "Study at St Martin's Institute."
     }
   },
-
   {
-    "id": 61,
+    "id": 51,
     "countryId": 11,
     "slug": "eotvos-lorand-university",
     "name": "Eötvös Loránd University",
@@ -1394,20 +1508,27 @@
     "city": "Budapest",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 548, "country": 1 },
+    "ranking": {
+      "qsWorld": 548,
+      "country": 1
+    },
     "founded": 1635,
     "website": "https://www.elte.hu",
     "description": "Hungary's oldest and most prestigious university.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Eötvös Loránd University | Dreamway Global Education",
       "seoDescription": "Study at ELTE Hungary."
     }
   },
   {
-    "id": 62,
+    "id": 52,
     "countryId": 11,
     "slug": "university-of-szeged",
     "name": "University of Szeged",
@@ -1417,20 +1538,27 @@
     "city": "Szeged",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 601, "country": 2 },
+    "ranking": {
+      "qsWorld": 601,
+      "country": 2
+    },
     "founded": 1872,
     "website": "https://www.u-szeged.hu",
     "description": "Highly respected research university in Hungary.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Szeged | Dreamway Global Education",
       "seoDescription": "Study at University of Szeged."
     }
   },
   {
-    "id": 63,
+    "id": 53,
     "countryId": 11,
     "slug": "budapest-university-of-technology-and-economics",
     "name": "Budapest University of Technology and Economics",
@@ -1440,20 +1568,27 @@
     "city": "Budapest",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 801, "country": 3 },
+    "ranking": {
+      "qsWorld": 801,
+      "country": 3
+    },
     "founded": 1782,
     "website": "https://www.bme.hu",
     "description": "Leading technical university in Hungary.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "BME Budapest | Dreamway Global Education",
       "seoDescription": "Study at Budapest University of Technology."
     }
   },
   {
-    "id": 64,
+    "id": 54,
     "countryId": 11,
     "slug": "university-of-debrecen",
     "name": "University of Debrecen",
@@ -1463,20 +1598,27 @@
     "city": "Debrecen",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 671, "country": 4 },
+    "ranking": {
+      "qsWorld": 671,
+      "country": 4
+    },
     "founded": 1538,
     "website": "https://www.unideb.hu",
     "description": "Large university with strong international student community.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Debrecen | Dreamway Global Education",
       "seoDescription": "Study at University of Debrecen."
     }
   },
   {
-    "id": 65,
+    "id": 55,
     "countryId": 11,
     "slug": "corvinus-university-of-budapest",
     "name": "Corvinus University of Budapest",
@@ -1486,20 +1628,27 @@
     "city": "Budapest",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 801, "country": 5 },
+    "ranking": {
+      "qsWorld": 801,
+      "country": 5
+    },
     "founded": 1920,
     "website": "https://www.uni-corvinus.hu",
     "description": "Top university for business, economics, and social sciences.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Corvinus University | Dreamway Global Education",
       "seoDescription": "Study at Corvinus University Budapest."
     }
   },
   {
-    "id": 66,
+    "id": 56,
     "countryId": 12,
     "slug": "university-of-cyprus",
     "name": "University of Cyprus",
@@ -1509,20 +1658,27 @@
     "city": "Nicosia",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 368, "country": 1 },
+    "ranking": {
+      "qsWorld": 368,
+      "country": 1
+    },
     "founded": 1989,
     "website": "https://www.ucy.ac.cy",
     "description": "Leading public university in Cyprus.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Cyprus | Dreamway Global Education",
       "seoDescription": "Study at University of Cyprus."
     }
   },
   {
-    "id": 67,
+    "id": 57,
     "countryId": 12,
     "slug": "cyprus-university-of-technology",
     "name": "Cyprus University of Technology",
@@ -1532,20 +1688,27 @@
     "city": "Limassol",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 401, "country": 2 },
+    "ranking": {
+      "qsWorld": 401,
+      "country": 2
+    },
     "founded": 2004,
     "website": "https://www.cut.ac.cy",
     "description": "Modern technical university with strong applied programs.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Cyprus University of Technology | Dreamway Global Education",
       "seoDescription": "Study at CUT Cyprus."
     }
   },
   {
-    "id": 68,
+    "id": 58,
     "countryId": 12,
     "slug": "university-of-nicosia",
     "name": "University of Nicosia",
@@ -1555,20 +1718,27 @@
     "city": "Nicosia",
     "state": "",
     "type": "Private",
-    "ranking": { "qsWorld": 801, "country": 3 },
+    "ranking": {
+      "qsWorld": 801,
+      "country": 3
+    },
     "founded": 1980,
     "website": "https://www.unic.ac.cy",
     "description": "Largest private university in Cyprus with strong international focus.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Nicosia | Dreamway Global Education",
       "seoDescription": "Study at University of Nicosia."
     }
   },
   {
-    "id": 69,
+    "id": 59,
     "countryId": 12,
     "slug": "european-university-cyprus",
     "name": "European University Cyprus",
@@ -1578,20 +1748,27 @@
     "city": "Nicosia",
     "state": "",
     "type": "Private",
-    "ranking": { "qsWorld": 801, "country": 4 },
+    "ranking": {
+      "qsWorld": 801,
+      "country": 4
+    },
     "founded": 1961,
     "website": "https://www.euc.ac.cy",
     "description": "Well-established private university with modern facilities.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "European University Cyprus | Dreamway Global Education",
       "seoDescription": "Study at EUC Cyprus."
     }
   },
   {
-    "id": 70,
+    "id": 60,
     "countryId": 12,
     "slug": "frederick-university",
     "name": "Frederick University",
@@ -1601,20 +1778,26 @@
     "city": "Nicosia",
     "state": "",
     "type": "Private",
-    "ranking": { "qsWorld": 999, "country": 5 },
+    "ranking": {
+      "qsWorld": 999,
+      "country": 5
+    },
     "founded": 1965,
     "website": "https://www.frederick.ac.cy",
     "description": "Focuses on engineering, business, and education.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master"],
+    "availableLevels": [
+      "Bachelor",
+      "Master"
+    ],
     "meta": {
       "seoTitle": "Frederick University | Dreamway Global Education",
       "seoDescription": "Study at Frederick University Cyprus."
     }
   },
   {
-    "id": 71,
+    "id": 61,
     "countryId": 13,
     "slug": "trinity-college-dublin",
     "name": "Trinity College Dublin",
@@ -1624,20 +1807,27 @@
     "city": "Dublin",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 81, "country": 1 },
+    "ranking": {
+      "qsWorld": 81,
+      "country": 1
+    },
     "founded": 1592,
     "website": "https://www.tcd.ie",
     "description": "Ireland's oldest and most prestigious university.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Trinity College Dublin | Dreamway Global Education",
       "seoDescription": "Study at Trinity College Dublin."
     }
   },
   {
-    "id": 72,
+    "id": 62,
     "countryId": 13,
     "slug": "university-college-dublin",
     "name": "University College Dublin",
@@ -1647,20 +1837,27 @@
     "city": "Dublin",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 126, "country": 2 },
+    "ranking": {
+      "qsWorld": 126,
+      "country": 2
+    },
     "founded": 1854,
     "website": "https://www.ucd.ie",
     "description": "Ireland's largest university with strong international reputation.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University College Dublin | Dreamway Global Education",
       "seoDescription": "Study at UCD Ireland."
     }
   },
   {
-    "id": 73,
+    "id": 63,
     "countryId": 13,
     "slug": "university-of-galway",
     "name": "University of Galway",
@@ -1670,20 +1867,27 @@
     "city": "Galway",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 289, "country": 3 },
+    "ranking": {
+      "qsWorld": 289,
+      "country": 3
+    },
     "founded": 1845,
     "website": "https://www.universityofgalway.ie",
     "description": "Renowned for research and beautiful campus.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Galway | Dreamway Global Education",
       "seoDescription": "Study at University of Galway."
     }
   },
   {
-    "id": 74,
+    "id": 64,
     "countryId": 13,
     "slug": "university-college-cork",
     "name": "University College Cork",
@@ -1693,20 +1897,27 @@
     "city": "Cork",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 273, "country": 4 },
+    "ranking": {
+      "qsWorld": 273,
+      "country": 4
+    },
     "founded": 1845,
     "website": "https://www.ucc.ie",
     "description": "Historic university with strong medicine and science programs.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University College Cork | Dreamway Global Education",
       "seoDescription": "Study at UCC Ireland."
     }
   },
   {
-    "id": 75,
+    "id": 65,
     "countryId": 13,
     "slug": "dublin-city-university",
     "name": "Dublin City University",
@@ -1716,21 +1927,27 @@
     "city": "Dublin",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 421, "country": 5 },
+    "ranking": {
+      "qsWorld": 421,
+      "country": 5
+    },
     "founded": 1980,
     "website": "https://www.dcu.ie",
     "description": "Modern and innovative university with strong industry links.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Dublin City University | Dreamway Global Education",
       "seoDescription": "Study at DCU."
     }
   },
-
   {
-    "id": 76,
+    "id": 66,
     "countryId": 14,
     "slug": "university-of-malaya",
     "name": "University of Malaya",
@@ -1740,20 +1957,27 @@
     "city": "Kuala Lumpur",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 59, "country": 1 },
+    "ranking": {
+      "qsWorld": 59,
+      "country": 1
+    },
     "founded": 1949,
     "website": "https://www.um.edu.my",
     "description": "Malaysia's oldest and highest-ranked university.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Malaya | Dreamway Global Education",
       "seoDescription": "Study at University of Malaya from Bangladesh."
     }
   },
   {
-    "id": 77,
+    "id": 67,
     "countryId": 14,
     "slug": "universiti-putra-malaysia",
     "name": "Universiti Putra Malaysia",
@@ -1763,20 +1987,27 @@
     "city": "Serdang",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 158, "country": 2 },
+    "ranking": {
+      "qsWorld": 158,
+      "country": 2
+    },
     "founded": 1931,
     "website": "https://www.upm.edu.my",
     "description": "Strong in agriculture, science, and engineering.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Universiti Putra Malaysia | Dreamway Global Education",
       "seoDescription": "Study at UPM Malaysia."
     }
   },
   {
-    "id": 78,
+    "id": 68,
     "countryId": 14,
     "slug": "universiti-kebangsaan-malaysia",
     "name": "Universiti Kebangsaan Malaysia",
@@ -1786,20 +2017,27 @@
     "city": "Bangi",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 159, "country": 3 },
+    "ranking": {
+      "qsWorld": 159,
+      "country": 3
+    },
     "founded": 1970,
     "website": "https://www.ukm.my",
     "description": "National university of Malaysia with strong research focus.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "UKM Malaysia | Dreamway Global Education",
       "seoDescription": "Study at Universiti Kebangsaan Malaysia."
     }
   },
   {
-    "id": 79,
+    "id": 69,
     "countryId": 14,
     "slug": "universiti-sains-malaysia",
     "name": "Universiti Sains Malaysia",
@@ -1809,20 +2047,27 @@
     "city": "Penang",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 137, "country": 4 },
+    "ranking": {
+      "qsWorld": 137,
+      "country": 4
+    },
     "founded": 1969,
     "website": "https://www.usm.my",
     "description": "Known as the 'University in a Garden' with strong science programs.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Universiti Sains Malaysia | Dreamway Global Education",
       "seoDescription": "Study at USM Penang."
     }
   },
   {
-    "id": 80,
+    "id": 70,
     "countryId": 14,
     "slug": "universiti-teknologi-malaysia",
     "name": "Universiti Teknologi Malaysia",
@@ -1832,21 +2077,27 @@
     "city": "Johor Bahru",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 188, "country": 5 },
+    "ranking": {
+      "qsWorld": 188,
+      "country": 5
+    },
     "founded": 1904,
     "website": "https://www.utm.my",
     "description": "Malaysia's premier engineering and technology university.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Universiti Teknologi Malaysia | Dreamway Global Education",
       "seoDescription": "Study at UTM."
     }
   },
-
   {
-    "id": 81,
+    "id": 71,
     "countryId": 15,
     "slug": "university-of-amsterdam",
     "name": "University of Amsterdam",
@@ -1856,20 +2107,27 @@
     "city": "Amsterdam",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 53, "country": 1 },
+    "ranking": {
+      "qsWorld": 53,
+      "country": 1
+    },
     "founded": 1632,
     "website": "https://www.uva.nl",
     "description": "One of Europe's leading comprehensive universities.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "University of Amsterdam | Dreamway Global Education",
       "seoDescription": "Study at University of Amsterdam."
     }
   },
   {
-    "id": 82,
+    "id": 72,
     "countryId": 15,
     "slug": "delft-university-of-technology",
     "name": "Delft University of Technology",
@@ -1879,20 +2137,27 @@
     "city": "Delft",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 47, "country": 2 },
+    "ranking": {
+      "qsWorld": 47,
+      "country": 2
+    },
     "founded": 1842,
     "website": "https://www.tudelft.nl",
     "description": "Top technical university in Europe.",
     "featured": true,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "TU Delft | Dreamway Global Education",
       "seoDescription": "Study at Delft University of Technology."
     }
   },
   {
-    "id": 83,
+    "id": 73,
     "countryId": 15,
     "slug": "utrecht-university",
     "name": "Utrecht University",
@@ -1902,20 +2167,27 @@
     "city": "Utrecht",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 115, "country": 3 },
+    "ranking": {
+      "qsWorld": 115,
+      "country": 3
+    },
     "founded": 1636,
     "website": "https://www.uu.nl",
     "description": "Historic university with excellent research reputation.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Utrecht University | Dreamway Global Education",
       "seoDescription": "Study at Utrecht University."
     }
   },
   {
-    "id": 84,
+    "id": 74,
     "countryId": 15,
     "slug": "wageningen-university",
     "name": "Wageningen University & Research",
@@ -1925,20 +2197,27 @@
     "city": "Wageningen",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 151, "country": 4 },
+    "ranking": {
+      "qsWorld": 151,
+      "country": 4
+    },
     "founded": 1918,
     "website": "https://www.wur.nl",
     "description": "World leader in agriculture, life sciences and environmental sciences.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Wageningen University | Dreamway Global Education",
       "seoDescription": "Study at Wageningen University."
     }
   },
   {
-    "id": 85,
+    "id": 75,
     "countryId": 15,
     "slug": "leiden-university",
     "name": "Leiden University",
@@ -1948,13 +2227,20 @@
     "city": "Leiden",
     "state": "",
     "type": "Public",
-    "ranking": { "qsWorld": 126, "country": 5 },
+    "ranking": {
+      "qsWorld": 126,
+      "country": 5
+    },
     "founded": 1575,
     "website": "https://www.universiteitleiden.nl",
     "description": "Netherlands' oldest university with excellent academic reputation.",
     "featured": false,
     "popular": true,
-    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
     "meta": {
       "seoTitle": "Leiden University | Dreamway Global Education",
       "seoDescription": "Study at Leiden University."
