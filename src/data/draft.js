@@ -83,9 +83,9 @@
 // Master
 // PhD
 
-// countries.json
+// countries.json====================
 // {
-//   id: 1,
+    //   id: 1,
 //   slug: "australia",
 //   name: "Australia",
 //   code: "AU",
@@ -94,9 +94,35 @@
 //   description: "..."
 // }
 
-// universities.json
+// Phase 2 (Information Upgrade)
+// visaRequirements
+// processingTime
+// workRights
+// costOfLiving
+// tuitionRange
+// scholarshipInfo
+// partTimeWork
+// postStudyWorkVisa
+
+
+// Phase 3 (Premium Version)
+// weather
+// gallery
+// studentStories
+// youtubeVideo
+// topCities
+// popularIndustries
+// jobMarket
+// livingExpenses
+// transportation
+// healthInsurance
+// faq
+// countries.json====================
+
+
+// universities.json================
 // {
-//   id: 1,
+    //   id: 1,
 //   slug:"university-of-melbourne",
 //   name:"University of Melbourne",
 //   countryId:1,
@@ -106,6 +132,19 @@
 //   city:"Melbourne",
 //   website:"..."
 // }
+
+// phase 2
+// acceptanceRate
+// studentPopulation
+// campusLife
+// gallery
+// youtubeVideo
+// researchAreas
+// faculties
+// alumni
+// virtualTour
+// socialLinks
+// universities.json================
 
 // courses.json
 // {
