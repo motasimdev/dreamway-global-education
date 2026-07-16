@@ -67,14 +67,18 @@ const HowWeWork = () => {
     if (!section || !track) return undefined;
 
     const desktopQuery = window.matchMedia("(min-width: 1024px)");
-    const reducedMotionQuery = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    );
+    // const reducedMotionQuery = window.matchMedia(
+    //   "(prefers-reduced-motion: reduce)",
+    // );
     let frameId = null;
 
     const updateTrack = () => {
       frameId = null;
-      if (!desktopQuery.matches || reducedMotionQuery.matches) {
+      // if (!desktopQuery.matches || reducedMotionQuery.matches) {
+      //   track.style.transform = "translate3d(0, 0, 0)";
+      //   return;
+      // }
+      if (!desktopQuery.matches) {
         track.style.transform = "translate3d(0, 0, 0)";
         return;
       }
@@ -99,13 +103,13 @@ const HowWeWork = () => {
     window.addEventListener("scroll", requestUpdate, { passive: true });
     window.addEventListener("resize", requestUpdate);
     desktopQuery.addEventListener("change", requestUpdate);
-    reducedMotionQuery.addEventListener("change", requestUpdate);
+    // reducedMotionQuery.addEventListener("change", requestUpdate);
 
     return () => {
       window.removeEventListener("scroll", requestUpdate);
       window.removeEventListener("resize", requestUpdate);
       desktopQuery.removeEventListener("change", requestUpdate);
-      reducedMotionQuery.removeEventListener("change", requestUpdate);
+      // reducedMotionQuery.removeEventListener("change", requestUpdate);
       if (frameId !== null) window.cancelAnimationFrame(frameId);
     };
   }, []);
