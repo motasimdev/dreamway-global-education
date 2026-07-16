@@ -1727,5 +1727,237 @@
       "seoTitle": "Dublin City University | Dreamway Global Education",
       "seoDescription": "Study at DCU."
     }
+  },
+
+  {
+    "id": 76,
+    "countryId": 14,
+    "slug": "university-of-malaya",
+    "name": "University of Malaya",
+    "shortName": "UM",
+    "logo": "/src/assets/university-logos/um-logo.png",
+    "banner": "/src/assets/university-logos/um-banner.jpg",
+    "city": "Kuala Lumpur",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 59, "country": 1 },
+    "founded": 1949,
+    "website": "https://www.um.edu.my",
+    "description": "Malaysia's oldest and highest-ranked university.",
+    "featured": true,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "University of Malaya | Dreamway Global Education",
+      "seoDescription": "Study at University of Malaya from Bangladesh."
+    }
+  },
+  {
+    "id": 77,
+    "countryId": 14,
+    "slug": "universiti-putra-malaysia",
+    "name": "Universiti Putra Malaysia",
+    "shortName": "UPM",
+    "logo": "/src/assets/university-logos/upm-logo.png",
+    "banner": "/src/assets/university-logos/upm-banner.jpg",
+    "city": "Serdang",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 158, "country": 2 },
+    "founded": 1931,
+    "website": "https://www.upm.edu.my",
+    "description": "Strong in agriculture, science, and engineering.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "Universiti Putra Malaysia | Dreamway Global Education",
+      "seoDescription": "Study at UPM Malaysia."
+    }
+  },
+  {
+    "id": 78,
+    "countryId": 14,
+    "slug": "universiti-kebangsaan-malaysia",
+    "name": "Universiti Kebangsaan Malaysia",
+    "shortName": "UKM",
+    "logo": "/src/assets/university-logos/ukm-logo.png",
+    "banner": "/src/assets/university-logos/ukm-banner.jpg",
+    "city": "Bangi",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 159, "country": 3 },
+    "founded": 1970,
+    "website": "https://www.ukm.my",
+    "description": "National university of Malaysia with strong research focus.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "UKM Malaysia | Dreamway Global Education",
+      "seoDescription": "Study at Universiti Kebangsaan Malaysia."
+    }
+  },
+  {
+    "id": 79,
+    "countryId": 14,
+    "slug": "universiti-sains-malaysia",
+    "name": "Universiti Sains Malaysia",
+    "shortName": "USM",
+    "logo": "/src/assets/university-logos/usm-logo.png",
+    "banner": "/src/assets/university-logos/usm-banner.jpg",
+    "city": "Penang",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 137, "country": 4 },
+    "founded": 1969,
+    "website": "https://www.usm.my",
+    "description": "Known as the 'University in a Garden' with strong science programs.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "Universiti Sains Malaysia | Dreamway Global Education",
+      "seoDescription": "Study at USM Penang."
+    }
+  },
+  {
+    "id": 80,
+    "countryId": 14,
+    "slug": "universiti-teknologi-malaysia",
+    "name": "Universiti Teknologi Malaysia",
+    "shortName": "UTM",
+    "logo": "/src/assets/university-logos/utm-logo.png",
+    "banner": "/src/assets/university-logos/utm-banner.jpg",
+    "city": "Johor Bahru",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 188, "country": 5 },
+    "founded": 1904,
+    "website": "https://www.utm.my",
+    "description": "Malaysia's premier engineering and technology university.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "Universiti Teknologi Malaysia | Dreamway Global Education",
+      "seoDescription": "Study at UTM."
+    }
+  },
+
+  {
+    "id": 81,
+    "countryId": 15,
+    "slug": "university-of-amsterdam",
+    "name": "University of Amsterdam",
+    "shortName": "UvA",
+    "logo": "/src/assets/university-logos/uva-logo.png",
+    "banner": "/src/assets/university-logos/uva-banner.jpg",
+    "city": "Amsterdam",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 53, "country": 1 },
+    "founded": 1632,
+    "website": "https://www.uva.nl",
+    "description": "One of Europe's leading comprehensive universities.",
+    "featured": true,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "University of Amsterdam | Dreamway Global Education",
+      "seoDescription": "Study at University of Amsterdam."
+    }
+  },
+  {
+    "id": 82,
+    "countryId": 15,
+    "slug": "delft-university-of-technology",
+    "name": "Delft University of Technology",
+    "shortName": "TU Delft",
+    "logo": "/src/assets/university-logos/tudelft-logo.png",
+    "banner": "/src/assets/university-logos/tudelft-banner.jpg",
+    "city": "Delft",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 47, "country": 2 },
+    "founded": 1842,
+    "website": "https://www.tudelft.nl",
+    "description": "Top technical university in Europe.",
+    "featured": true,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "TU Delft | Dreamway Global Education",
+      "seoDescription": "Study at Delft University of Technology."
+    }
+  },
+  {
+    "id": 83,
+    "countryId": 15,
+    "slug": "utrecht-university",
+    "name": "Utrecht University",
+    "shortName": "UU",
+    "logo": "/src/assets/university-logos/uu-logo.png",
+    "banner": "/src/assets/university-logos/uu-banner.jpg",
+    "city": "Utrecht",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 115, "country": 3 },
+    "founded": 1636,
+    "website": "https://www.uu.nl",
+    "description": "Historic university with excellent research reputation.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "Utrecht University | Dreamway Global Education",
+      "seoDescription": "Study at Utrecht University."
+    }
+  },
+  {
+    "id": 84,
+    "countryId": 15,
+    "slug": "wageningen-university",
+    "name": "Wageningen University & Research",
+    "shortName": "WUR",
+    "logo": "/src/assets/university-logos/wur-logo.png",
+    "banner": "/src/assets/university-logos/wur-banner.jpg",
+    "city": "Wageningen",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 151, "country": 4 },
+    "founded": 1918,
+    "website": "https://www.wur.nl",
+    "description": "World leader in agriculture, life sciences and environmental sciences.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "Wageningen University | Dreamway Global Education",
+      "seoDescription": "Study at Wageningen University."
+    }
+  },
+  {
+    "id": 85,
+    "countryId": 15,
+    "slug": "leiden-university",
+    "name": "Leiden University",
+    "shortName": "Leiden",
+    "logo": "/src/assets/university-logos/leiden-logo.png",
+    "banner": "/src/assets/university-logos/leiden-banner.jpg",
+    "city": "Leiden",
+    "state": "",
+    "type": "Public",
+    "ranking": { "qsWorld": 126, "country": 5 },
+    "founded": 1575,
+    "website": "https://www.universiteitleiden.nl",
+    "description": "Netherlands' oldest university with excellent academic reputation.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": ["Bachelor", "Master", "PhD"],
+    "meta": {
+      "seoTitle": "Leiden University | Dreamway Global Education",
+      "seoDescription": "Study at Leiden University."
+    }
   }
 ]

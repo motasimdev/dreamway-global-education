@@ -146,10 +146,10 @@
 // socialLinks
 // universities.json================
 
-// courses.json
+// courses.json=====================
 // {
-//   id:1,
-//   slug:"bachelor-of-computer-science",
+    //   id:1,
+    //   slug:"bachelor-of-computer-science",
 //   universityId: 12,
 //   countryId: 1,
 //   categoryId: 3,
@@ -160,6 +160,18 @@
 //   intake:["February"],
 //   ...
 // }
+
+// modules
+// semesterBreakdown
+// assessmentMethod
+// internships
+// graduateSalary
+// studentReviews
+// videos
+// gallery
+// FAQs
+// professors
+// courses.json=====================
 
 // categories.json
 // {

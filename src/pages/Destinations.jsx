@@ -49,6 +49,13 @@ const Destinations = () => {
             />
           </div>
 
+          <div className="mt-4 flex items-center justify-between">
+            <p className="font-jost text-sm text-secondary/70">
+              Showing <span className="font-semibold text-secondary">{filtered.length}</span>{" "}
+              {filtered.length === 1 ? "destination" : "destinations"}
+            </p>
+          </div>
+
           <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
             {filtered.map((country) => (
               <button
