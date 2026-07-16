@@ -74,6 +74,21 @@ const Header = () => {
 
               <li>
                 <NavLink
+                  to="/universities"
+                  className={({ isActive }) =>
+                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
+                      isActive
+                        ? " text-primary   border-primary  shadow-sm  "
+                        : "text-secondary hover:text-primary  "
+                    }`
+                  }
+                >
+                  Universities
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
                   to="/blogs"
                   className={({ isActive }) =>
                     `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
