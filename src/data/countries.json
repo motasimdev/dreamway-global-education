@@ -19,7 +19,66 @@
     "meta": {
       "seoTitle": "Study in Australia from Bangladesh | Dreamway Global Education",
       "seoDescription": "Explore top universities, courses, scholarships, and visa guidance for studying in Australia."
-    }
+    },
+    "highlights": [
+      {
+        "title": "World-Class Universities",
+        "description": "Home to several of the world's top-ranked universities.",
+        "icon": "university"
+      },
+      {
+        "title": "Post-Study Work Visa",
+        "description": "Up to 4 years of post-study work opportunities.",
+        "icon": "work"
+      },
+      {
+        "title": "Multicultural Society",
+        "description": "A diverse and welcoming environment for international students.",
+        "icon": "culture"
+      },
+      {
+        "title": "Beautiful Scenery",
+        "description": "Enjoy stunning landscapes and vibrant city life.",
+        "icon": "scenery"
+      }
+    ],
+    "popularCities": ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Canberra"],
+    "costOfLiving": {
+      "accommodation": "1200-2000 AUD",
+      "food": "400-600 AUD",
+      "transport": "150-250 AUD",
+      "utilities": "200-300 AUD"
+    },
+    "workRights": {
+      "student": "48 hours per fortnight during academic sessions, full-time during breaks.",
+      "afterGraduation": "Post-Study Work stream of the Temporary Graduate visa (subclass 485) allows for 2-4 years of work."
+    },
+    "visaRequirements": [
+      "Confirmation of Enrolment (CoE)",
+      "Proof of sufficient funds",
+      "English proficiency test results (IELTS, PTE)",
+      "Genuine Temporary Entrant (GTE) statement",
+      "Academic transcripts and work experience documents",
+      "Overseas Student Health Cover (OSHC)"
+    ],
+    "faq": [
+      {
+        "question": "What are the general entry requirements for Australian universities?",
+        "answer": "Typically, you need to have completed secondary education, meet English language proficiency requirements (IELTS, PTE), and have sufficient funds for tuition and living expenses."
+      },
+      {
+        "question": "Can I work while studying in Australia?",
+        "answer": "Yes, student visa holders are generally allowed to work up to 48 hours per fortnight during study periods and full-time during scheduled course breaks."
+      },
+      {
+        "question": "What is the post-study work visa option in Australia?",
+        "answer": "The Temporary Graduate visa (subclass 485) offers a Post-Study Work stream, allowing eligible graduates to stay and work for 2 to 4 years, depending on their qualification and regional study."
+      },
+      {
+        "question": "Is health insurance mandatory for international students?",
+        "answer": "Yes, it is compulsory for international students to have Overseas Student Health Cover (OSHC) for the entire duration of their stay."
+      }
+    ]
   },
   {
     "id": 2,
@@ -41,7 +100,66 @@
     "meta": {
       "seoTitle": "Study in Canada from Bangladesh | Dreamway Global Education",
       "seoDescription": "Best universities, courses, and immigration pathways in Canada for Bangladeshi students."
-    }
+    },
+    "highlights": [
+      {
+        "title": "High-Quality Education",
+        "description": "Globally recognized for its excellent academic standards.",
+        "icon": "education"
+      },
+      {
+        "title": "PR Pathways",
+        "description": "Clear and accessible pathways to permanent residency.",
+        "icon": "pr"
+      },
+      {
+        "title": "Affordable Living",
+        "description": "Lower cost of living compared to other top study destinations.",
+        "icon": "living"
+      },
+      {
+        "title": "Safe and Inclusive",
+        "description": "Known for its safety, diversity, and welcoming culture.",
+        "icon": "safety"
+      }
+    ],
+    "popularCities": ["Toronto", "Vancouver", "Montreal", "Calgary", "Edmonton", "Ottawa"],
+    "costOfLiving": {
+      "accommodation": "1000-1800 CAD",
+      "food": "300-500 CAD",
+      "transport": "100-200 CAD",
+      "utilities": "150-250 CAD"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week during school terms and full-time during scheduled breaks.",
+      "afterGraduation": "Post-Graduation Work Permit (PGWP) allows for up to 3 years of work experience."
+    },
+    "visaRequirements": [
+      "Letter of Acceptance (LOA)",
+      "Proof of financial support (Guaranteed Investment Certificate - GIC)",
+      "English language proficiency (IELTS)",
+      "Statement of Purpose (SOP)",
+      "Medical examination",
+      "Biometrics"
+    ],
+    "faq": [
+      {
+        "question": "What are the common English proficiency tests accepted in Canada?",
+        "answer": "IELTS Academic is the most commonly accepted test. Some institutions might also accept TOEFL, PTE, or Duolingo."
+      },
+      {
+        "question": "Can I get permanent residency in Canada after studying?",
+        "answer": "Yes, Canada offers several pathways to permanent residency for international graduates, notably through the Post-Graduation Work Permit (PGWP) and various Provincial Nominee Programs (PNPs)."
+      },
+      {
+        "question": "Is a GIC (Guaranteed Investment Certificate) required for a Canadian study permit?",
+        "answer": "While not always strictly mandatory, a GIC is highly recommended and often crucial for demonstrating sufficient funds, especially for students applying through the Student Direct Stream (SDS)."
+      },
+      {
+        "question": "What is the average tuition fee for international students in Canada?",
+        "answer": "Tuition fees vary significantly by program and institution, typically ranging from CAD 15,000 to CAD 35,000 per year for undergraduate programs, and CAD 10,000 to CAD 25,000 for graduate programs."
+      }
+    ]
   },
   {
     "id": 3,
@@ -63,7 +181,66 @@
     "meta": {
       "seoTitle": "Study in UK from Bangladesh | Dreamway Global Education",
       "seoDescription": "Top UK universities, courses, and student visa guidance."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Prestigious Universities",
+        "description": "Home to some of the oldest and most respected universities.",
+        "icon": "university"
+      },
+      {
+        "title": "Shorter Courses",
+        "description": "Complete your Master's in one year.",
+        "icon": "courses"
+      },
+      {
+        "title": "Graduate Route Visa",
+        "description": "Stay and work in the UK for up to 2 years after graduation.",
+        "icon": "work"
+      },
+      {
+        "title": "Rich History and Culture",
+        "description": "Explore a country with a deep and influential history.",
+        "icon": "culture"
+      }
+    ],
+    "popularCities": ["London", "Manchester", "Birmingham", "Edinburgh", "Glasgow", "Bristol"],
+    "costOfLiving": {
+      "accommodation": "800-1500 GBP",
+      "food": "300-450 GBP",
+      "transport": "100-150 GBP",
+      "utilities": "150-250 GBP"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week during term time and full-time during holidays.",
+      "afterGraduation": "Graduate Route visa allows for 2 years of work (3 years for PhD graduates)."
+    },
+    "visaRequirements": [
+      "Confirmation of Acceptance for Studies (CAS)",
+      "Proof of funds (maintenance)",
+      "English language test (IELTS for UKVI)",
+      "Tuberculosis (TB) test certificate",
+      "Academic Technology Approval Scheme (ATAS) certificate (if applicable)",
+      "Credibility interview"
+    ],
+    "faq": [
+      {
+        "question": "What is a CAS (Confirmation of Acceptance for Studies)?",
+        "answer": "A CAS is a unique reference number issued by your university that you need to apply for a Student visa. It confirms that you have been accepted onto a course."
+      },
+      {
+        "question": "How much funds do I need to show for a UK student visa?",
+        "answer": "You need to show that you have enough money to cover your course fees for one academic year (up to a maximum of £11,385) and your living costs (£1,334 per month for up to 9 months in London, or £1,023 outside London)."
+      },
+      {
+        "question": "Can my dependents join me in the UK?",
+        "answer": "Only postgraduate students undertaking courses of 9 months or longer, or government-sponsored students, can bring dependents. This rule is subject to change."
+      },
+      {
+        "question": "What is the Graduate Route visa?",
+        "answer": "The Graduate Route allows international students who have successfully completed a degree at a UK Higher Education Provider to stay and work, or look for work, for 2 years (or 3 years for PhD graduates)."
+      }
+    ]
   },
   {
     "id": 4,
@@ -85,7 +262,66 @@
     "meta": {
       "seoTitle": "Study in USA from Bangladesh | Dreamway Global Education",
       "seoDescription": "Study in top American universities with scholarships and visa support."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Top-Ranked Universities",
+        "description": "Leading institutions for research and innovation.",
+        "icon": "university"
+      },
+      {
+        "title": "STEM Opportunities",
+        "description": "Excellent prospects for students in Science, Technology, Engineering, and Math.",
+        "icon": "stem"
+      },
+      {
+        "title": "Flexible Education",
+        "description": "A wide variety of courses and flexible curriculum.",
+        "icon": "education"
+      },
+      {
+        "title": "Cultural Diversity",
+        "description": "Experience a melting pot of cultures and ideas.",
+        "icon": "culture"
+      }
+    ],
+    "popularCities": ["New York", "Boston", "Los Angeles", "Chicago", "San Francisco", "Austin"],
+    "costOfLiving": {
+      "accommodation": "1200-2200 USD",
+      "food": "400-600 USD",
+      "transport": "150-250 USD",
+      "utilities": "200-300 USD"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week on-campus. Off-campus work requires special authorization.",
+      "afterGraduation": "Optional Practical Training (OPT) for up to 12 months, with a 24-month extension for STEM fields."
+    },
+    "visaRequirements": [
+      "Form I-20 from a SEVP-approved school",
+      "Proof of financial ability",
+      "Payment of the SEVIS I-901 fee",
+      "Standardized test scores (SAT, GRE, GMAT)",
+      "English proficiency scores (TOEFL, IELTS)",
+      "Visa interview at a U.S. embassy or consulate"
+    ],
+    "faq": [
+      {
+        "question": "What is the F-1 visa and who needs it?",
+        "answer": "The F-1 visa is for international students who wish to pursue academic studies in the United States. All non-immigrant international students need this visa to study at a U.S. institution."
+      },
+      {
+        "question": "What is OPT and how does it work?",
+        "answer": "Optional Practical Training (OPT) allows F-1 students to work in their field of study for up to 12 months after graduation. STEM graduates may be eligible for a 24-month extension."
+      },
+      {
+        "question": "Are there scholarships available for international students in the USA?",
+        "answer": "Yes, many universities offer merit-based or need-based scholarships. External organizations and government programs also provide funding opportunities. Research early for best chances."
+      },
+      {
+        "question": "Can my family accompany me on an F-1 visa?",
+        "answer": "Spouses and unmarried minor children (under 21 years old) of F-1 visa holders can apply for an F-2 visa to accompany them, but F-2 visa holders cannot work."
+      }
+    ]
   },
   {
     "id": 5,
@@ -107,7 +343,66 @@
     "meta": {
       "seoTitle": "Study in New Zealand from Bangladesh | Dreamway Global Education",
       "seoDescription": "Quality education and peaceful lifestyle in New Zealand."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Safe and Peaceful",
+        "description": "Consistently ranked as one of the safest countries in the world.",
+        "icon": "safety"
+      },
+      {
+        "title": "Stunning Nature",
+        "description": "Breathtaking landscapes and outdoor activities.",
+        "icon": "scenery"
+      },
+      {
+        "title": "Quality of Life",
+        "description": "Enjoy a high standard of living and work-life balance.",
+        "icon": "living"
+      },
+      {
+        "title": "Post-Study Work Rights",
+        "description": "Opportunities to work after graduation.",
+        "icon": "work"
+      }
+    ],
+    "popularCities": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Dunedin"],
+    "costOfLiving": {
+      "accommodation": "1100-1900 NZD",
+      "food": "400-600 NZD",
+      "transport": "150-250 NZD",
+      "utilities": "200-300 NZD"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week during the academic year and full-time during holidays.",
+      "afterGraduation": "Post-study work visa for 1-3 years, depending on the qualification."
+    },
+    "visaRequirements": [
+      "Offer of Place from an approved education provider",
+      "Proof of sufficient funds to live and study",
+      "Evidence of onward travel",
+      "Medical certificates",
+      "Police certificates",
+      "Demonstration of genuine student intent"
+    ],
+    "faq": [
+      {
+        "question": "What is an 'Offer of Place' in New Zealand?",
+        "answer": "An Offer of Place is an official letter from a New Zealand education provider confirming that they have accepted you onto a course. It's a mandatory document for your visa application."
+      },
+      {
+        "question": "How much money do I need to show for a New Zealand student visa?",
+        "answer": "You generally need to show you have NZ$20,000 for each year of study to cover your living costs. If your course is less than a year, you need NZ$1,667 for each month."
+      },
+      {
+        "question": "Can I work in New Zealand after graduation?",
+        "answer": "Yes, eligible graduates can apply for a Post-Study Work Visa, which allows them to stay and work in New Zealand for 1 to 3 years, depending on their qualification."
+      },
+      {
+        "question": "Are there age limits for studying in New Zealand?",
+        "answer": "While there isn't a strict upper age limit, applicants under 18 or over 30 might face additional scrutiny or requirements, especially if their study plans seem unusual for their age."
+      }
+    ]
   },
   {
     "id": 6,
@@ -129,7 +424,65 @@
     "meta": {
       "seoTitle": "Study in Denmark from Bangladesh | Dreamway Global Education",
       "seoDescription": "Innovative programs and scholarships in Denmark."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Focus on Innovation",
+        "description": "A leader in design, technology, and sustainable solutions.",
+        "icon": "innovation"
+      },
+      {
+        "title": "High Quality of Life",
+        "description": "One of the happiest countries in the world.",
+        "icon": "living"
+      },
+      {
+        "title": "English Proficiency",
+        "description": "Widely spoken, making it easy for international students to adapt.",
+        "icon": "language"
+      },
+      {
+        "title": "Green and Sustainable",
+        "description": "A strong commitment to environmental and social responsibility.",
+        "icon": "sustainability"
+      }
+    ],
+    "popularCities": ["Copenhagen", "Aarhus", "Odense", "Aalborg"],
+    "costOfLiving": {
+      "accommodation": "3000-5000 DKK",
+      "food": "1500-2500 DKK",
+      "transport": "400-600 DKK",
+      "utilities": "800-1200 DKK"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week during the school year and full-time during holidays.",
+      "afterGraduation": "An Establishment Card allows graduates to stay for up to 2 years to find work."
+    },
+    "visaRequirements": [
+      "Proof of admission to a Danish higher education institution",
+      "Proof of sufficient funds (approx. DKK 6,321 per month)",
+      "Proof of paid tuition fees",
+      "Valid passport",
+      "Completed visa application form (ST1)"
+    ],
+    "faq": [
+      {
+        "question": "Are there tuition fees for international students in Denmark?",
+        "answer": "Students from EU/EEA countries do not pay tuition fees. For non-EU/EEA students, tuition fees apply and vary by program and institution."
+      },
+      {
+        "question": "What is an 'Establishment Card'?",
+        "answer": "The Establishment Card is a residence permit for international graduates from Danish higher education programs, allowing them to stay in Denmark for up to 2 years to seek employment."
+      },
+      {
+        "question": "Is Danish language proficiency required to study?",
+        "answer": "No, many programs are taught entirely in English. However, learning some Danish can greatly enhance your social life and job prospects."
+      },
+      {
+        "question": "What kind of accommodation is available for students?",
+        "answer": "Student dormitories, private rentals, and shared apartments are common. It's advisable to secure accommodation before arriving, especially in larger cities like Copenhagen."
+      }
+    ]
   },
   {
     "id": 7,
@@ -151,7 +504,65 @@
     "meta": {
       "seoTitle": "Study in Sweden from Bangladesh | Dreamway Global Education",
       "seoDescription": "Study innovative programs in Sweden."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Innovation Hub",
+        "description": "Birthplace of many successful startups and tech companies.",
+        "icon": "innovation"
+      },
+      {
+        "title": "Emphasis on Creativity",
+        "description": "Education system that encourages independent and creative thinking.",
+        "icon": "creativity"
+      },
+      {
+        "title": "Social Equality",
+        "description": "A society that values equality and openness.",
+        "icon": "equality"
+      },
+      {
+        "title": "Natural Beauty",
+        "description": "Vast forests, numerous lakes, and stunning coastlines.",
+        "icon": "scenery"
+      }
+    ],
+    "popularCities": ["Stockholm", "Gothenburg", "Malmö", "Uppsala", "Lund"],
+    "costOfLiving": {
+      "accommodation": "4000-7000 SEK",
+      "food": "2000-3000 SEK",
+      "transport": "600-800 SEK",
+      "utilities": "800-1200 SEK"
+    },
+    "workRights": {
+      "student": "No official limit on work hours, but studies must be the primary focus.",
+      "afterGraduation": "Can apply for a residence permit to seek employment or start a business for up to 12 months."
+    },
+    "visaRequirements": [
+      "Letter of acceptance from a Swedish university",
+      "Proof of funds to support yourself (SEK 8,568 per month)",
+      "Proof of comprehensive health insurance",
+      "Valid passport",
+      "Payment of application fee"
+    ],
+    "faq": [
+      {
+        "question": "Are tuition fees charged in Sweden for international students?",
+        "answer": "Students from EU/EEA countries are exempt from tuition fees. Non-EU/EEA students are required to pay tuition fees, which vary by program and university."
+      },
+      {
+        "question": "Can I work while studying in Sweden?",
+        "answer": "There is no official limit to the number of hours international students can work in Sweden, but your studies must remain your primary focus."
+      },
+      {
+        "question": "What are the post-study options in Sweden?",
+        "answer": "After completing your studies, you can apply for a residence permit to seek employment or start a business in Sweden for up to 12 months."
+      },
+      {
+        "question": "Is Swedish language proficiency required for admission?",
+        "answer": "No, many Bachelor's and Master's programs are taught in English. However, learning Swedish can be beneficial for daily life and career opportunities."
+      }
+    ]
   },
   {
     "id": 8,
@@ -173,7 +584,65 @@
     "meta": {
       "seoTitle": "Study in Finland from Bangladesh | Dreamway Global Education",
       "seoDescription": "Experience world-class education in Finland."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Top Education System",
+        "description": "Renowned for its excellent and student-centric approach.",
+        "icon": "education"
+      },
+      {
+        "title": "Clean and Safe",
+        "description": "Enjoy a high quality of life in a safe and clean environment.",
+        "icon": "safety"
+      },
+      {
+        "title": "Proximity to Nature",
+        "description": "Thousands of lakes and forests to explore.",
+        "icon": "scenery"
+      },
+      {
+        "title": "Tech and Gaming Industry",
+        "description": "A thriving hub for technology and gaming companies.",
+        "icon": "tech"
+      }
+    ],
+    "popularCities": ["Helsinki", "Tampere", "Turku", "Oulu"],
+    "costOfLiving": {
+      "accommodation": "600-1000 EUR",
+      "food": "300-450 EUR",
+      "transport": "50-100 EUR",
+      "utilities": "100-150 EUR"
+    },
+    "workRights": {
+      "student": "Up to 25 hours per week during term time and full-time during holidays.",
+      "afterGraduation": "A 2-year post-study permit to look for work or start a business."
+    },
+    "visaRequirements": [
+      "Acceptance letter from a Finnish educational institution",
+      "Proof of sufficient funds (€560 per month)",
+      "Student health insurance",
+      "Proof of paid tuition fees or scholarship",
+      "Valid passport"
+    ],
+    "faq": [
+      {
+        "question": "Are Finnish universities free for international students?",
+        "answer": "No, tuition fees apply to non-EU/EEA students. Scholarships are available to help cover tuition costs."
+      },
+      {
+        "question": "Can I work while studying in Finland?",
+        "answer": "Yes, student residence permit holders can work up to 25 hours per week during term time and full-time during holidays."
+      },
+      {
+        "question": "What are the post-study work options in Finland?",
+        "answer": "Graduates can apply for a 2-year post-study permit to search for employment or establish a business in Finland."
+      },
+      {
+        "question": "Do I need to learn Finnish to study there?",
+        "answer": "While many programs are in English, basic Finnish can be helpful for daily life and cultural integration. Some universities offer Finnish language courses."
+      }
+    ]
   },
   {
     "id": 9,
@@ -195,7 +664,65 @@
     "meta": {
       "seoTitle": "Study in Belgium from Bangladesh | Dreamway Global Education",
       "seoDescription": "Affordable European education in Belgium."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Heart of Europe",
+        "description": "Central location with easy access to other European countries.",
+        "icon": "location"
+      },
+      {
+        "title": "Multilingual Environment",
+        "description": "An opportunity to learn multiple languages.",
+        "icon": "language"
+      },
+      {
+        "title": "Affordable Education",
+        "description": "Quality education with relatively low tuition fees.",
+        "icon": "education"
+      },
+      {
+        "title": "Rich Cultural Heritage",
+        "description": "Home to historic cities, art, and delicious cuisine.",
+        "icon": "culture"
+      }
+    ],
+    "popularCities": ["Brussels", "Antwerp", "Ghent", "Leuven", "Liège"],
+    "costOfLiving": {
+      "accommodation": "500-800 EUR",
+      "food": "300-400 EUR",
+      "transport": "50-100 EUR",
+      "utilities": "150-200 EUR"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week.",
+      "afterGraduation": "Graduates can apply for an 'orientation year' to seek employment or start a business."
+    },
+    "visaRequirements": [
+      "Proof of acceptance from a Belgian university",
+      "Proof of sufficient funds (€730 per month)",
+      "Medical certificate",
+      "Police conduct certificate",
+      "Valid passport"
+    ],
+    "faq": [
+      {
+        "question": "What are the main languages spoken in Belgium?",
+        "answer": "Belgium has three official languages: Dutch, French, and German. English is also widely spoken, especially in academic and international settings."
+      },
+      {
+        "question": "Can I work part-time while studying in Belgium?",
+        "answer": "Yes, international students are allowed to work up to 20 hours per week during term time and full-time during official holiday periods, provided they have a valid residence permit."
+      },
+      {
+        "question": "Are there opportunities to stay in Belgium after graduation?",
+        "answer": "Graduates can apply for an 'orientation year' residence permit, which allows them up to 12 months to seek employment or establish a business in Belgium."
+      },
+      {
+        "question": "What is the cost of tuition for international students in Belgium?",
+        "answer": "Tuition fees are relatively affordable compared to other Western European countries, ranging from €900 to €4,000 per year, though some specialized programs may be higher."
+      }
+    ]
   },
   {
     "id": 10,
@@ -217,7 +744,65 @@
     "meta": {
       "seoTitle": "Study in Malta from Bangladesh | Dreamway Global Education",
       "seoDescription": "Study in sunny Malta with English medium."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Mediterranean Lifestyle",
+        "description": "Enjoy a sunny climate and beautiful beaches.",
+        "icon": "lifestyle"
+      },
+      {
+        "title": "English-Speaking",
+        "description": "An official language, making communication easy.",
+        "icon": "language"
+      },
+      {
+        "title": "Rich History",
+        "description": "Explore ancient temples, medieval towns, and historic sites.",
+        "icon": "history"
+      },
+      {
+        "title": "Growing Economy",
+        "description": "Opportunities in tourism, iGaming, and financial services.",
+        "icon": "economy"
+      }
+    ],
+    "popularCities": ["Valletta", "Sliema", "St. Julian's", "Msida"],
+    "costOfLiving": {
+      "accommodation": "600-1000 EUR",
+      "food": "300-450 EUR",
+      "transport": "50-100 EUR",
+      "utilities": "100-150 EUR"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week after the first 90 days of study.",
+      "afterGraduation": "Can extend stay to search for a job for up to 6 months."
+    },
+    "visaRequirements": [
+      "Letter of acceptance from a Maltese educational institution",
+      "Proof of funds (€750 per month)",
+      "Health insurance",
+      "Proof of accommodation",
+      "Return ticket reservation"
+    ],
+    "faq": [
+      {
+        "question": "Is English widely spoken in Malta?",
+        "answer": "Yes, English is one of Malta's official languages, and it's widely spoken across the island, making it easy for international students to communicate and study."
+      },
+      {
+        "question": "Can I work while studying in Malta?",
+        "answer": "International students can work up to 20 hours per week after the first 90 days of their study program, provided they obtain a valid work permit."
+      },
+      {
+        "question": "What is the average cost of tuition in Malta?",
+        "answer": "Tuition fees vary significantly depending on the institution and program but generally range from €2,000 to €10,000 per year for non-EU/EEA students."
+      },
+      {
+        "question": "What type of accommodation is available for students?",
+        "answer": "Students can choose from university residences, private rented apartments, or shared accommodation, often at reasonable prices, especially outside peak tourist seasons."
+      }
+    ]
   },
   {
     "id": 11,
@@ -239,7 +824,65 @@
     "meta": {
       "seoTitle": "Study in Hungary from Bangladesh | Dreamway Global Education",
       "seoDescription": "Affordable study options in Hungary."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Low Cost of Living",
+        "description": "One of the most affordable countries in Europe for students.",
+        "icon": "living"
+      },
+      {
+        "title": "Renowned Medical Schools",
+        "description": "A popular destination for medical and dental studies.",
+        "icon": "medical"
+      },
+      {
+        "title": "Vibrant Student Life",
+        "description": "Budapest is known for its lively culture and nightlife.",
+        "icon": "student-life"
+      },
+      {
+        "title": "Central European Hub",
+        "description": "Easily travel to neighboring countries.",
+        "icon": "location"
+      }
+    ],
+    "popularCities": ["Budapest", "Debrecen", "Szeged", "Pécs"],
+    "costOfLiving": {
+      "accommodation": "100000-180000 HUF",
+      "food": "60000-90000 HUF",
+      "transport": "10000-15000 HUF",
+      "utilities": "30000-50000 HUF"
+    },
+    "workRights": {
+      "student": "Up to 24 hours per week during study periods.",
+      "afterGraduation": "A 'Study-to-Work' visa allows graduates to stay for up to 9 months to find employment."
+    },
+    "visaRequirements": [
+      "Acceptance letter from a Hungarian university",
+      "Proof of financial resources",
+      "Health insurance",
+      "Proof of accommodation",
+      "Valid passport"
+    ],
+    "faq": [
+      {
+        "question": "Is Hungarian language knowledge required for studying?",
+        "answer": "No, many programs are offered entirely in English, particularly at the Master's and PhD levels. However, basic Hungarian can be beneficial for daily life."
+      },
+      {
+        "question": "What is the post-study visa option in Hungary?",
+        "answer": "Graduates can apply for a 'Study-to-Work' visa, allowing them to stay in Hungary for up to 9 months after completing their studies to seek employment."
+      },
+      {
+        "question": "How much does it cost to study in Hungary?",
+        "answer": "Hungary is considered one of the most affordable countries in Europe for international students, with tuition fees ranging from €2,500 to €12,000 per year depending on the program."
+      },
+      {
+        "question": "Can I work part-time while on a student visa in Hungary?",
+        "answer": "Yes, international students holding a valid residence permit for study purposes are allowed to work up to 24 hours per week during study periods and 90 days or 66 working days outside the study period."
+      }
+    ]
   },
   {
     "id": 12,
@@ -261,7 +904,65 @@
     "meta": {
       "seoTitle": "Study in Cyprus from Bangladesh | Dreamway Global Education",
       "seoDescription": "EU accredited degrees in Cyprus."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Affordable EU Education",
+        "description": "Low tuition fees and living expenses for a European degree.",
+        "icon": "education"
+      },
+      {
+        "title": "Beautiful Beaches",
+        "description": "Enjoy a relaxed lifestyle on a stunning Mediterranean island.",
+        "icon": "scenery"
+      },
+      {
+        "title": "International Community",
+        "description": "A diverse student population from around the world.",
+        "icon": "culture"
+      },
+      {
+        "title": "Hospitality and Tourism",
+        "description": "A great place to study tourism and hospitality management.",
+        "icon": "tourism"
+      }
+    ],
+    "popularCities": ["Nicosia", "Limassol", "Larnaca", "Paphos"],
+    "costOfLiving": {
+      "accommodation": "400-700 EUR",
+      "food": "250-400 EUR",
+      "transport": "40-80 EUR",
+      "utilities": "100-150 EUR"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week in specific sectors after six months of study.",
+      "afterGraduation": "Limited opportunities; depends on finding a job and obtaining a work permit."
+    },
+    "visaRequirements": [
+      "Admission letter from a Cypriot educational institution",
+      "Proof of funds",
+      "Medical certificate",
+      "Police clearance certificate",
+      "Academic documents"
+    ],
+    "faq": [
+      {
+        "question": "Are degrees from Cyprus recognized internationally?",
+        "answer": "Yes, degrees from accredited Cypriot universities are recognized across the EU and internationally, ensuring good prospects for further education or employment."
+      },
+      {
+        "question": "Can international students work in Cyprus?",
+        "answer": "International students are permitted to work up to 20 hours per week in specific sectors like petrol stations, agriculture, and hospitality after completing six months of their studies."
+      },
+      {
+        "question": "What is the cost of tuition in Cyprus for international students?",
+        "answer": "Tuition fees are generally competitive, ranging from €2,500 to €8,000 per year for Bachelor's programs and €5,000 to €10,000 for Master's programs."
+      },
+      {
+        "question": "Is it safe to live and study in Cyprus?",
+        "answer": "Cyprus is known for its very low crime rate and safe environment, making it a popular choice for international students seeking a secure place to live and study."
+      }
+    ]
   },
   {
     "id": 13,
@@ -283,7 +984,66 @@
     "meta": {
       "seoTitle": "Study in Ireland from Bangladesh | Dreamway Global Education",
       "seoDescription": "Study in Ireland - Europe's growing tech destination."
-    }
+    },
+    "highlights": [
+      {
+        "title": "European Tech Hub",
+        "description": "Headquarters for many multinational tech companies.",
+        "icon": "tech"
+      },
+      {
+        "title": "Friendly and Welcoming",
+        "description": "Known for its hospitality and friendly people.",
+        "icon": "culture"
+      },
+      {
+        "title": "Post-Study Work Visa",
+        "description": "Stay and work in Ireland for up to 2 years.",
+        "icon": "work"
+      },
+      {
+        "title": "Rich Literary Heritage",
+        "description": "The land of Joyce, Yeats, and Wilde.",
+        "icon": "literature"
+      }
+    ],
+    "popularCities": ["Dublin", "Cork", "Galway", "Limerick"],
+    "costOfLiving": {
+      "accommodation": "800-1400 EUR",
+      "food": "300-450 EUR",
+      "transport": "100-150 EUR",
+      "utilities": "150-250 EUR"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week during term and 40 hours during holidays.",
+      "afterGraduation": "Third Level Graduate Scheme allows for a 1-2 year stay to seek employment."
+    },
+    "visaRequirements": [
+      "Letter of Acceptance from an Irish university",
+      "Proof of funds (€10,000 per year)",
+      "Private medical insurance",
+      "English language proficiency",
+      "Statement of purpose",
+      "Proof of paid fees"
+    ],
+    "faq": [
+      {
+        "question": "What is the Third Level Graduate Scheme in Ireland?",
+        "answer": "This scheme allows non-EU/EEA graduates to remain in Ireland for a period after their studies to seek employment. The duration depends on the level of qualification, typically 12 or 24 months."
+      },
+      {
+        "question": "Is it expensive to live in Ireland as a student?",
+        "answer": "While cities like Dublin can be costly, Ireland offers a good quality of life. Student budgets typically range from €7,000 to €12,000 per year, excluding tuition fees."
+      },
+      {
+        "question": "Are there many job opportunities in Ireland after graduation?",
+        "answer": "Ireland, particularly Dublin, is a major hub for technology, pharmaceuticals, and finance, offering significant job opportunities for graduates, especially those with in-demand skills."
+      },
+      {
+        "question": "What kind of student accommodation is available?",
+        "answer": "Options include on-campus student residences, purpose-built student accommodation (PBSA), private rented apartments, and shared housing. Booking in advance is highly recommended."
+      }
+    ]
   },
   {
     "id": 14,
@@ -305,7 +1065,66 @@
     "meta": {
       "seoTitle": "Study in Malaysia from Bangladesh | Dreamway Global Education",
       "seoDescription": "Affordable study in Malaysia with many Bangladeshi students."
-    }
+    },
+    "highlights": [
+      {
+        "title": "Affordable Tuition Fees",
+        "description": "High-quality education at a fraction of the cost.",
+        "icon": "education"
+      },
+      {
+        "title": "Cultural Similarities",
+        "description": "A comfortable and familiar environment for Bangladeshi students.",
+        "icon": "culture"
+      },
+      {
+        "title": "English-Taught Programs",
+        "description": "A wide range of courses are taught in English.",
+        "icon": "language"
+      },
+      {
+        "title": "Delicious Food",
+        "description": "A paradise for food lovers with diverse culinary options.",
+        "icon": "food"
+      }
+    ],
+    "popularCities": ["Kuala Lumpur", "Penang", "Johor Bahru", "Malacca"],
+    "costOfLiving": {
+      "accommodation": "800-1500 MYR",
+      "food": "500-800 MYR",
+      "transport": "200-300 MYR",
+      "utilities": "200-300 MYR"
+    },
+    "workRights": {
+      "student": "Up to 20 hours per week during semester breaks only.",
+      "afterGraduation": "Generally not permitted; requires a separate employment pass."
+    },
+    "visaRequirements": [
+      "Offer letter from a Malaysian university",
+      "Visa Approval Letter (VAL)",
+      "Proof of financial stability",
+      "Medical examination",
+      "Passport-sized photographs",
+      "Academic certificates"
+    ],
+    "faq": [
+      {
+        "question": "What is the Visa Approval Letter (VAL) in Malaysia?",
+        "answer": "The VAL is a document issued by the Malaysian Immigration Department, approving your student visa application. It is a crucial step before you can enter Malaysia for studies."
+      },
+      {
+        "question": "Can I work while studying in Malaysia?",
+        "answer": "International students are generally permitted to work part-time for up to 20 hours per week only during semester breaks or holidays of more than 7 days, in specific sectors."
+      },
+      {
+        "question": "Is English the medium of instruction in Malaysian universities?",
+        "answer": "Yes, most private higher education institutions and many public universities in Malaysia offer programs taught entirely in English, especially at the postgraduate level."
+      },
+      {
+        "question": "What are the post-study work opportunities in Malaysia?",
+        "answer": "Direct post-study work permits are generally not available. Graduates typically need to secure a job offer and have their employer apply for an employment pass on their behalf."
+      }
+    ]
   },
   {
     "id": 15,
@@ -327,6 +1146,63 @@
     "meta": {
       "seoTitle": "Study in Netherlands from Bangladesh | Dreamway Global Education",
       "seoDescription": "English-taught programs in the Netherlands."
-    }
+    },
+    "highlights": [
+      {
+        "title": "International Environment",
+        "description": "A large and diverse international student community.",
+        "icon": "culture"
+      },
+      {
+        "title": "High English Proficiency",
+        "description": "The majority of the population speaks English.",
+        "icon": "language"
+      },
+      { "title": "Problem-Based Learning",
+        "description": "An interactive and student-centered approach to education.",
+        "icon": "learning"
+      },
+      {
+        "title": "Cycling Culture",
+        "description": "A healthy, affordable, and fun way to get around.",
+        "icon": "cycling"
+      }
+    ],
+    "popularCities": ["Amsterdam", "Rotterdam", "Utrecht", "Leiden", "Groningen"],
+    "costOfLiving": {
+      "accommodation": "700-1200 EUR",
+      "food": "300-450 EUR",
+      "transport": "80-120 EUR",
+      "utilities": "150-250 EUR"
+    },
+    "workRights": {
+      "student": "Up to 16 hours per week, or full-time during summer months.",
+      "afterGraduation": "An orientation year permit allows graduates one year to find a job as a highly skilled migrant."
+    },
+    "visaRequirements": [
+      "Provisional acceptance letter from a Dutch university",
+      "Proof of sufficient funds (€900 per month)",
+      "Tuberculosis (TB) test (if applicable)",
+      "Health insurance",
+      "Completed visa application form"
+    ],
+    "faq": [
+      {
+        "question": "Is it easy to find English-taught programs in the Netherlands?",
+        "answer": "Yes, the Netherlands offers a wide range of English-taught Bachelor's and Master's programs, making it a very popular destination for international students."
+      },
+      {
+        "question": "What is the 'orientation year' permit after graduation?",
+        "answer": "The 'zoekjaar' or orientation year permit allows non-EU/EEA graduates one year to stay in the Netherlands to find a job as a highly skilled migrant or start their own business."
+      },
+      {
+        "question": "Do I need health insurance as an international student?",
+        "answer": "Yes, health insurance is mandatory. The type of insurance depends on your nationality and whether you plan to work alongside your studies."
+      },
+      {
+        "question": "What is the best way to travel around Dutch cities?",
+        "answer": "Cycling is very popular and convenient in the Netherlands, with excellent cycling infrastructure. Public transport (trains, trams, buses) is also efficient and widely used."
+      }
+    ]
   }
 ]

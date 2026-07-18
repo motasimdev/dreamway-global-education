@@ -1,11 +1,33 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FC7C16;
+  --color-primary: #fc7c16;
   --color-secondary: #36454f;
   --color-tertiary: #ffefe2a8;
+
   /* ==================================== */
+
   --font-chivo: "Chivo", sans-serif;
   --font-jost: "Jost", sans-serif;
+
   /* ==================================== */
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translate(var(--enter-x), var(--enter-y)) scale(0.94);
+      filter: blur(2px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0, 0) scale(1);
+      filter: blur(0);
+      -webkit-transform: translate(0, 0) scale(1);
+      -moz-transform: translate(0, 0) scale(1);
+      -ms-transform: translate(0, 0) scale(1);
+      -o-transform: translate(0, 0) scale(1);
+}
+  }
+  --animate-fade-in: fadeIn linear both;
 }

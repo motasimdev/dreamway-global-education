@@ -21,6 +21,27 @@ popup always on top (choose your course)
 Section 1 — Hero Banner => পুরো width। (Background image + dark overlay.)
 Section 2 — Quick Facts => (Bento Grid) এটা page-এর highlight হবে। (Hover animation:lift,icon rotate (slight), number/count pop)
 Section 3 — Why Study in Australia => Normal paragraph না। Card layout.
+Why Study in Australia
+Short intro
+----------------------------------
+🌍
+Globally Recognized Degrees
+----------------------------
+💼
+Post-study Work Opportunities
+----------------------------
+🎓
+Top Ranked Universities
+----------------------------
+🌎
+Multicultural Lifestyle
+----------------------------
+💰
+Scholarship Opportunities
+----------------------------
+📈
+Excellent Career Prospects
+
 Section 4 — Popular Universities => Horizontal slider। (Click → University Details.)
 Section 5 — Popular Courses => Grid. (৬–৮টা course enough)
 Section 6 — About Studying => এখানে long paragraph। কিন্তু width কম রাখবে। 
