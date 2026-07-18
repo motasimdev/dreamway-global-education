@@ -1,11 +1,10 @@
 import React, { useState, useMemo } from "react";
-import { useNavigate } from "react-router";
+import { Link } from "react-router";
 import Container from "../components/Container";
 import Heading from "../components/Heading";
 import countries from "../data/countries.json";
 
 const Destinations = () => {
-  const navigate = useNavigate();
   const [query, setQuery] = useState("");
 
   const filtered = useMemo(() => {
@@ -58,10 +57,9 @@ const Destinations = () => {
 
           <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
             {filtered.map((country) => (
-              <button
+              <Link
                 key={country.id}
-                type="button"
-                onClick={() => navigate(`/destinations/${country.slug}`)}
+                to={`/destinations/${country.slug}`}
                 className="group flex flex-col overflow-hidden rounded-[1.5rem] border border-orange-100 bg-white text-left shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
                 <div className="relative h-56 overflow-hidden">
@@ -77,7 +75,7 @@ const Destinations = () => {
                     {country.name}
                   </h3>
                 </div>
-              </button>
+              </Link>
             ))}
           </div>
 
