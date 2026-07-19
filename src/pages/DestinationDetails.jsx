@@ -22,7 +22,7 @@ const DestinationDetails = () => {
     <>
       <D_D_Banner countryBanner={country.banner} title={country.name} />
       <D_D_QuickFacts country={country} />
-      <D_D_WhyChoose/>
+      <D_D_WhyChoose country={country} />
     </>
   );
 };

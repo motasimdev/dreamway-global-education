@@ -15,19 +15,28 @@
   @keyframes fadeIn {
     0% {
       opacity: 0;
-      transform: translate(var(--enter-x), var(--enter-y)) scale(0.94);
-      filter: blur(2px);
+      transform: translate(var(--start-x), var(--start-y));
+      -webkit-transform: translate(var(--start-x), var(--start-y));
+      -moz-transform: translate(var(--start-x), var(--start-y));
+      -ms-transform: translate(var(--start-x), var(--start-y));
+      -o-transform: translate(var(--start-x), var(--start-y));
     }
 
     100% {
       opacity: 1;
-      transform: translate(0, 0) scale(1);
-      filter: blur(0);
-      -webkit-transform: translate(0, 0) scale(1);
-      -moz-transform: translate(0, 0) scale(1);
-      -ms-transform: translate(0, 0) scale(1);
-      -o-transform: translate(0, 0) scale(1);
-}
+      transform: translate(0, 0);
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      -o-transform: translate(0, 0);
+    }
   }
-  --animate-fade-in: fadeIn linear both;
+  --animate-fade-in: fadeIn 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@supports not (animation-timeline: view()) {
+  .card-item {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: translate(0, 0) !important;
+  }
 }
