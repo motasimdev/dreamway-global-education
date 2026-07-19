@@ -1,0 +1,29 @@
+/* Hide Swiper default navigation - custom React buttons are used instead */
+.university-swiper .swiper-button-prev,
+.university-swiper .swiper-button-next {
+  display: none !important;
+}
+
+/* Pagination container spacing */
+.university-swiper .swiper-pagination {
+  position: relative;
+  margin-top: 2rem;
+}
+
+/* Pagination bullets */
+.university-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(54, 69, 79, 0.2);
+  opacity: 1;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+.university-swiper .swiper-pagination-bullet-active {
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+  background: #fc7c16;
+  margin: 0 4px;
+}
