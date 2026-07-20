@@ -4,6 +4,7 @@ import D_D_Banner from "../components/layouts/destination-details/D_D_Banner";
 import D_D_QuickFacts from "../components/layouts/destination-details/D_D_QuickFacts";
 import D_D_WhyChoose from "../components/layouts/destination-details/D_D_WhyChoose";
 import D_D_Universities from "../components/layouts/destination-details/D_D_Universities";
+import D_D_ChooseCourse from "../components/layouts/destination-details/D_D_ChooseCourse";
 
 const DestinationDetails = () => {
   const { slug } = useParams();
@@ -25,6 +26,7 @@ const DestinationDetails = () => {
       <D_D_QuickFacts country={country} />
       <D_D_WhyChoose country={country} />
       <D_D_Universities country={country}/>
+      <D_D_ChooseCourse country={country}/>
     </>
   );
 };

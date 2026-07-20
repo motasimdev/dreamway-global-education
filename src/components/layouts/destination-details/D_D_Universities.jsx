@@ -36,7 +36,7 @@ const D_D_Universities = ({ country }) => {
 
   if (!filteredUniversities.length) {
     return (
-      <section className="bg-[#fffaf6] py-16 md:py-20 lg:py-24">
+      <section className="bg-tertiary py-16 md:py-20 lg:py-24">
         <Container>
           <div className="mx-auto mb-10 max-w-2xl text-center md:mb-14">
             <p className="mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
@@ -58,7 +58,7 @@ const D_D_Universities = ({ country }) => {
   }
 
   return (
-    <section className="bg-[#fffaf6] py-16 md:py-20 lg:py-24">
+    <section className="bg-[#fffaf6] py-16 md:py-20 lg:pt-24 lg:pb-12">
       <Container>
         <div className="mx-auto mb-10 max-w-2xl text-center md:mb-14">
           <p className="mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
@@ -94,11 +94,11 @@ const D_D_Universities = ({ country }) => {
               1024: { slidesPerView: 3 },
               1280: { slidesPerView: 4 },
             }}
-            className="university-swiper !overflow-hidden"
+            className="university-swiper overflow-hidden"
             onSwiper={setSwiperInstance}
           >
             {filteredUniversities.map((university) => (
-              <SwiperSlide key={university.id} className="pt-4 pb-15">
+              <SwiperSlide key={university.id} className="pt-4 lg:pb-15">
                 <Link
                   aria-label={`Explore ${university.name}`}
                   to={`/universities/${university.slug}`}
@@ -106,7 +106,7 @@ const D_D_Universities = ({ country }) => {
                 >
                   <article className="group flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-white shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)]">
                     <div className="relative h-56 overflow-hidden">
-                      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 transition-transform duration-500 group-hover:scale-105">
+                      <div className="flex h-full w-full items-center justify-center bg-linear-to-br from-gray-100 to-gray-200 transition-transform duration-500 group-hover:scale-105">
                         <img
                           src={
                             resolveLogo(university.logo) ||
@@ -153,7 +153,7 @@ const D_D_Universities = ({ country }) => {
             aria-label="Previous slide"
             onClick={() => swiperInstance?.slidePrev()}
             disabled={!swiperInstance}
-            className="group absolute left-4 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-secondary shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-110 group-hover:bg-tertiary hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-40"
+            className="group absolute left-1 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-secondary shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-110 group-hover:bg-tertiary hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-40"
           >
             <HiArrowLongLeft
               size={24}
@@ -166,7 +166,7 @@ const D_D_Universities = ({ country }) => {
             aria-label="Next slide"
             onClick={() => swiperInstance?.slideNext()}
             disabled={!swiperInstance}
-            className="group absolute right-4 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-secondary shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-110 group-hover:bg-tertiary hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-40"
+            className="group absolute right-1 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-secondary shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-110 group-hover:bg-tertiary hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-40"
           >
             <HiArrowLongRight
               size={24}

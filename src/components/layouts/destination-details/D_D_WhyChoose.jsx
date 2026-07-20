@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../Container";
 import { IoMdQuote } from "react-icons/io";
+import map from "/src/assets/svg/dd-world.svg";
 
 const STICKY_MARGIN_STEP = 85;
 const STICKY_PADDING_STEP = 26;
@@ -25,7 +26,9 @@ const D_D_WhyChoose = ({ country }) => {
           </p>
         </div>
 
-        <div className="px-5 flex flex-col gap-y-8 lg:gap-60 items-start relative overflow-x-clip">
+        <div className="relative px-5 flex flex-col gap-y-8 lg:gap-60 items-start overflow-x-clip">
+          <img src={map} alt="" className="absolute top-0 left-0 h-full" />
+
           {highlights.map((highlight, index) => (
             <div
               key={index}
@@ -38,7 +41,7 @@ const D_D_WhyChoose = ({ country }) => {
               }}
             >
               <article
-                className={`w-full max-w-[700px] bg-[#ffefe2] text-primary border border-primary lg:translate-x-23 shadow-md lg:shadow-lg rounded-3xl p-6 md:p-8 lg:p-12 flex flex-col justify-between lg:animate-fade-in lg:[animation-timeline:view()] relative`}
+                className={`w-full max-w-[700px] md:mx-auto lg:mx-0 bg-[#ffefe2] text-primary border border-primary lg:translate-x-23 shadow-md lg:shadow-lg rounded-3xl p-6 md:p-8 lg:p-12 flex flex-col justify-between lg:animate-fade-in lg:[animation-timeline:view()] relative`}
               >
                 <span className="absolute top-4 right-6 text-8xl text-primary/20 font-serif leading-none select-none pointer-events-none">
                   <IoMdQuote />
@@ -46,7 +49,8 @@ const D_D_WhyChoose = ({ country }) => {
 
                 <div>
                   <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-4 lg:mb-6 font-chivo">
-                    <span className="opacity-25">0{index + 1}</span> <br /> {highlight.title}
+                    <span className="opacity-25">0{index + 1}</span> <br />{" "}
+                    {highlight.title}
                   </h3>
                   {/* <div className="w-12 h-1 bg-primary rounded-full mb-4" /> */}
                   <p className="text-sm sm:text-base lg:text-xl font-medium leading-relaxed font-jost max-w-lg text-left">
