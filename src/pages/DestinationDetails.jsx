@@ -7,6 +7,8 @@ import D_D_Universities from "../components/layouts/destination-details/D_D_Univ
 import D_D_ChooseCourse from "../components/layouts/destination-details/D_D_ChooseCourse";
 import D_D_AdmissionRequirements from "../components/layouts/destination-details/D_D_AdmissionRequirements";
 import D_D_CostOfStudying from "../components/layouts/destination-details/D_D_CostOfStudying";
+import D_D_FAQ from "../components/layouts/destination-details/D_D_FAQ";
+import D_D_FreeConsultation from "../components/layouts/destination-details/D_D_FreeConsultation";
 
 const DestinationDetails = () => {
   const { slug } = useParams();
@@ -31,6 +33,8 @@ const DestinationDetails = () => {
       <D_D_ChooseCourse country={country}/>
       <D_D_AdmissionRequirements country={country}/>
       <D_D_CostOfStudying country={country}/>
+      <D_D_FAQ country={country}/>
+      <D_D_FreeConsultation country={country}/>
     </>
   );
 }; 
