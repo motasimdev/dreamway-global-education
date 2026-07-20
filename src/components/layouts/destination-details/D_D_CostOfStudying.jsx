@@ -6,7 +6,7 @@ const D_D_CostOfStudying = ({ country }) => {
   if (!country?.studyCosts?.length) return null;
 
   return (
-    <section className="bg-[#fffaf6] py-16 md:py-20 lg:py-24">
+    <section className="bg-[#f7f8fa] py-16 md:py-20 lg:py-24">
       <Container>
         <div className="mx-auto mb-10 max-w-2xl text-center md:mb-14">
           <p className="mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
@@ -32,13 +32,13 @@ const D_D_CostOfStudying = ({ country }) => {
               </div>
               <h3 className="font-chivo text-center text-xl font-bold text-secondary">
                 {item.level}
-              </h3>
-              <p className="mt-2 text-center font-jost text-lg font-semibold text-primary">
+              </h3> 
+              <p className="mt-2 text-center font-jost text-base md:text-lg font-semibold text-primary">
                 {item.fee}
               </p>
-              <p className="mt-1 text-center font-jost text-xs text-secondary/60">
+              {/* <p className="mt-1 text-center font-jost text-xs text-secondary/60">
                 / year
-              </p>
+              </p> */}
             </div>
           ))}
         </div>
