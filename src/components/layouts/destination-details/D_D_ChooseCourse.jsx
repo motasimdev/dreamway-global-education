@@ -73,7 +73,7 @@ const D_D_ChooseCourse = ({ country }) => {
                 key={category.name}
                 type="button"
                 onClick={() => setActiveCategory(category.name)}
-                className={`rounded-full border px-5 py-2.5 font-jost text-sm font-semibold transition-all duration-300 ${
+                className={`rounded-full border px-5 py-2.5 font-jost text-sm font-semibold transition-all duration-300 cursor-pointer ${
                   isActive
                     ? "border-primary bg-primary text-white"
                     : "border-secondary/20 bg-white text-secondary hover:border-primary hover:text-primary"
