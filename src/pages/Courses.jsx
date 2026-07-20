@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router";
 import Select from "react-select";
 import { HiMagnifyingGlass } from "react-icons/hi2";
+import CustomPaginate from "../components/CustomPaginate";
 import courses from "/src/data/courses.json";
 import universities from "/src/data/universities.json";
 import countries from "/src/data/countries.json";
@@ -9,11 +10,14 @@ import categories from "/src/data/categories.json";
 import Container from "../components/Container";
 import Heading from "../components/Heading";
 
+const ITEMS_PER_PAGE = 12;
+
 const Courses = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [selectedStudyLevel, setSelectedStudyLevel] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [currentPage, setCurrentPage] = useState(0);
 
   const universityMap = useMemo(() => {
     const map = {};
@@ -37,7 +41,7 @@ const Courses = () => {
         value: c.id,
         label: c.name,
       })),
-    []
+    [],
   );
 
   const studyLevelOptions = useMemo(() => {
@@ -59,7 +63,7 @@ const Courses = () => {
         value: cat.id,
         label: cat.name,
       })),
-    []
+    [],
   );
 
   const customStyles = {
@@ -109,12 +113,60 @@ const Courses = () => {
 
     return courses.filter((course) => {
       if (term && !course.title.toLowerCase().includes(term)) return false;
-      if (selectedCountry && course.countryId !== selectedCountry.value) return false;
-      if (selectedStudyLevel && course.level !== selectedStudyLevel.value) return false;
-      if (selectedCategory && course.categoryId !== selectedCategory.value) return false;
+      if (selectedCountry && course.countryId !== selectedCountry.value)
+        return false;
+      if (selectedStudyLevel && course.level !== selectedStudyLevel.value)
+        return false;
+      if (selectedCategory && course.categoryId !== selectedCategory.value)
+        return false;
       return true;
     });
   }, [searchTerm, selectedCountry, selectedStudyLevel, selectedCategory]);
+
+  const pageCount = Math.max(
+    1,
+    Math.ceil(filteredCourses.length / ITEMS_PER_PAGE),
+  );
+
+  const currentItems = useMemo(() => {
+    const start = currentPage * ITEMS_PER_PAGE;
+    return filteredCourses.slice(start, start + ITEMS_PER_PAGE);
+  }, [currentPage, filteredCourses]);
+
+  const hasActiveFilters = Boolean(
+    searchTerm.trim() ||
+    selectedCountry ||
+    selectedStudyLevel ||
+    selectedCategory,
+  );
+
+  const clearAllFilters = () => {
+    setSearchTerm("");
+    setSelectedCountry(null);
+    setSelectedStudyLevel(null);
+    setSelectedCategory(null);
+    setCurrentPage(0);
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+    setCurrentPage(0);
+  };
+
+  const handleCountryChange = (option) => {
+    setSelectedCountry(option);
+    setCurrentPage(0);
+  };
+
+  const handleStudyLevelChange = (option) => {
+    setSelectedStudyLevel(option);
+    setCurrentPage(0);
+  };
+
+  const handleCategoryChange = (option) => {
+    setSelectedCategory(option);
+    setCurrentPage(0);
+  };
 
   return (
     <section className="bg-[#fffaf6] py-16 md:py-20 lg:py-24">
@@ -128,7 +180,8 @@ const Courses = () => {
             className="font-chivo font-bold text-secondary"
           />
           <p className="mt-4 font-jost text-base leading-7 text-secondary/70 md:text-lg">
-            Discover a wide range of world-class courses tailored to your career goals.
+            Discover a wide range of world-class courses tailored to your career
+            goals.
           </p>
         </div>
 
@@ -142,7 +195,7 @@ const Courses = () => {
               <input
                 type="text"
                 value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
+                onChange={handleSearchChange}
                 placeholder="Search courses..."
                 className="w-full rounded-full border border-secondary/20 bg-white py-2.5 pl-11 pr-4 font-jost text-sm text-secondary placeholder:text-secondary/50 transition-all duration-300 focus:border-primary focus:outline-none"
               />
@@ -154,7 +207,7 @@ const Courses = () => {
                   inputId="country-select"
                   options={countryOptions}
                   value={selectedCountry}
-                  onChange={setSelectedCountry}
+                  onChange={handleCountryChange}
                   placeholder="Country"
                   isClearable
                   isSearchable
@@ -167,7 +220,7 @@ const Courses = () => {
                   inputId="study-level-select"
                   options={studyLevelOptions}
                   value={selectedStudyLevel}
-                  onChange={setSelectedStudyLevel}
+                  onChange={handleStudyLevelChange}
                   placeholder="Study Level"
                   isClearable
                   isSearchable
@@ -180,7 +233,7 @@ const Courses = () => {
                   inputId="category-select"
                   options={categoryOptions}
                   value={selectedCategory}
-                  onChange={setSelectedCategory}
+                  onChange={handleCategoryChange}
                   placeholder="Category"
                   isClearable
                   isSearchable
@@ -189,6 +242,23 @@ const Courses = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+          <p className="font-jost text-sm text-secondary/70">
+            {filteredCourses.length === courses.length
+              ? `Showing ${courses.length} courses`
+              : `Showing ${filteredCourses.length} of ${courses.length} courses`}
+          </p>
+          {hasActiveFilters && (
+            <button
+              type="button"
+              onClick={clearAllFilters}
+              className="rounded-full border border-secondary/20 bg-white px-5 py-2 font-jost text-sm font-semibold text-secondary transition-all duration-300 hover:border-primary hover:text-primary"
+            >
+              Clear All Filters
+            </button>
+          )}
         </div>
 
         {filteredCourses.length === 0 ? (
@@ -201,58 +271,85 @@ const Courses = () => {
             </p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {filteredCourses.map((course) => {
-              const universityName = universityMap[course.universityId] || "";
-              const countryName = countryMap[course.countryId] || "";
+          <>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {currentItems.map((course) => {
+                const universityName = universityMap[course.universityId] || "";
+                const countryName = countryMap[course.countryId] || "";
 
-              return (
-                <Link
-                  key={course.id}
-                  to={`/courses/${course.slug}`}
-                  className="block no-underline"
-                >
-                  <article className="group flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-white shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)]">
-                    <div className="relative h-56 overflow-hidden">
-                      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-                        <img
-                          src={course.image}
-                          alt={course.title}
-                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                          loading="lazy"
-                          decoding="async"
-                        />
+                return (
+                  <Link
+                    key={course.id}
+                    to={`/courses/${course.slug}`}
+                    className="block no-underline"
+                  >
+                    <article className="group flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-white shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)]">
+                      <div className="relative h-56 overflow-hidden">
+                        <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+                          <img
+                            src={course.image}
+                            alt={course.title}
+                            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="flex flex-1 flex-col p-6">
-                      <h3 className="font-chivo text-xl font-bold text-secondary">
-                        {course.title}
-                      </h3>
-                      <p className="mt-2 font-jost text-sm text-secondary/70">
-                        {universityName}
-                      </p>
-                      <p className="mt-1 font-jost text-sm text-secondary/70">
-                        {countryName}
-                      </p>
-                      <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
-                        <span className="font-jost text-sm text-secondary/70">
-                          {course.level}
-                        </span>
-                        <span className="font-jost text-sm text-secondary/70">
-                          • {course.duration.value} {course.duration.unit}
-                        </span>
+                      <div className="flex flex-1 flex-col p-6">
+                        <h3 className="font-chivo text-xl font-bold text-secondary">
+                          {course.title}
+                        </h3>
+                        <p className="mt-2 font-jost text-sm text-secondary/70">
+                          {universityName}
+                        </p>
+                        <p className="mt-1 font-jost text-sm text-secondary/70">
+                          {countryName}
+                        </p>
+                        <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                          <span className="font-jost text-sm text-secondary/70">
+                            {course.level}
+                          </span>
+                          <span className="font-jost text-sm text-secondary/70">
+                            • {course.duration.value} {course.duration.unit}
+                          </span>
+                        </div>
+                        <div className="mt-auto pt-4">
+                          <span className="inline-flex items-center gap-2 rounded-full border border-secondary/20 bg-white px-5 py-2.5 font-jost text-sm font-semibold text-secondary transition-all duration-300 group-hover:border-primary group-hover:text-primary">
+                            Explore Course
+                          </span>
+                        </div>
                       </div>
-                      <div className="mt-auto pt-4">
-                        <span className="inline-flex items-center gap-2 rounded-full border border-secondary/20 bg-white px-5 py-2.5 font-jost text-sm font-semibold text-secondary transition-all duration-300 group-hover:border-primary group-hover:text-primary">
-                          Explore Course
-                        </span>
-                      </div>
-                    </div>
-                  </article>
-                </Link>
-              );
-            })}
-          </div>
+                    </article>
+                  </Link>
+                );
+              })}
+            </div>
+
+            {pageCount > 1 && (
+              <div className="mt-10 flex justify-center">
+                <CustomPaginate
+                  pageCount={pageCount}
+                  pageRangeDisplayed={3}
+                  marginPagesDisplayed={1}
+                  onPageChange={({ selected }) => setCurrentPage(selected)}
+                  currentPage={currentPage}
+                  containerClassName="flex items-center justify-center gap-2"
+                  pageClassName="page-item"
+                  pageLinkClassName="page-link inline-flex h-10 w-10 items-center justify-center rounded-full border border-secondary/20 bg-white font-jost text-sm font-semibold text-secondary transition-all duration-300 hover:border-primary hover:text-primary"
+                  previousClassName="page-item"
+                  previousLabel="Previous"
+                  previousLinkClassName="inline-flex items-center justify-center rounded-full border border-secondary/20 bg-white px-4 py-2 font-jost text-sm font-semibold text-secondary transition-all duration-300 hover:border-primary hover:text-primary"
+                  nextClassName="page-item"
+                  nextLabel="Next"
+                  nextLinkClassName="inline-flex items-center justify-center rounded-full border border-secondary/20 bg-white px-4 py-2 font-jost text-sm font-semibold text-secondary transition-all duration-300 hover:border-primary hover:text-primary"
+                  activeClassName="!bg-primary !text-white !border-primary hover:!text-white"
+                  activeLinkClassName="!text-white"
+                  disabledClassName="opacity-40 pointer-events-none"
+                  
+                />
+              </div>
+            )}
+          </>
         )}
       </Container>
     </section>
