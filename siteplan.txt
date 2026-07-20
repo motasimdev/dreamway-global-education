@@ -55,4 +55,10 @@ Career Opportunities
 Popular Cities
 Scholarships
 FAQ
+
+= Destination Details page polish
+= Search
+= SEO (meta title, description, structured data)
+= Loading skeleton
+= Error / Empty states
 ========== dstination details========
