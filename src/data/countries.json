@@ -42,6 +42,33 @@
         "icon": "scenery"
       }
     ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/PTE)",
+      "Statement of Purpose (SOP)",
+      "Letters of Recommendation (LORs)",
+      "Valid Passport Copy",
+      "Work Experience (if applicable)"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "AUD 22,000 - 45,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "AUD 25,000 - 50,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "AUD 20,000 - 45,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "AUD 35,000 - 90,000 / year"
+      }
+    ],
     "popularCities": ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Canberra"],
     "costOfLiving": {
       "accommodation": "1200-2000 AUD",
@@ -121,6 +148,33 @@
         "title": "Safe and Inclusive",
         "description": "Known for its safety, diversity, and welcoming culture.",
         "icon": "safety"
+      }
+    ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Statement of Purpose (SOP)",
+      "Letters of Recommendation (LORs)",
+      "Standardized Test Scores (GRE/GMAT)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "CAD 20,000 - 40,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "CAD 18,000 - 35,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "CAD 10,000 - 25,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "CAD 30,000 - 70,000 / year"
       }
     ],
     "popularCities": ["Toronto", "Vancouver", "Montreal", "Calgary", "Edmonton", "Ottawa"],
@@ -204,6 +258,33 @@
         "icon": "culture"
       }
     ],
+    "admissionRequirements": [
+      "Completed UCAS Application",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS UKVI)",
+      "Personal Statement",
+      "Academic References",
+      "Valid Passport Copy",
+      "Credibility Interview"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "GBP 15,000 - 30,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "GBP 16,000 - 35,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "GBP 18,000 - 30,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "GBP 25,000 - 60,000 / year"
+      }
+    ],
     "popularCities": ["London", "Manchester", "Birmingham", "Edinburgh", "Glasgow", "Bristol"],
     "costOfLiving": {
       "accommodation": "800-1500 GBP",
@@ -283,6 +364,33 @@
         "title": "Cultural Diversity",
         "description": "Experience a melting pot of cultures and ideas.",
         "icon": "culture"
+      }
+    ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (TOEFL/IELTS)",
+      "Statement of Purpose (SOP) or Essay",
+      "Letters of Recommendation (LORs)",
+      "Standardized Test Scores (SAT/ACT/GRE/GMAT)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "USD 28,000 - 60,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "USD 30,000 - 55,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "USD 30,000 - 60,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "USD 60,000 - 120,000 / year"
       }
     ],
     "popularCities": ["New York", "Boston", "Los Angeles", "Chicago", "San Francisco", "Austin"],
@@ -366,6 +474,33 @@
         "icon": "work"
       }
     ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/PTE)",
+      "Statement of Purpose (SOP)",
+      "Letters of Recommendation (LORs)",
+      "Valid Passport Copy",
+      "Work Experience (if applicable)"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "NZD 25,000 - 40,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "NZD 28,000 - 45,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "NZD 7,000 - 10,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "NZD 40,000 - 65,000 / year"
+      }
+    ],
     "popularCities": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Dunedin"],
     "costOfLiving": {
       "accommodation": "1100-1900 NZD",
@@ -445,6 +580,33 @@
         "title": "Green and Sustainable",
         "description": "A strong commitment to environmental and social responsibility.",
         "icon": "sustainability"
+      }
+    ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "DKK 45,000 - 120,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "DKK 60,000 - 130,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "DKK 60,000 - 130,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "DKK 100,000 - 250,000 / year"
       }
     ],
     "popularCities": ["Copenhagen", "Aarhus", "Odense", "Aalborg"],
@@ -527,6 +689,33 @@
         "icon": "scenery"
       }
     ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "SEK 80,000 - 140,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "SEK 100,000 - 180,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "SEK 100,000 - 180,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "SEK 180,000 - 350,000 / year"
+      }
+    ],
     "popularCities": ["Stockholm", "Gothenburg", "Malmö", "Uppsala", "Lund"],
     "costOfLiving": {
       "accommodation": "4000-7000 SEK",
@@ -605,6 +794,33 @@
         "title": "Tech and Gaming Industry",
         "description": "A thriving hub for technology and gaming companies.",
         "icon": "tech"
+      }
+    ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "EUR 8,000 - 13,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "EUR 10,000 - 18,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "EUR 10,000 - 18,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "EUR 15,000 - 35,000 / year"
       }
     ],
     "popularCities": ["Helsinki", "Tampere", "Turku", "Oulu"],
@@ -687,6 +903,33 @@
         "icon": "culture"
       }
     ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "EUR 1,000 - 4,500 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "EUR 1,500 - 6,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "EUR 1,500 - 6,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "EUR 8,000 - 30,000 / year"
+      }
+    ],
     "popularCities": ["Brussels", "Antwerp", "Ghent", "Leuven", "Liège"],
     "costOfLiving": {
       "accommodation": "500-800 EUR",
@@ -765,6 +1008,33 @@
         "title": "Growing Economy",
         "description": "Opportunities in tourism, iGaming, and financial services.",
         "icon": "economy"
+      }
+    ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "EUR 2,000 - 8,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "EUR 4,000 - 12,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "EUR 4,000 - 12,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "EUR 10,000 - 25,000 / year"
       }
     ],
     "popularCities": ["Valletta", "Sliema", "St. Julian's", "Msida"],
@@ -847,6 +1117,33 @@
         "icon": "location"
       }
     ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "EUR 3,000 - 8,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "EUR 4,000 - 10,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "EUR 4,000 - 10,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "EUR 6,000 - 15,000 / year"
+      }
+    ],
     "popularCities": ["Budapest", "Debrecen", "Szeged", "Pécs"],
     "costOfLiving": {
       "accommodation": "100000-180000 HUF",
@@ -927,6 +1224,33 @@
         "icon": "tourism"
       }
     ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "EUR 3,000 - 8,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "EUR 4,000 - 10,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "EUR 4,000 - 10,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "EUR 8,000 - 15,000 / year"
+      }
+    ],
     "popularCities": ["Nicosia", "Limassol", "Larnaca", "Paphos"],
     "costOfLiving": {
       "accommodation": "400-700 EUR",
@@ -1005,6 +1329,33 @@
         "title": "Rich Literary Heritage",
         "description": "The land of Joyce, Yeats, and Wilde.",
         "icon": "literature"
+      }
+    ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Statement of Purpose (SOP)",
+      "Academic References",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "EUR 10,000 - 25,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "EUR 12,000 - 30,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "EUR 12,000 - 30,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "EUR 20,000 - 40,000 / year"
       }
     ],
     "popularCities": ["Dublin", "Cork", "Galway", "Limerick"],
@@ -1088,6 +1439,33 @@
         "icon": "food"
       }
     ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Statement of Purpose (SOP)",
+      "Letters of Recommendation (LORs)",
+      "Valid Passport Copy",
+      "Application Fee"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "MYR 20,000 - 45,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "MYR 25,000 - 50,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "MYR 30,000 - 60,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "MYR 35,000 - 80,000 / year"
+      }
+    ],
     "popularCities": ["Kuala Lumpur", "Penang", "Johor Bahru", "Malacca"],
     "costOfLiving": {
       "accommodation": "800-1500 MYR",
@@ -1166,6 +1544,33 @@
         "title": "Cycling Culture",
         "description": "A healthy, affordable, and fun way to get around.",
         "icon": "cycling"
+      }
+    ],
+    "admissionRequirements": [
+      "Completed Application Form",
+      "Academic Transcripts",
+      "English Proficiency Test Score (IELTS/TOEFL)",
+      "Letter of Motivation",
+      "Letters of Recommendation (LORs)",
+      "Curriculum Vitae (CV)",
+      "Valid Passport Copy"
+    ],
+    "studyCosts": [
+      {
+        "level": "Bachelor's",
+        "fee": "EUR 8,000 - 15,000 / year"
+      },
+      {
+        "level": "Master's",
+        "fee": "EUR 12,000 - 22,000 / year"
+      },
+      {
+        "level": "PhD",
+        "fee": "EUR 12,000 - 22,000 / year"
+      },
+      {
+        "level": "MBA",
+        "fee": "EUR 20,000 - 50,000 / year"
       }
     ],
     "popularCities": ["Amsterdam", "Rotterdam", "Utrecht", "Leiden", "Groningen"],

@@ -48,4 +48,14 @@ Section 6 — About Studying => এখানে long paragraph। কিন্�
 Section 7 — Timeline => এটা খুব কম consultancy website use করে। (Vertical timeline. Desktop-এ horizontal.)
 Section 8 — Related Destinations
 Section 9 — CTA
+
+section 6 -- Admission Requirements
+
+🟧 Cost of Living/studying
+
+🟧 Career Opportunities
+
+🟧 Scholarships
+
+🟧 FAQ
 ========== dstination details========
