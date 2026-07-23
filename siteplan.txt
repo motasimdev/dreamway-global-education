@@ -62,3 +62,58 @@ FAQ
 = Loading skeleton
 = Error / Empty states
 ========== dstination details========
+
+=============course details============
+Hero
+Quick Info Cards
+About This Course
+Course Overview
+Entry Requirements
+Tuition Fees
+Career Opportunities
+Related Courses
+CTA
+
+✅ Breadcrumb
+✅ Hero Banner
+🔜 Course Overview
+Program Highlights
+Entry Requirements
+Tuition Fees
+Career Opportunities
+Related Courses
+FAQ
+CTA
+
+hero--------
+----------------------------------------------------------
+Home / Courses / Computer Science
+----------------------------------------------------------
+
+          Computer Science
+
+Study Computer Science at
+The University of Sydney
+
+Short Description...
+
+🟠 Apply Now
+⚪ Free Consultation
+
+
+🏛 University     🌍 Country
+🎓 Level          ⏳ Duration
+💻 Study Mode     📅 Intake
+
+----------------------------------------------------------
+                     Large Course Image
+----------------------------------------------------------
+
+এক কোণায় খুব subtle:
+
+২-৩টা blurred orange circle
+dotted pattern
+tiny graduation cap outline
+
+এগুলো খুব low opacity।
+=============course details============

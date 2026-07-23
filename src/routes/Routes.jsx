@@ -10,6 +10,7 @@ import DestinationDetails from "../pages/DestinationDetails";
 import Faq from "../pages/Faq";
 import Error from "../pages/Error";
 import Universities from "../pages/Universities";
+import CourseDetails from "../pages/CourseDetails";
 
 const Routes = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const Routes = createBrowserRouter([
     children: [
       { index: true, Component: Home },
       { path: "courses", Component: Courses },
+      { path: "courses/:slug", Component: CourseDetails },
       { path: "destinations", Component: Destinations },
       { path: "destinations/:slug", Component: DestinationDetails },
       { path: "universities", Component: Universities },

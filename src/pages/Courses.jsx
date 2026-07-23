@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router";
 import Select from "react-select";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import CustomPaginate from "../components/CustomPaginate";
@@ -9,6 +8,9 @@ import countries from "/src/data/countries.json";
 import categories from "/src/data/categories.json";
 import Container from "../components/Container";
 import Heading from "../components/Heading";
+import CoursesCard from "../components/layouts/courses/CoursesCard";
+import { customSelectStyles } from "../styles/selectStyles";
+import CoursesFilter from "../components/layouts/courses/CoursesFilter";
 
 const ITEMS_PER_PAGE = 12;
 
@@ -65,48 +67,6 @@ const Courses = () => {
       })),
     [],
   );
-
-  const customStyles = {
-    control: (provided) => ({
-      ...provided,
-      borderRadius: "9999px",
-      borderColor: "#e5e7eb",
-      padding: "2px 8px",
-      minHeight: "42px",
-      boxShadow: "none",
-      "&:hover": {
-        borderColor: "#fc7c16",
-      },
-    }),
-    option: (provided, state) => ({
-      ...provided,
-      color: state.isSelected ? "#ffffff" : "#36454f",
-      backgroundColor: state.isSelected ? "#fc7c16" : "#ffffff",
-      "&:hover": {
-        backgroundColor: "#ffefe2a8",
-        color: "#fc7c16",
-      },
-    }),
-    menu: (provided) => ({
-      ...provided,
-      borderRadius: "1rem",
-      overflow: "hidden",
-      boxShadow: "0 10px 15px -3px rgba(54, 69, 79, 0.1)",
-    }),
-    placeholder: (provided) => ({
-      ...provided,
-      color: "#9ca3af",
-      fontSize: "0.875rem",
-    }),
-    singleValue: (provided) => ({
-      ...provided,
-      color: "#36454f",
-      fontSize: "0.875rem",
-    }),
-    indicatorSeparator: () => ({
-      display: "none",
-    }),
-  };
 
   const filteredCourses = useMemo(() => {
     const term = searchTerm.trim().toLowerCase();
@@ -185,81 +145,23 @@ const Courses = () => {
           </p>
         </div>
 
-        <div className="mb-10 rounded-3xl border border-orange-100 bg-white p-4 shadow-[0_14px_35px_rgba(54,69,79,0.08)] md:p-6">
-          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-4">
-            <div className="relative flex-1">
-              <HiMagnifyingGlass
-                size={20}
-                className="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50"
-              />
-              <input
-                type="text"
-                value={searchTerm}
-                onChange={handleSearchChange}
-                placeholder="Search courses..."
-                className="w-full rounded-full border border-secondary/20 bg-white py-2.5 pl-11 pr-4 font-jost text-sm text-secondary placeholder:text-secondary/50 transition-all duration-300 focus:border-primary focus:outline-none"
-              />
-            </div>
-
-            <div className="flex flex-col gap-4 sm:flex-row lg:w-auto">
-              <div className="sm:w-56">
-                <Select
-                  inputId="country-select"
-                  options={countryOptions}
-                  value={selectedCountry}
-                  onChange={handleCountryChange}
-                  placeholder="Country"
-                  isClearable
-                  isSearchable
-                  styles={customStyles}
-                />
-              </div>
-
-              <div className="sm:w-56">
-                <Select
-                  inputId="study-level-select"
-                  options={studyLevelOptions}
-                  value={selectedStudyLevel}
-                  onChange={handleStudyLevelChange}
-                  placeholder="Study Level"
-                  isClearable
-                  isSearchable
-                  styles={customStyles}
-                />
-              </div>
-
-              <div className="sm:w-56">
-                <Select
-                  inputId="category-select"
-                  options={categoryOptions}
-                  value={selectedCategory}
-                  onChange={handleCategoryChange}
-                  placeholder="Category"
-                  isClearable
-                  isSearchable
-                  styles={customStyles}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-          <p className="font-jost text-sm text-secondary/70">
-            {filteredCourses.length === courses.length
-              ? `Showing ${courses.length} courses`
-              : `Showing ${filteredCourses.length} of ${courses.length} courses`}
-          </p>
-          {hasActiveFilters && (
-            <button
-              type="button"
-              onClick={clearAllFilters}
-              className="rounded-full border border-secondary/20 bg-white px-5 py-2 font-jost text-sm font-semibold text-secondary transition-all duration-300 hover:border-primary hover:text-primary"
-            >
-              Clear All Filters
-            </button>
-          )}
-        </div>
+        <CoursesFilter
+          searchTerm={searchTerm}
+          onSearchChange={handleSearchChange}
+          selectedCountry={selectedCountry}
+          selectedStudyLevel={selectedStudyLevel}
+          selectedCategory={selectedCategory}
+          onCountryChange={handleCountryChange}
+          onStudyLevelChange={handleStudyLevelChange}
+          onCategoryChange={handleCategoryChange}
+          countryOptions={countryOptions}
+          studyLevelOptions={studyLevelOptions}
+          categoryOptions={categoryOptions}
+          hasActiveFilters={hasActiveFilters}
+          clearAllFilters={clearAllFilters}
+          filteredCount={filteredCourses.length}
+          totalCount={courses.length}
+        />
 
         {filteredCourses.length === 0 ? (
           <div className="py-16 text-center">
@@ -278,49 +180,12 @@ const Courses = () => {
                 const countryName = countryMap[course.countryId] || "";
 
                 return (
-                  <Link
+                  <CoursesCard
                     key={course.id}
-                    to={`/courses/${course.slug}`}
-                    className="block no-underline"
-                  >
-                    <article className="group flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-white shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)]">
-                      <div className="relative h-56 overflow-hidden">
-                        <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-                          <img
-                            src={course.image}
-                            alt={course.title}
-                            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            loading="lazy"
-                            decoding="async"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex flex-1 flex-col p-6">
-                        <h3 className="font-chivo text-xl font-bold text-secondary">
-                          {course.title}
-                        </h3>
-                        <p className="mt-2 font-jost text-sm text-secondary/70">
-                          {universityName}
-                        </p>
-                        <p className="mt-1 font-jost text-sm text-secondary/70">
-                          {countryName}
-                        </p>
-                        <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
-                          <span className="font-jost text-sm text-secondary/70">
-                            {course.level}
-                          </span>
-                          <span className="font-jost text-sm text-secondary/70">
-                            • {course.duration.value} {course.duration.unit}
-                          </span>
-                        </div>
-                        <div className="mt-auto pt-4">
-                          <span className="inline-flex items-center gap-2 rounded-full border border-secondary/20 bg-white px-5 py-2.5 font-jost text-sm font-semibold text-secondary transition-all duration-300 group-hover:border-primary group-hover:text-primary">
-                            Explore Course
-                          </span>
-                        </div>
-                      </div>
-                    </article>
-                  </Link>
+                    course={course}
+                    universityName={universityName}
+                    countryName={countryName}
+                  />
                 );
               })}
             </div>
@@ -345,7 +210,6 @@ const Courses = () => {
                   activeClassName="!bg-primary !text-white !border-primary hover:!text-white"
                   activeLinkClassName="!text-white"
                   disabledClassName="opacity-40 pointer-events-none"
-                  
                 />
               </div>
             )}

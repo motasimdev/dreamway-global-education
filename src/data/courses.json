@@ -6,9 +6,9 @@
     "countryId": 1,
     "universityId": 1,
     "categoryId": 1,
-    "image": "/images/courses/bachelor-computer-science.jpg",
+    "image": "https://res.cloudinary.com/t8cjvjfr/image/upload/f_auto,q_auto/v1784354413/australia_mqynza.jpg",
     "shortDescription": "Build a strong foundation in programming, software engineering, AI, and cybersecurity.",
-    "description": "The Bachelor of Computer Science prepares students for careers in software engineering, artificial intelligence, cybersecurity, cloud computing, and data science through hands-on projects and industry-focused learning.",
+    "description": "The Bachelor of Computer Science prepares students for careers in software engineering, artificial intelligence, cybersecurity, cloud computing, and data science. Throughout the program, students gain strong theoretical knowledge alongside hands-on practical experience through projects, laboratories, and industry-focused learning. The curriculum covers programming, algorithms, databases, networking, software engineering, and emerging technologies. Students also develop teamwork, communication, and problem-solving skills that are highly valued by employers. Graduates are well prepared for professional careers or postgraduate study, with opportunities to work across a wide range of industries worldwide.",
     "level": "Bachelor",
     "duration": { "value": 3, "unit": "year" },
     "studyMode": "Full Time",
@@ -25,6 +25,16 @@
       "High School Certificate",
       "Minimum GPA 3.0",
       "IELTS 6.5"
+    ],
+    "programHighlights": [
+      "Software development expertise",
+      "AI and machine learning",
+      "Cybersecurity defense strategies",
+      "Data science fundamentals",
+      "Cloud computing infrastructure",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
     ],
     "careerOpportunities": [
       "Software Engineer",
@@ -62,6 +72,16 @@
       "details": "Merit Scholarship up to 25%"
     },
     "entryRequirements": ["High School with Mathematics", "IELTS 6.5"],
+    "programHighlights": [
+      "Advanced programming skills",
+      "Software development expertise",
+      "Innovative tech solutions",
+      "Robust problem-solving techniques",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Cutting-edge research opportunities"
+    ],
     "careerOpportunities": [
       "Software Engineer",
       "Full Stack Developer",
@@ -93,6 +113,15 @@
       "details": "International Entrance Scholarship"
     },
     "entryRequirements": ["High School", "IELTS 6.5"],
+    "programHighlights": [
+      "Advanced programming skills",
+      "Cybersecurity defense strategies",
+      "Networking and systems administration",
+      "Innovative tech solutions",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "IT Consultant",
       "Network Administrator",
@@ -121,6 +150,15 @@
     "applicationFee": { "amount": 100, "currency": "GBP" },
     "scholarship": { "available": true, "details": "Merit Scholarship" },
     "entryRequirements": ["Bachelor degree in relevant field", "IELTS 7.0"],
+    "programHighlights": [
+      "Advanced programming skills",
+      "Data science fundamentals",
+      "Robust problem-solving techniques",
+      "Innovative teaching methods",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Data Scientist",
       "Machine Learning Engineer",
@@ -149,6 +187,16 @@
     "applicationFee": { "amount": 150, "currency": "AUD" },
     "scholarship": { "available": true, "details": "Up to 40% scholarship" },
     "entryRequirements": ["High School Certificate", "IELTS 6.5"],
+    "programHighlights": [
+      "Strategic business management",
+      "Financial analysis mastery",
+      "Entrepreneurial leadership skills",
+      "Marketing and brand strategy",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Business Analyst",
       "Marketing Manager",
@@ -183,6 +231,16 @@
       "Bachelor degree + work experience",
       "IELTS 7.0",
       "GMAT optional"
+    ],
+    "programHighlights": [
+      "Strategic business management",
+      "Global market insights",
+      "Entrepreneurial leadership skills",
+      "Ethical business practices",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
     ],
     "careerOpportunities": [
       "CEO",
@@ -219,6 +277,16 @@
       "IELTS 6.5",
       "Mathematics background"
     ],
+    "programHighlights": [
+      "Cybersecurity defense strategies",
+      "Networking and systems administration",
+      "Innovative tech solutions",
+      "Robust problem-solving techniques",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Cybersecurity Analyst",
       "Ethical Hacker",
@@ -250,6 +318,15 @@
       "details": "Merit-based AI Scholarship"
     },
     "entryRequirements": ["High School with strong Math", "IELTS 6.5"],
+    "programHighlights": [
+      "Advanced programming skills",
+      "AI and machine learning",
+      "Innovative tech solutions",
+      "Robust problem-solving techniques",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "AI Engineer",
       "Machine Learning Specialist",
@@ -281,6 +358,15 @@
       "details": "International Student Scholarship"
     },
     "entryRequirements": ["High School Certificate", "IELTS 6.5"],
+    "programHighlights": [
+      "Strategic business management",
+      "Financial analysis mastery",
+      "Entrepreneurial leadership skills",
+      "Marketing and brand strategy",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Business Manager",
       "Marketing Executive",
@@ -309,6 +395,15 @@
     "applicationFee": { "amount": 80, "currency": "USD" },
     "scholarship": { "available": true, "details": "Merit Scholarship" },
     "entryRequirements": ["High School", "IELTS 7.0"],
+    "programHighlights": [
+      "Strategic business management",
+      "Global market insights",
+      "Ethical business practices",
+      "International trade knowledge",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "International Business Analyst",
       "Export Manager",
@@ -337,6 +432,16 @@
     "applicationFee": { "amount": 150, "currency": "AUD" },
     "scholarship": { "available": true, "details": "Engineering Scholarship" },
     "entryRequirements": ["High School with Physics & Math", "IELTS 6.5"],
+    "programHighlights": [
+      "Structural design principles",
+      "Sustainable infrastructure solutions",
+      "Innovative engineering solutions",
+      "Practical design challenges",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Civil Engineer",
       "Project Manager",
@@ -365,6 +470,15 @@
     "applicationFee": { "amount": 125, "currency": "CAD" },
     "scholarship": { "available": true, "details": "Up to 30% scholarship" },
     "entryRequirements": ["Strong Math & Physics background", "IELTS 6.5"],
+    "programHighlights": [
+      "Sustainable infrastructure solutions",
+      "Robotics and automation",
+      "Innovative engineering solutions",
+      "Practical design challenges",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Mechanical Engineer",
       "Automotive Engineer",
@@ -396,6 +510,15 @@
       "details": "Engineering Excellence Scholarship"
     },
     "entryRequirements": ["High School with Physics & Math", "IELTS 6.5"],
+    "programHighlights": [
+      "Robotics and automation",
+      "Electronics and power systems",
+      "Innovative engineering solutions",
+      "Industry-standard tools",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Electrical Engineer",
       "Power Systems Engineer",
@@ -427,6 +550,15 @@
       "details": "Nursing Scholarship up to 20%"
     },
     "entryRequirements": ["High School Science background", "IELTS 7.0"],
+    "programHighlights": [
+      "Patient-centered care",
+      "Clinical practice excellence",
+      "Global health challenges",
+      "Healthcare system navigation",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Registered Nurse",
       "Clinical Nurse Specialist",
@@ -458,6 +590,16 @@
       "details": "Public Health Scholarship"
     },
     "entryRequirements": ["High School", "IELTS 6.5"],
+    "programHighlights": [
+      "Patient-centered care",
+      "Public health policy",
+      "Epidemiology and biostatistics",
+      "Global health challenges",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Public Health Officer",
       "Health Policy Analyst",
@@ -486,6 +628,16 @@
     "applicationFee": { "amount": 150, "currency": "NZD" },
     "scholarship": { "available": true, "details": "Hospitality Scholarship" },
     "entryRequirements": ["High School", "IELTS 6.0"],
+    "programHighlights": [
+      "Hotel operations management",
+      "Event planning and execution",
+      "Sustainable tourism practices",
+      "Customer service excellence",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Hotel Manager",
       "Event Coordinator",
@@ -517,6 +669,16 @@
       "details": "Design Talent Scholarship"
     },
     "entryRequirements": ["High School + Portfolio", "IELTS 6.5"],
+    "programHighlights": [
+      "Creative visual communication",
+      "UI/UX design principles",
+      "Branding and identity development",
+      "Digital media expertise",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Graphic Designer",
       "UI/UX Designer",
@@ -545,6 +707,15 @@
     "applicationFee": { "amount": 100, "currency": "GBP" },
     "scholarship": { "available": true, "details": "Law Scholarship" },
     "entryRequirements": ["High School with good grades", "IELTS 7.0"],
+    "programHighlights": [
+      "International legal systems",
+      "Criminal justice principles",
+      "Human rights advocacy",
+      "Legal research and analysis",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": ["Lawyer", "Legal Advisor", "Policy Maker"],
     "featured": false,
     "popular": true
@@ -574,6 +745,15 @@
     "entryRequirements": [
       "Bachelor degree in IT/Computer Science",
       "IELTS 6.5"
+    ],
+    "programHighlights": [
+      "Advanced programming skills",
+      "Cybersecurity defense strategies",
+      "Networking and systems administration",
+      "Robust problem-solving techniques",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
     ],
     "careerOpportunities": [
       "Cyber Security Manager",
@@ -606,6 +786,15 @@
       "details": "Accounting Excellence Scholarship"
     },
     "entryRequirements": ["Bachelor degree", "IELTS 6.5"],
+    "programHighlights": [
+      "Financial reporting standards",
+      "Auditing and assurance services",
+      "Taxation law knowledge",
+      "Corporate finance strategies",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Chartered Accountant",
       "Financial Controller",
@@ -634,6 +823,16 @@
     "applicationFee": { "amount": 175, "currency": "CAD" },
     "scholarship": { "available": true, "details": "Pharmacy Scholarship" },
     "entryRequirements": ["Strong Science background", "IELTS 7.0"],
+    "programHighlights": [
+      "Patient-centered care",
+      "Clinical practice excellence",
+      "Pharmaceutical science expertise",
+      "Advanced medical research",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Community Pharmacist",
       "Hospital Pharmacist",
@@ -662,6 +861,16 @@
     "applicationFee": { "amount": 150, "currency": "NZD" },
     "scholarship": { "available": true, "details": "Tourism Scholarship" },
     "entryRequirements": ["High School", "IELTS 6.0"],
+    "programHighlights": [
+      "Hotel operations management",
+      "Sustainable tourism practices",
+      "Customer service excellence",
+      "Global tourism trends",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Tourism Manager",
       "Destination Marketing Executive",
@@ -690,6 +899,16 @@
     "applicationFee": { "amount": 90, "currency": "USD" },
     "scholarship": { "available": true, "details": "Design Scholarship" },
     "entryRequirements": ["High School + Portfolio", "IELTS 6.5"],
+    "programHighlights": [
+      "Creative visual communication",
+      "Spatial design solutions",
+      "Sustainable design innovation",
+      "Industry software proficiency",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Interior Designer",
       "Space Planner",
@@ -718,6 +937,15 @@
     "applicationFee": { "amount": 100, "currency": "GBP" },
     "scholarship": { "available": true, "details": "LLM Scholarship" },
     "entryRequirements": ["LLB or equivalent", "IELTS 7.0"],
+    "programHighlights": [
+      "International legal systems",
+      "Criminal justice principles",
+      "Human rights advocacy",
+      "Legal research and analysis",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "International Lawyer",
       "Legal Researcher",
@@ -746,6 +974,16 @@
     "applicationFee": { "amount": 90, "currency": "EUR" },
     "scholarship": { "available": true, "details": "Education Scholarship" },
     "entryRequirements": ["High School", "IELTS 6.5"],
+    "programHighlights": [
+      "Pedagogical theory and practice",
+      "Curriculum development expertise",
+      "Inclusive education strategies",
+      "Classroom management techniques",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "School Teacher",
       "Educational Consultant",
@@ -774,6 +1012,16 @@
     "applicationFee": { "amount": 150, "currency": "NZD" },
     "scholarship": { "available": true, "details": "Aviation Scholarship" },
     "entryRequirements": ["High School", "IELTS 6.0", "Medical fitness"],
+    "programHighlights": [
+      "Flight operations training",
+      "Aviation safety management",
+      "Airline industry economics",
+      "Global aviation regulations",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": [
       "Commercial Pilot",
       "Aviation Manager",
@@ -802,6 +1050,16 @@
     "applicationFee": { "amount": 150, "currency": "AUD" },
     "scholarship": { "available": true, "details": "Architecture Scholarship" },
     "entryRequirements": ["High School + Portfolio", "IELTS 6.5"],
+    "programHighlights": [
+      "Architectural design studios",
+      "Urban planning principles",
+      "Sustainable building technologies",
+      "Advanced CAD and BIM skills",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects",
+      "Strong alumni network"
+    ],
     "careerOpportunities": ["Architect", "Urban Designer", "Project Architect"],
     "featured": true,
     "popular": true
@@ -826,6 +1084,15 @@
     "applicationFee": { "amount": 125, "currency": "CAD" },
     "scholarship": { "available": true, "details": "Agriculture Scholarship" },
     "entryRequirements": ["High School Science", "IELTS 6.5"],
+    "programHighlights": [
+      "Crop science innovation",
+      "Sustainable farming practices",
+      "Animal production systems",
+      "Agricultural technology integration",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Agronomist",
       "Farm Manager",
@@ -854,6 +1121,15 @@
     "applicationFee": { "amount": 90, "currency": "EUR" },
     "scholarship": { "available": true, "details": "Media Scholarship" },
     "entryRequirements": ["High School", "IELTS 6.5"],
+    "programHighlights": [
+      "Digital media production",
+      "Journalistic ethics and practice",
+      "Public relations strategies",
+      "Content creation and storytelling",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Journalist",
       "PR Specialist",
@@ -883,6 +1159,15 @@
     "applicationFee": { "amount": 80, "currency": "USD" },
     "scholarship": { "available": true, "details": "Finance Scholarship" },
     "entryRequirements": ["Bachelor in Business/Finance", "IELTS 7.0"],
+    "programHighlights": [
+      "Financial reporting standards",
+      "Auditing and assurance services",
+      "Corporate finance strategies",
+      "Investment portfolio management",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
     "careerOpportunities": [
       "Investment Banker",
       "Financial Analyst",
@@ -890,7 +1175,8 @@
     ],
     "featured": false,
     "popular": true
-  },  {
+  },
+  {
     "id": 31,
     "slug": "master-of-teaching",
     "title": "Master of Teaching",
@@ -910,7 +1196,20 @@
     "applicationFee": { "amount": 150, "currency": "NZD" },
     "scholarship": { "available": true, "details": "Teaching Scholarship" },
     "entryRequirements": ["Bachelor degree", "IELTS 7.0"],
-    "careerOpportunities": ["Secondary School Teacher", "Educational Leader", "Curriculum Specialist"],
+    "programHighlights": [
+      "Pedagogical theory and practice",
+      "Curriculum development expertise",
+      "Inclusive education strategies",
+      "Classroom management techniques",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
+    "careerOpportunities": [
+      "Secondary School Teacher",
+      "Educational Leader",
+      "Curriculum Specialist"
+    ],
     "featured": false,
     "popular": true
   },
@@ -932,9 +1231,25 @@
     "intakes": ["February", "July"],
     "tuitionFee": { "amount": 41000, "currency": "AUD", "period": "Year" },
     "applicationFee": { "amount": 150, "currency": "AUD" },
-    "scholarship": { "available": true, "details": "Aviation Management Scholarship" },
+    "scholarship": {
+      "available": true,
+      "details": "Aviation Management Scholarship"
+    },
     "entryRequirements": ["High School", "IELTS 6.5"],
-    "careerOpportunities": ["Airport Manager", "Aviation Consultant", "Airline Operations Manager"],
+    "programHighlights": [
+      "Flight operations training",
+      "Aviation safety management",
+      "Airline industry economics",
+      "Airport management strategies",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
+    "careerOpportunities": [
+      "Airport Manager",
+      "Aviation Consultant",
+      "Airline Operations Manager"
+    ],
     "featured": false,
     "popular": true
   },
@@ -957,8 +1272,25 @@
     "tuitionFee": { "amount": 52000, "currency": "CAD", "period": "Year" },
     "applicationFee": { "amount": 125, "currency": "CAD" },
     "scholarship": { "available": true, "details": "Architecture Scholarship" },
-    "entryRequirements": ["Bachelor of Architecture or equivalent", "Portfolio", "IELTS 7.0"],
-    "careerOpportunities": ["Licensed Architect", "Urban Designer", "Design Director"],
+    "entryRequirements": [
+      "Bachelor of Architecture or equivalent",
+      "Portfolio",
+      "IELTS 7.0"
+    ],
+    "programHighlights": [
+      "Architectural design studios",
+      "Urban planning principles",
+      "Sustainable building technologies",
+      "Advanced CAD and BIM skills",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
+    "careerOpportunities": [
+      "Licensed Architect",
+      "Urban Designer",
+      "Design Director"
+    ],
     "featured": true,
     "popular": true
   },
@@ -980,9 +1312,28 @@
     "intakes": ["August"],
     "tuitionFee": { "amount": 48000, "currency": "USD", "period": "Year" },
     "applicationFee": { "amount": 90, "currency": "USD" },
-    "scholarship": { "available": true, "details": "Agriculture Research Scholarship" },
-    "entryRequirements": ["Bachelor in Agriculture or related field", "IELTS 7.0"],
-    "careerOpportunities": ["Agricultural Scientist", "Farm Consultant", "Policy Advisor"],
+    "scholarship": {
+      "available": true,
+      "details": "Agriculture Research Scholarship"
+    },
+    "entryRequirements": [
+      "Bachelor in Agriculture or related field",
+      "IELTS 7.0"
+    ],
+    "programHighlights": [
+      "Crop science innovation",
+      "Sustainable farming practices",
+      "Animal production systems",
+      "Agricultural technology integration",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
+    "careerOpportunities": [
+      "Agricultural Scientist",
+      "Farm Consultant",
+      "Policy Advisor"
+    ],
     "featured": false,
     "popular": true
   },
@@ -1006,7 +1357,20 @@
     "applicationFee": { "amount": 100, "currency": "GBP" },
     "scholarship": { "available": true, "details": "Journalism Scholarship" },
     "entryRequirements": ["High School", "IELTS 6.5"],
-    "careerOpportunities": ["Journalist", "News Editor", "Digital Content Producer"],
+    "programHighlights": [
+      "Digital media production",
+      "Journalistic ethics and practice",
+      "Public relations strategies",
+      "Content creation and storytelling",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
+    "careerOpportunities": [
+      "Journalist",
+      "News Editor",
+      "Digital Content Producer"
+    ],
     "featured": false,
     "popular": true
   },
@@ -1028,9 +1392,25 @@
     "intakes": ["February", "July"],
     "tuitionFee": { "amount": 38000, "currency": "AUD", "period": "Year" },
     "applicationFee": { "amount": 150, "currency": "AUD" },
-    "scholarship": { "available": true, "details": "Education Leadership Scholarship" },
+    "scholarship": {
+      "available": true,
+      "details": "Education Leadership Scholarship"
+    },
     "entryRequirements": ["Bachelor of Education or equivalent", "IELTS 7.0"],
-    "careerOpportunities": ["School Principal", "Education Consultant", "Curriculum Developer"],
+    "programHighlights": [
+      "Pedagogical theory and practice",
+      "Curriculum development expertise",
+      "Inclusive education strategies",
+      "Educational leadership skills",
+      "Hands-on practical training",
+      "Industry-focused curriculum",
+      "Global career prospects"
+    ],
+    "careerOpportunities": [
+      "School Principal",
+      "Education Consultant",
+      "Curriculum Developer"
+    ],
     "featured": false,
     "popular": true
   }
