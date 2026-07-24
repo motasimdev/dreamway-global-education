@@ -29,14 +29,21 @@ const DestinationDetails = () => {
       <D_D_Banner countryBanner={country.banner} title={country.name} />
       <D_D_QuickFacts country={country} />
       <D_D_WhyChoose country={country} />
-      <D_D_Universities country={country}/>
-      <D_D_ChooseCourse country={country}/>
-      <D_D_AdmissionRequirements country={country}/>
-      <D_D_CostOfStudying country={country}/>
-      <D_D_FAQ country={country}/>
-      <D_D_FreeConsultation country={country}/>
+      <D_D_Universities country={country} />
+      <D_D_ChooseCourse country={country} />
+      <D_D_AdmissionRequirements
+        requirements={country?.admissionRequirements}
+        title={"Admission Requirements"}
+        subtitle={"What You Need to Apply"}
+        description={
+          "Prepare these essential documents to start your application journey."
+        }
+      />
+      <D_D_CostOfStudying country={country} />
+      <D_D_FAQ country={country} />
+      <D_D_FreeConsultation country={country} />
     </>
   );
-}; 
+};
 
 export default DestinationDetails;

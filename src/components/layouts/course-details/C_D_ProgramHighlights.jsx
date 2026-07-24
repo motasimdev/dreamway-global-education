@@ -1,4 +1,3 @@
-import { HiCheckCircle } from "react-icons/hi2";
 import { FiCheckCircle } from "react-icons/fi";
 import Container from "../../Container";
 import Heading from "../../Heading";
@@ -21,7 +20,7 @@ const C_D_ProgramHighlights = ({ course }) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {highlights.map((highlight, index) => (
             <div
               key={index}
