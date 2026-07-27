@@ -108,7 +108,7 @@ const Header = () => {
                   className={({ isActive }) =>
                     `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
                       isActive
-                        ? " text-primary   border-primary  shadow-sm  "
+                        ? " text-primary     shadow-sm  "
                         : "text-secondary hover:text-primary  "
                     }`
                   }
@@ -121,10 +121,10 @@ const Header = () => {
                 <NavLink
                   to="/contact"
                   className={({ isActive }) =>
-                    `px-5 ml-7 py-2 rounded-full bg-primary font-bold text-base uppercase   font-jost ${
+                    `px-5 py-2 rounded-full font-bold text-base uppercase   font-jost ${
                       isActive
-                        ? " text-primary bg-secondary shadow-sm  "
-                        : "text-secondary hover:text-primary hover:bg-secondary transition duration-300 shadow-sm"
+                        ? " text-primary border-primary shadow-sm  "
+                        : "text-secondary hover:text-primary "
                     }`
                   }
                 >

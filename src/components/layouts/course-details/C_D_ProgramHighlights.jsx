@@ -8,7 +8,7 @@ const C_D_ProgramHighlights = ({ course }) => {
   if (!highlights?.length) return null;
 
   return (
-    <section className="bg-white py-16 md:py-20 lg:py-24">
+    <section className="bg-[#f7f8fa] py-16 md:py-20 lg:py-24">
       <Container>
         <div className="mx-auto mb-10 max-w-2xl text-center md:mb-14">
           <p className="mb-3 font-jost text-sm font-semibold uppercase tracking-[0.2em] text-primary">
