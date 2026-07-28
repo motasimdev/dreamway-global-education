@@ -5,6 +5,7 @@ import courses from "/src/data/courses.json";
 import C_D_Banner from "../components/layouts/course-details/C_D_Banner";
 import C_D_Overview from "../components/layouts/course-details/C_D_Overview";
 import C_D_ProgramHighlights from "../components/layouts/course-details/C_D_ProgramHighlights";
+import C_D_TuitionFees from "../components/layouts/course-details/C_D_TuitionFees";
 import C_D_CareerOpportunities from "../components/layouts/course-details/C_D_CareerOpportunities";
 import D_D_AdmissionRequirements from "../components/layouts/destination-details/D_D_AdmissionRequirements";
 
@@ -37,7 +38,14 @@ const CourseDetails = () => {
           "Prepare these essential documents to start your application journey."
         }
       />
-      <C_D_CareerOpportunities careerOpportunities={course?.careerOpportunities} />
+      <C_D_CareerOpportunities
+        careerOpportunities={course?.careerOpportunities}
+      />
+      <C_D_TuitionFees
+        tuitionFee={course?.tuitionFee}
+        scholarship={course?.scholarship}
+        applicationFee={course?.applicationFee}
+      />
     </>
   );
 };

@@ -42,6 +42,8 @@ const getCareerIcon = (career) => {
 const C_D_CareerOpportunities = ({ careerOpportunities }) => {
   if (!careerOpportunities?.length) return null;
 
+  const isSingleRow = careerOpportunities.length <= 3;
+
   return (
     <section className="bg-[#f7f8fa] py-16 md:py-20 lg:py-24">
       <Container>
@@ -62,7 +64,9 @@ const C_D_CareerOpportunities = ({ careerOpportunities }) => {
           <img
             src={careerimg}
             alt="career"
-            className="absolute left-1/2 top-1/2 -translate-1/2 size-120 opacity-30 z-0 pointer-events-none"
+            className={`absolute left-1/2 top-1/2 -translate-1/2 size-80 opacity-30 z-0 pointer-events-none ${
+              isSingleRow ? "size-60" : "size-120"
+            }`}
           />
           <div className="relative grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 z-10">
             {careerOpportunities.map((career, index) => {
