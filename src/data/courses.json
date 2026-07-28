@@ -671,7 +671,29 @@
       "Structural Engineer"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What is the focus of the Civil Engineering program?",
+            "answer": "This program focuses on designing and building sustainable infrastructure, covering structural engineering, construction management, and innovative solutions."
+        },
+        {
+            "question": "Are there any site visits or practical projects?",
+            "answer": "Yes, the program includes hands-on practical training and practical design challenges to provide real-world experience."
+        },
+        {
+            "question": "What software and tools will I learn to use?",
+            "answer": "The curriculum incorporates industry-standard software and tools used in modern civil engineering and structural design."
+        },
+        {
+            "question": "What are the career prospects for graduates?",
+            "answer": "Graduates can pursue careers as a Civil Engineer, Project Manager, or Structural Engineer, with global career prospects."
+        },
+        {
+            "question": "Is there a strong alumni network for this program?",
+            "answer": "Yes, the university has a strong alumni network that can provide valuable career support and networking opportunities."
+        }
+    ]
   },
   {
     "id": 12,
@@ -708,7 +730,29 @@
       "Robotics Engineer"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What are the major specializations within this Mechanical Engineering program?",
+        "answer": "This program covers a broad range of topics including thermodynamics, robotics, and automotive engineering, with opportunities to focus on sustainable energy solutions."
+      },
+      {
+        "question": "Are co-op or internship opportunities available?",
+        "answer": "The program has an industry-focused curriculum that includes hands-on practical training. The university's career services can help students find co-op and internship placements."
+      },
+      {
+        "question": "What kind of lab facilities and equipment can I expect to use?",
+        "answer": "Students have access to modern labs and equipment for hands-on learning in areas like robotics, automation, and sustainable energy systems."
+      },
+      {
+        "question": "What are the career outcomes for graduates of this program?",
+        "answer": "Graduates are prepared for careers as Mechanical Engineers, Automotive Engineers, and Robotics Engineers in a variety of industries."
+      },
+      {
+        "question": "What is the application process for the scholarship?",
+        "answer": "Scholarships of up to 30% are available for eligible students. You can typically apply for the scholarship as part of your main course application."
+      }
+    ]
   },
   {
     "id": 13,
@@ -748,7 +792,29 @@
       "Electronics Engineer"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "Does this program focus more on electronics or power systems?",
+        "answer": "The program offers a comprehensive curriculum that covers both electronics and power systems, allowing students to explore areas like power generation, control systems, and smart grid technology."
+      },
+      {
+        "question": "What kind of projects will I work on during the program?",
+        "answer": "Students engage in hands-on practical training and work on projects involving innovative engineering solutions, using industry-standard tools for robotics and automation."
+      },
+      {
+        "question": "Is there an opportunity to specialize in renewable energy?",
+        "answer": "Yes, the curriculum includes topics related to modern power systems and smart grid technology, providing a strong foundation for a career in renewable energy."
+      },
+      {
+        "question": "What are the entry requirements for this course?",
+        "answer": "Applicants need a High School certificate with a strong background in Physics and Math, along with an IELTS score of 6.5 or equivalent."
+      },
+      {
+        "question": "How can I apply for the Engineering Excellence Scholarship?",
+        "answer": "The Engineering Excellence Scholarship is available for eligible students. You can find detailed information and apply through the university's official admissions portal."
+      }
+    ]
   },
   {
     "id": 14,
@@ -788,7 +854,29 @@
       "Community Health Nurse"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "How much clinical practice is included in the program?",
+        "answer": "The program emphasizes 'Clinical practice excellence' and 'Hands-on practical training', ensuring students get extensive experience in real healthcare settings."
+      },
+      {
+        "question": "What are the language requirements for this nursing program?",
+        "answer": "A higher IELTS score of 7.0 is required, reflecting the importance of clear communication in patient care."
+      },
+      {
+        "question": "Will this degree allow me to register as a nurse in Canada?",
+        "answer": "This program is designed to prepare you to become a qualified Registered Nurse. Upon graduation, you can apply for registration with the Canadian nursing regulatory body."
+      },
+      {
+        "question": "What kind of support is provided to international students during clinical placements?",
+        "answer": "The university provides support to help students navigate the healthcare system and succeed in their clinical placements, focusing on patient-centered care."
+      },
+      {
+        "question": "Are there scholarships specifically for nursing students?",
+        "answer": "Yes, a Nursing Scholarship of up to 20% is available for eligible international students."
+      }
+    ]
   },
   {
     "id": 15,
@@ -829,7 +917,29 @@
       "Epidemiologist"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What is the difference between public health and clinical medicine?",
+        "answer": "Public Health focuses on preventing disease and improving health at a community or population level, through policy, education, and research, rather than treating individual patients."
+      },
+      {
+        "question": "Does this program include any practical fieldwork or internships?",
+        "answer": "Yes, the program includes 'Hands-on practical training' as a key highlight, providing students with real-world experience in public health settings."
+      },
+      {
+        "question": "What are the key areas of study in this program?",
+        "answer": "The curriculum covers core public health disciplines such as epidemiology, biostatistics, public health policy, and addressing global health challenges."
+      },
+      {
+        "question": "What career paths can I follow with a degree in Public Health?",
+        "answer": "Graduates can pursue roles like Public Health Officer, Health Policy Analyst, or Epidemiologist in government agencies, non-profits, and international organizations."
+      },
+      {
+        "question": "Is the Public Health Scholarship available to all international students?",
+        "answer": "A dedicated Public Health Scholarship is available. Eligibility is typically assessed based on academic merit during the application process."
+      }
+    ]
   },
   {
     "id": 16,
@@ -867,7 +977,29 @@
       "Tourism Manager"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "Does the program include internships in hotels or tourism businesses?",
+        "answer": "Yes, 'Hands-on practical training' and an 'Industry-focused curriculum' are key features, providing students with valuable real-world experience through placements."
+      },
+      {
+        "question": "What makes studying hospitality in New Zealand unique?",
+        "answer": "New Zealand is a world-renowned tourism destination. Studying here offers a unique opportunity to learn about sustainable tourism practices in a beautiful and dynamic environment."
+      },
+      {
+        "question": "What are the main subjects covered in this program?",
+        "answer": "The curriculum covers hotel operations management, event planning, sustainable tourism, and achieving customer service excellence."
+      },
+      {
+        "question": "What are the career prospects after graduation?",
+        "answer": "Graduates have global career prospects and can work as Hotel Managers, Event Coordinators, or Tourism Managers."
+      },
+      {
+        "question": "How do I apply for the Hospitality Scholarship?",
+        "answer": "A Hospitality Scholarship is available for eligible students. You should check the university's website for specific application details and deadlines."
+      }
+    ]
   },
   {
     "id": 17,
@@ -908,7 +1040,29 @@
       "Brand Designer"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What should I include in my portfolio for the application?",
+        "answer": "Your portfolio should showcase your creativity and passion for design. Include a range of your best work, such as drawings, digital illustrations, or any other visual projects you have completed."
+      },
+      {
+        "question": "What software and tools will I learn to use?",
+        "answer": "The program provides training in industry-standard software for digital design, UI/UX, and branding, ensuring you have the technical skills needed for a career in design."
+      },
+      {
+        "question": "Are there opportunities to work on real-world client projects?",
+        "answer": "Yes, the industry-focused curriculum and hands-on training provide opportunities to work on practical projects, helping you build a professional portfolio before you even graduate."
+      },
+      {
+        "question": "What are the career outcomes for this degree?",
+        "answer": "Graduates are prepared for exciting careers as a Graphic Designer, UI/UX Designer, or Brand Designer in a variety of creative industries."
+      },
+      {
+        "question": "How does the Design Talent Scholarship work?",
+        "answer": "The Design Talent Scholarship is awarded to students who demonstrate exceptional creative potential in their portfolio. Check the university website for detailed eligibility and application requirements."
+      }
+    ]
   },
   {
     "id": 18,
@@ -941,7 +1095,29 @@
     ],
     "careerOpportunities": ["Lawyer", "Legal Advisor", "Policy Maker"],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "Does this LLB degree qualify me to practice law internationally?",
+        "answer": "This degree provides a strong foundation in international and common law systems, which is highly regarded globally. However, to practice in another country, you may need to complete further local qualifications."
+      },
+      {
+        "question": "What kind of practical legal training is included?",
+        "answer": "The program emphasizes hands-on training, which may include moot court competitions, legal clinics, and opportunities for legal research and analysis to build practical skills."
+      },
+      {
+        "question": "Are there opportunities for mooting or law competitions?",
+        "answer": "Yes, the university typically has a strong tradition of participating in national and international mooting competitions, which is a great way to develop advocacy skills."
+      },
+      {
+        "question": "What are the English language requirements for this course?",
+        "answer": "A high level of English proficiency is required, with an IELTS score of 7.0, to ensure you can cope with the demanding reading and writing required in legal studies."
+      },
+      {
+        "question": "What are the criteria for the Law Scholarship?",
+        "answer": "The Law Scholarship is typically awarded based on academic excellence. You should consult the university's scholarship office for specific criteria and application procedures."
+      }
+    ]
   },
   {
     "id": 19,
@@ -984,7 +1160,29 @@
       "Information Security Consultant"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What are the prerequisite skills or knowledge for this Master's program?",
+        "answer": "Applicants should have a Bachelor's degree in IT or Computer Science, which provides the necessary foundation in programming, networking, and systems administration."
+      },
+      {
+        "question": "What kind of lab environment and tools are used for hands-on training?",
+        "answer": "The program provides hands-on practical training with modern labs and tools to simulate real-world cybersecurity scenarios, including penetration testing and digital forensics."
+      },
+      {
+        "question": "Does the program prepare students for professional certifications?",
+        "answer": "The industry-focused curriculum covers topics aligned with leading cybersecurity certifications, giving you a strong advantage in your career."
+      },
+      {
+        "question": "What are the research opportunities in this program?",
+        "answer": "Students have opportunities to engage in research on robust problem-solving techniques and emerging cybersecurity defense strategies."
+      },
+      {
+        "question": "Is the Cyber Security Scholarship available to all international students?",
+        "answer": "Yes, a dedicated Cyber Security Scholarship is available for eligible international students. Check the university website for application details."
+      }
+    ]
   },
   {
     "id": 20,
@@ -1024,7 +1222,29 @@
       "Auditor"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "Is this program suitable for someone with no accounting background?",
+        "answer": "Yes, this program is specifically designed for graduates from any discipline who wish to pivot to an accounting career. It covers all the necessary foundational knowledge."
+      },
+      {
+        "question": "Does this program provide accreditation with professional accounting bodies?",
+        "answer": "The curriculum is designed to meet the requirements of major professional accounting bodies, providing a clear pathway to becoming a Chartered Accountant."
+      },
+      {
+        "question": "What career support services are available for graduates?",
+        "answer": "The university offers comprehensive career services, including an industry-focused curriculum and a strong alumni network to support your journey to becoming a Financial Controller or Auditor."
+      },
+      {
+        "question": "Can I work part-time while studying this program?",
+        "answer": "Many international students work part-time to gain experience and support their studies. Student visa conditions in Australia typically allow for part-time work."
+      },
+      {
+        "question": "What are the eligibility criteria for the Accounting Excellence Scholarship?",
+        "answer": "The Accounting Excellence Scholarship is awarded based on academic merit. Applicants with a strong undergraduate academic record are encouraged to apply."
+      }
+    ]
   },
   {
     "id": 21,
@@ -1062,7 +1282,29 @@
       "Pharmaceutical Researcher"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What are the career opportunities after completing the Bachelor of Pharmacy?",
+        "answer": "Graduates can pursue careers as a Community Pharmacist, Hospital Pharmacist, or a Pharmaceutical Researcher."
+      },
+      {
+        "question": "What is the duration of this course?",
+        "answer": "The Bachelor of Pharmacy is a 4-year, full-time program."
+      },
+      {
+        "question": "What are the entry requirements for international students?",
+        "answer": "Applicants need a strong science background and an IELTS score of 7.0."
+      },
+      {
+        "question": "Are there any scholarships available for this course?",
+        "answer": "Yes, a Pharmacy Scholarship is available for eligible students."
+      },
+      {
+        "question": "What are the key highlights of this program?",
+        "answer": "The program focuses on patient-centered care, clinical practice excellence, and pharmaceutical science expertise, with hands-on practical training."
+      }
+    ]
   },
   {
     "id": 22,
@@ -1100,7 +1342,29 @@
       "Travel Consultant"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What career paths can I pursue with a Bachelor of Tourism Management?",
+        "answer": "You can work as a Tourism Manager, Destination Marketing Executive, or Travel Consultant in the global tourism industry."
+      },
+      {
+        "question": "How long is this program?",
+        "answer": "This is a 3-year, full-time Bachelor's degree."
+      },
+      {
+        "question": "What are the admission requirements?",
+        "answer": "You need a High School certificate and an IELTS score of 6.0."
+      },
+      {
+        "question": "Is financial aid available for this program?",
+        "answer": "Yes, a Tourism Scholarship is available for eligible students."
+      },
+      {
+        "question": "What makes this program stand out?",
+        "answer": "The program emphasizes sustainable tourism practices, customer service excellence, and understanding global tourism trends."
+      }
+    ]
   },
   {
     "id": 23,
@@ -1138,7 +1402,29 @@
       "Design Consultant"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What jobs can I get with a Bachelor of Interior Design?",
+        "answer": "Graduates can work as an Interior Designer, Space Planner, or Design Consultant."
+      },
+      {
+        "question": "What is the duration of the program?",
+        "answer": "The Bachelor of Interior Design is a 4-year, full-time program."
+      },
+      {
+        "question": "What do I need to apply for this course?",
+        "answer": "You need a High School certificate, a portfolio of your work, and an IELTS score of 6.5."
+      },
+      {
+        "question": "Are scholarships offered for this course?",
+        "answer": "Yes, a Design Scholarship is available for eligible students."
+      },
+      {
+        "question": "What are the core skills I will learn in this program?",
+        "answer": "The program focuses on creative visual communication, spatial design solutions, and sustainable design innovation."
+      }
+    ]
   },
   {
     "id": 24,
@@ -1175,7 +1461,29 @@
       "Policy Advisor"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What are the career outcomes for a Master of Laws degree?",
+        "answer": "Graduates are prepared for careers as an International Lawyer, Legal Researcher, or Policy Advisor."
+      },
+      {
+        "question": "How long is the LLM program?",
+        "answer": "This is a 1-year, full-time Master's program."
+      },
+      {
+        "question": "What are the entry requirements for the LLM?",
+        "answer": "You need an LLB degree or equivalent, and an IELTS score of 7.0."
+      },
+      {
+        "question": "Is there a scholarship for this program?",
+        "answer": "Yes, an LLM Scholarship is available for eligible students."
+      },
+      {
+        "question": "What will I study in this program?",
+        "answer": "The program covers international legal systems, human rights advocacy, and legal research and analysis."
+      }
+    ]
   },
   {
     "id": 25,
@@ -1213,7 +1521,29 @@
       "Curriculum Developer"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What job opportunities are available after this program?",
+        "answer": "You can become a School Teacher, Educational Consultant, or a Curriculum Developer."
+      },
+      {
+        "question": "What is the duration of the Bachelor of Education?",
+        "answer": "This is a 4-year, full-time undergraduate program."
+      },
+      {
+        "question": "What do I need to apply?",
+        "answer": "Applicants need a High School certificate and an IELTS score of 6.5."
+      },
+      {
+        "question": "Are there scholarships available for education students?",
+        "answer": "Yes, an Education Scholarship is available for eligible students."
+      },
+      {
+        "question": "What are the main components of this program?",
+        "answer": "The program focuses on pedagogical theory and practice, curriculum development, and inclusive education strategies."
+      }
+    ]
   },
   {
     "id": 26,
@@ -1251,7 +1581,29 @@
       "Flight Operations Officer"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What career can I pursue with a Bachelor of Aviation?",
+        "answer": "You can become a Commercial Pilot, Aviation Manager, or a Flight Operations Officer."
+      },
+      {
+        "question": "How long does it take to complete this program?",
+        "answer": "This is a 3-year, full-time program."
+      },
+      {
+        "question": "What are the application requirements?",
+        "answer": "You need a High School certificate, an IELTS score of 6.0, and must be medically fit."
+      },
+      {
+        "question": "Is there financial assistance available?",
+        "answer": "Yes, an Aviation Scholarship is available for eligible students."
+      },
+      {
+        "question": "What will I learn in this program?",
+        "answer": "The program covers flight operations training, aviation safety management, and airline industry economics."
+      }
+    ]
   },
   {
     "id": 27,
@@ -1285,7 +1637,29 @@
     ],
     "careerOpportunities": ["Architect", "Urban Designer", "Project Architect"],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What are the potential careers with this degree?",
+        "answer": "Graduates can work as an Architect, Urban Designer, or Project Architect."
+      },
+      {
+        "question": "What is the program duration?",
+        "answer": "The Bachelor of Architecture is a 5-year, full-time program."
+      },
+      {
+        "question": "What are the entry requirements?",
+        "answer": "You need a High School certificate, a portfolio, and an IELTS score of 6.5."
+      },
+      {
+        "question": "Are there scholarships available for this course?",
+        "answer": "Yes, an Architecture Scholarship is available for eligible students."
+      },
+      {
+        "question": "What are the main areas of study?",
+        "answer": "The program focuses on architectural design studios, urban planning principles, and sustainable building technologies."
+      }
+    ]
   },
   {
     "id": 28,
@@ -1322,7 +1696,29 @@
       "Agribusiness Consultant"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What careers can I pursue with a Bachelor of Agriculture?",
+        "answer": "You can become an Agronomist, Farm Manager, or an Agribusiness Consultant."
+      },
+      {
+        "question": "How long is the program?",
+        "answer": "This is a 4-year, full-time Bachelor's program."
+      },
+      {
+        "question": "What are the application requirements?",
+        "answer": "You need a High School diploma with a science background and an IELTS score of 6.5."
+      },
+      {
+        "question": "Is there any financial aid available?",
+        "answer": "Yes, an Agriculture Scholarship is available for eligible students."
+      },
+      {
+        "question": "What will I learn in this program?",
+        "answer": "The program covers crop science innovation, sustainable farming practices, and animal production systems."
+      }
+    ]
   },
   {
     "id": 29,
@@ -1360,7 +1756,29 @@
       "Media Analyst"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What job roles can I pursue after this degree?",
+        "answer": "Graduates can work as a Journalist, PR Specialist, Content Creator, or Media Analyst."
+      },
+      {
+        "question": "What is the duration of the program?",
+        "answer": "The Bachelor of Media & Communication is a 3-year, full-time program."
+      },
+      {
+        "question": "What are the entry requirements?",
+        "answer": "Applicants need a High School certificate and an IELTS score of 6.5."
+      },
+      {
+        "question": "Are there any scholarships for this course?",
+        "answer": "Yes, a Media Scholarship is available for eligible students."
+      },
+      {
+        "question": "What are the program's key learning areas?",
+        "answer": "The program focuses on digital media production, journalistic ethics, and public relations strategies."
+      }
+    ]
   },
   {
     "id": 30,
@@ -1397,7 +1815,29 @@
       "Portfolio Manager"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What are the career prospects with a Master of Finance?",
+        "answer": "Graduates can pursue high-profile careers as an Investment Banker, Financial Analyst, or Portfolio Manager."
+      },
+      {
+        "question": "How long is this Master's program?",
+        "answer": "This is an intensive 1-year, full-time Master's degree."
+      },
+      {
+        "question": "What are the admission requirements?",
+        "answer": "You need a Bachelor's degree in Business or Finance and an IELTS score of 7.0."
+      },
+      {
+        "question": "Is there a scholarship for finance students?",
+        "answer": "Yes, a dedicated Finance Scholarship is available for eligible candidates."
+      },
+      {
+        "question": "What will I learn in this program?",
+        "answer": "The curriculum focuses on corporate finance strategies, investment portfolio management, and financial reporting standards."
+      }
+    ]
   },
   {
     "id": 31,
@@ -1434,7 +1874,29 @@
       "Curriculum Specialist"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "Is a background in education required to apply for this Master of Teaching?",
+        "answer": "No, this program is a postgraduate qualification designed to prepare graduates from any Bachelor's degree to become qualified secondary school teachers."
+      },
+      {
+        "question": "What are the English language requirements for this program?",
+        "answer": "A high level of English proficiency is required, specifically an IELTS score of 7.0 or equivalent, to ensure effective communication in a classroom setting."
+      },
+      {
+        "question": "Does this program include practical teaching experience?",
+        "answer": "Yes, 'Hands-on practical training' is a key highlight. The program includes school placements to ensure you gain real-world classroom management and teaching experience."
+      },
+      {
+        "question": "Will this qualification allow me to teach in other countries?",
+        "answer": "This qualification provides you with a strong foundation and is globally recognized. However, teaching registration requirements vary by country, so you may need to meet additional local criteria to teach outside New Zealand."
+      },
+      {
+        "question": "Are there scholarships available for this Master's program?",
+        "answer": "Yes, a 'Teaching Scholarship' is available for eligible students. You should check the university's website for specific application criteria and deadlines."
+      }
+    ]
   },
   {
     "id": 32,
@@ -1474,7 +1936,29 @@
       "Airline Operations Manager"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What is the difference between this course and a pilot training course?",
+        "answer": "This is a management-focused degree that covers the business side of aviation, including airport management, airline operations, and safety. While it includes 'Flight operations training' theory, it is not a commercial pilot license program."
+      },
+      {
+        "question": "What are the career prospects with a Bachelor of Aviation Management?",
+        "answer": "Graduates are prepared for management roles in the aviation industry, such as Airport Manager, Aviation Consultant, or Airline Operations Manager."
+      },
+      {
+        "question": "What are the admission requirements for international students?",
+        "answer": "International applicants need to have completed High School or equivalent and have an IELTS score of 6.5."
+      },
+      {
+        "question": "Does the program include any industry placements or internships?",
+        "answer": "The program has an 'Industry-focused curriculum' and emphasizes 'Hands-on practical training,' which often provides opportunities for industry engagement and internships."
+      },
+      {
+        "question": "Is there a scholarship specifically for this aviation program?",
+        "answer": "Yes, an 'Aviation Management Scholarship' is available for eligible students. We recommend checking the university's official website for more details on eligibility and how to apply."
+      }
+    ]
   },
   {
     "id": 33,
@@ -1515,7 +1999,29 @@
       "Design Director"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What should be included in the portfolio for the application?",
+        "answer": "Your portfolio should showcase your best design work from your undergraduate studies or professional experience. It should demonstrate your creativity, technical skills, and understanding of architectural principles."
+      },
+      {
+        "question": "Is this program a path to becoming a licensed architect in Canada?",
+        "answer": "Yes, this Master of Architecture is a professional degree that is a key step towards becoming a Licensed Architect. Graduates will need to complete internship hours and pass licensing exams as required by the provincial architectural associations."
+      },
+      {
+        "question": "What is the focus of the design studios in this program?",
+        "answer": "The 'Architectural design studios' are a core component and focus on advanced topics such as sustainable design, urbanism, and innovative building technologies."
+      },
+      {
+        "question": "What are the English proficiency requirements for this Master's degree?",
+        "answer": "A high level of English proficiency is required, with a minimum IELTS score of 7.0, to handle the intensive reading, writing, and presentation demands of the program."
+      },
+      {
+        "question": "Are there scholarships available for international architecture students?",
+        "answer": "Yes, the university offers an 'Architecture Scholarship' for eligible students. It is typically awarded based on academic merit and the strength of the application portfolio."
+      }
+    ]
   },
   {
     "id": 34,
@@ -1558,7 +2064,29 @@
       "Policy Advisor"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What background is required for this Master's program?",
+        "answer": "Applicants should have a Bachelor's degree in Agriculture or a related field like biology, environmental science, or botany. A strong science foundation is essential."
+      },
+      {
+        "question": "What are the key research areas in this program?",
+        "answer": "The program focuses on modern agricultural challenges, including crop science innovation, sustainable farming practices, agricultural technology integration, and food security."
+      },
+      {
+        "question": "Does this program include practical fieldwork or research?",
+        "answer": "Yes, 'Hands-on practical training' and research are integral parts of the program. Students will have opportunities to work on projects related to precision agriculture and sustainable farming systems."
+      },
+      {
+        "question": "What kind of careers can I pursue with this degree?",
+        "answer": "Graduates are prepared for advanced roles such as Agricultural Scientist, specialist Farm Consultant, or a Policy Advisor for government or non-governmental organizations."
+      },
+      {
+        "question": "Is there a scholarship specifically for agricultural research?",
+        "answer": "Yes, an 'Agriculture Research Scholarship' is available for qualified students. This scholarship supports students engaged in research that contributes to agricultural science."
+      }
+    ]
   },
   {
     "id": 35,
@@ -1595,7 +2123,29 @@
       "Digital Content Producer"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "What kind of practical experience does this journalism program offer?",
+        "answer": "The program offers 'Hands-on practical training' in investigative reporting, multimedia journalism, and digital content production, ensuring you build a strong portfolio."
+      },
+      {
+        "question": "What are the key skills I will learn in this program?",
+        "answer": "You will learn essential skills in 'Journalistic ethics and practice,' 'Content creation and storytelling,' and 'Digital media production' to prepare you for the modern media landscape."
+      },
+      {
+        "question": "What are the career prospects for a journalism graduate?",
+        "answer": "Graduates are well-prepared for careers as a Journalist, News Editor, or Digital Content Producer in various media organizations."
+      },
+      {
+        "question": "What are the admission requirements for international students?",
+        "answer": "International applicants need a High School qualification or equivalent and an IELTS score of 6.5."
+      },
+      {
+        "question": "Is there a scholarship available for this course?",
+        "answer": "Yes, a 'Journalism Scholarship' is available for eligible students. Check the university's website for application details and deadlines."
+      }
+    ]
   },
   {
     "id": 36,
@@ -1635,6 +2185,28 @@
       "Curriculum Developer"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+      {
+        "question": "Who is this Master of Education program designed for?",
+        "answer": "This program is designed for current educators and professionals who wish to advance into leadership roles such as School Principal, Education Consultant, or Curriculum Developer."
+      },
+      {
+        "question": "What are the entry requirements for this program?",
+        "answer": "Applicants need a Bachelor of Education or an equivalent qualification, along with an IELTS score of 7.0 to meet the language demands of the course."
+      },
+      {
+        "question": "What are the major areas of study in this program?",
+        "answer": "The program focuses on 'Educational leadership skills,' 'Curriculum development expertise,' and 'Inclusive education strategies,' alongside advanced research methods."
+      },
+      {
+        "question": "Does this program include a research component?",
+        "answer": "Yes, the program includes training in research methods and often requires a capstone project or dissertation, reflecting the 'Pedagogical theory and practice' highlight."
+      },
+      {
+        "question": "Is financial aid available for this Master's program?",
+        "answer": "Yes, an 'Education Leadership Scholarship' is available for qualified applicants. We recommend visiting the university's official website for more information on eligibility and the application process."
+      }
+    ]
   }
 ]

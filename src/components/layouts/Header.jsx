@@ -44,21 +44,6 @@ const Header = () => {
 
               <li>
                 <NavLink
-                  to="/courses"
-                  className={({ isActive }) =>
-                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
-                      isActive
-                        ? " text-primary   border-primary  shadow-sm"
-                        : "text-secondary hover:text-primary  "
-                    }`
-                  }
-                >
-                  Courses
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
                   to="/destinations"
                   className={({ isActive }) =>
                     `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
@@ -74,6 +59,21 @@ const Header = () => {
 
               <li>
                 <NavLink
+                  to="/courses"
+                  className={({ isActive }) =>
+                    `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
+                      isActive
+                        ? " text-primary   border-primary  shadow-sm"
+                        : "text-secondary hover:text-primary  "
+                    }`
+                  }
+                >
+                  Courses
+                </NavLink>
+              </li>
+
+              {/* <li>
+                <NavLink
                   to="/universities"
                   className={({ isActive }) =>
                     `px-3 py-2 rounded-full font-bold text-base uppercase   font-jost ${
@@ -85,7 +85,7 @@ const Header = () => {
                 >
                   Universities
                 </NavLink>
-              </li>
+              </li> */}
 
               <li>
                 <NavLink

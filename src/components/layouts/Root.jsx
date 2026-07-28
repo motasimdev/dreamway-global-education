@@ -13,7 +13,7 @@ const Root = () => {
   useEffect(() => {
     let throttleTimeout = null;
 
-    // ২০২৬ পারফরম্যান্স স্ট্যান্ডার্ড: Throttled Scroll Function
+    // Throttled Scroll Function
     const handleScroll = () => {
       if (!throttleTimeout) {
         throttleTimeout = setTimeout(() => {
@@ -44,7 +44,7 @@ const Root = () => {
       <main>
         <Outlet />
         <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3">
-          {/* Back-to-top Button (শর্তসাপেক্ষে স্ট্যাকের ওপরে রেন্ডার হবে) */}
+          {/* Back-to-top Button */}
           {show && (
             <button
               onClick={scrollTop}

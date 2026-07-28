@@ -9,6 +9,7 @@ import C_D_TuitionFees from "../components/layouts/course-details/C_D_TuitionFee
 import C_D_CareerOpportunities from "../components/layouts/course-details/C_D_CareerOpportunities";
 import D_D_AdmissionRequirements from "../components/layouts/destination-details/D_D_AdmissionRequirements";
 import D_D_FAQ from "../components/layouts/destination-details/D_D_FAQ";
+import D_D_FreeConsultation from "../components/layouts/destination-details/D_D_FreeConsultation";
 
 const CourseDetails = () => {
   const { slug } = useParams();
@@ -48,6 +49,7 @@ const CourseDetails = () => {
         applicationFee={course?.applicationFee}
       />
       <D_D_FAQ course={course} />
+      <D_D_FreeConsultation course={course}/>
     </>
   );
 };

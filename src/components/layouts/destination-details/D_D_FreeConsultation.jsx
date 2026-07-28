@@ -1,9 +1,15 @@
 import Container from "../../Container";
 
-const D_D_FreeConsultation = ({ country }) => {
-  const headingText = country?.name
-    ? `Want to Study in ${country.name}?`
-    : "Want to Study Abroad?";
+const D_D_FreeConsultation = ({ country, course }) => {
+  // const headingText = country?.name || course?.name
+  //   ? `Want to Study in ${country.name}? || Want to Study in ${course.name}?`
+  //   : "Want to Study Abroad?";
+  let headingText = "Want to Study Abroad?";
+  if (country?.name) {
+    headingText = `Want to Study in ${country.name}?`;
+  } else if (course?.title) {
+    headingText = `Want to Study in ${course.title}?`;
+  }
 
   return (
     <>
