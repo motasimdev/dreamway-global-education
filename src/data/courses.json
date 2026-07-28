@@ -44,6 +44,28 @@
     ],
     "featured": true,
     "popular": true,
+    "faq": [
+        {
+            "question": "What are the key programming languages taught in this course?",
+            "answer": "The curriculum covers a range of modern programming languages, including Python, Java, and C++, to build a strong foundation in software development."
+        },
+        {
+            "question": "Are there internship opportunities available?",
+            "answer": "The program includes industry-focused learning and hands-on projects, and the university's career services can assist students in finding internship opportunities."
+        },
+        {
+            "question": "What is the career outlook for graduates?",
+            "answer": "Graduates have excellent career prospects and are prepared for roles such as Software Engineer, Data Scientist, AI Specialist, and Cybersecurity Analyst in various industries."
+        },
+        {
+            "question": "Is this program suitable for students without prior coding experience?",
+            "answer": "Yes, the program is designed to build knowledge from the ground up, making it suitable for students with a strong interest in computer science, even without prior coding experience."
+        },
+        {
+            "question": "What kind of projects will I work on?",
+            "answer": "Students will engage in hands-on practical training through various projects, including software development, AI and machine learning applications, and cybersecurity defense strategies."
+        }
+    ],
     "meta": {
       "seoTitle": "Bachelor of Computer Science in Australia | Dreamway Global Education",
       "seoDescription": "Study Bachelor of Computer Science at University of Melbourne."
@@ -91,7 +113,29 @@
       "DevOps Engineer"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What makes this Software Engineering program different from Computer Science?",
+            "answer": "This program focuses more on software architecture, development methodologies, and system design, preparing you for specialized roles in software development and engineering."
+        },
+        {
+            "question": "Are there opportunities for industry collaboration?",
+            "answer": "Yes, the program has an industry-focused curriculum and offers hands-on practical training, with opportunities to engage in cutting-edge research and work on innovative tech solutions."
+        },
+        {
+            "question": "What kind of support is available for international students?",
+            "answer": "The university provides comprehensive support for international students, including academic advising, career services, and language support, to ensure a successful study experience."
+        },
+        {
+            "question": "What are the admission requirements for international students?",
+            "answer": "International applicants need a high school certificate with a strong background in mathematics and an IELTS score of 6.5 or equivalent."
+        },
+        {
+            "question": "Can I get a scholarship?",
+            "answer": "Yes, merit-based scholarships of up to 25% are available for eligible international students. You can apply for the scholarship during the application process."
+        }
+    ]
   },
   {
     "id": 3,
@@ -131,7 +175,29 @@
       "Systems Analyst"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What career paths can I pursue with this degree?",
+            "answer": "This degree prepares you for a wide range of IT roles, including IT Consultant, Network Administrator, and Systems Analyst, with global career prospects."
+        },
+        {
+            "question": "Is this program more focused on hardware or software?",
+            "answer": "The program provides a balanced education, covering both networking and systems administration (hardware) and advanced programming and cybersecurity (software)."
+        },
+        {
+            "question": "What is student life like at this university?",
+            "answer": "The university offers a vibrant campus life with numerous clubs, activities, and support services to help international students adapt and thrive."
+        },
+        {
+            "question": "How can I apply for the International Entrance Scholarship?",
+            "answer": "You can apply for the scholarship when you submit your application for admission. The university will assess your eligibility based on your academic achievements."
+        },
+        {
+            "question": "What are the main topics covered in the curriculum?",
+            "answer": "The curriculum covers cybersecurity defense strategies, networking, systems administration, and innovative tech solutions, with a strong emphasis on hands-on practical training."
+        }
+    ]
   },
   {
     "id": 4,
@@ -168,7 +234,29 @@
       "Business Intelligence Analyst"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What background is required to apply for this Master's program?",
+            "answer": "Applicants should have a Bachelor's degree in a relevant field such as computer science, statistics, or mathematics, and meet the English language proficiency requirements."
+        },
+        {
+            "question": "What kind of practical experience will I gain?",
+            "answer": "The program emphasizes hands-on practical training with an industry-focused curriculum, allowing you to work on real-world data science problems."
+        },
+        {
+            "question": "Are there research opportunities available?",
+            "answer": "Yes, students have the opportunity to engage in cutting-edge research projects, guided by faculty with expertise in data science and AI."
+        },
+        {
+            "question": "What career support is available for graduates?",
+            "answer": "The university offers career services to help you secure roles such as Data Scientist, Machine Learning Engineer, or Business Intelligence Analyst in top companies worldwide."
+        },
+        {
+            "question": "How long does the program take to complete?",
+            "answer": "This is a full-time, one-year Master's program, designed to quickly advance your skills and career in the field of data science."
+        }
+    ]
   },
   {
     "id": 5,
@@ -206,7 +294,29 @@
       "Entrepreneur"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What are the major areas of study in this BBA program?",
+            "answer": "The program covers key business areas including strategic management, financial analysis, marketing and brand strategy, and entrepreneurial leadership."
+        },
+        {
+            "question": "Are there opportunities for networking with professionals?",
+            "answer": "Yes, the university has a strong alumni network and an industry-focused curriculum that provides ample networking opportunities with business leaders and entrepreneurs."
+        },
+        {
+            "question": "What is the teaching style like?",
+            "answer": "The program combines theoretical knowledge with hands-on practical training, case studies, and group projects to develop your business acumen."
+        },
+        {
+            "question": "Is there a scholarship available for this course?",
+            "answer": "Yes, international students can apply for scholarships of up to 40%, based on academic merit and other criteria."
+        },
+        {
+            "question": "What career opportunities are available after graduation?",
+            "answer": "Graduates are well-prepared for roles such as Business Analyst, Marketing Manager, or to start their own business as an Entrepreneur."
+        }
+    ]
   },
   {
     "id": 6,
@@ -251,7 +361,29 @@
       "Business Development Manager"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "Is work experience required to apply for this MBA?",
+            "answer": "Yes, applicants are required to have a Bachelor's degree and relevant work experience. The GMAT is optional but recommended."
+        },
+        {
+            "question": "What industries do graduates typically work in?",
+            "answer": "Our graduates are prepared for leadership roles in a variety of industries, including consulting, finance, technology, and entrepreneurship."
+        },
+        {
+            "question": "What is the focus of the MBA program?",
+            "answer": "The program focuses on strategic business management, global market insights, and developing entrepreneurial leadership skills with a strong emphasis on ethical practices."
+        },
+        {
+            "question": "Are there scholarships specifically for MBA students?",
+            "answer": "Yes, dedicated MBA scholarships are available for eligible students. You can find more information on the university's scholarship page."
+        },
+        {
+            "question": "Does the program offer specializations?",
+            "answer": "The MBA curriculum is designed to be comprehensive, but students can often choose elective courses to focus on areas like finance, marketing, or international business."
+        }
+    ]
   },
   {
     "id": 7,
@@ -296,7 +428,29 @@
       "Security Consultant"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What practical skills will I learn in this program?",
+            "answer": "You will learn hands-on skills in cybersecurity defense, network administration, and ethical hacking, using industry-standard tools and techniques."
+        },
+        {
+            "question": "Are there any prerequisites for this course?",
+            "answer": "Applicants need a High School Certificate, a background in mathematics, and an IELTS score of 6.5."
+        },
+        {
+            "question": "What job roles can I pursue after graduating?",
+            "answer": "Graduates are qualified for high-demand roles such as Cybersecurity Analyst, Ethical Hacker, and Security Consultant."
+        },
+        {
+            "question": "Does the program cover the latest cybersecurity trends?",
+            "answer": "Yes, the curriculum is industry-focused and updated regularly to include innovative tech solutions and address emerging cyber threats."
+        },
+        {
+            "question": "How can I apply for the scholarship for international students?",
+            "answer": "Scholarships of up to 40% are available for international students. You can apply for it during the admission process, and it is awarded based on merit."
+        }
+    ]
   },
   {
     "id": 8,
@@ -336,7 +490,29 @@
       "Robotics Engineer"
     ],
     "featured": true,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What is the focus of the Bachelor of AI program?",
+            "answer": "This program focuses on AI, machine learning, robotics, and ethical AI practices, preparing you to create innovative tech solutions."
+        },
+        {
+            "question": "What are the career prospects after this degree?",
+            "answer": "Graduates are in high demand for roles like AI Engineer, Machine Learning Specialist, and Robotics Engineer."
+        },
+        {
+            "question": "Is there a strong emphasis on mathematics in this course?",
+            "answer": "Yes, a strong background in mathematics is required, as it forms the foundation for many AI and machine learning concepts."
+        },
+        {
+            "question": "What kind of hands-on experience can I expect?",
+            "answer": "The program offers hands-on practical training, allowing you to apply your knowledge to real-world problems and projects in AI and robotics."
+        },
+        {
+            "question": "Are there any scholarships available for this program?",
+            "answer": "Yes, merit-based AI scholarships are available for eligible students. Be sure to check the university website for details on how to apply."
+        }
+    ]
   },
   {
     "id": 9,
@@ -376,7 +552,29 @@
       "Entrepreneur"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What is the duration of this BBA program?",
+            "answer": "This is a four-year undergraduate program designed to provide a comprehensive business education."
+        },
+        {
+            "question": "What kind of support is available for international students?",
+            "answer": "The university offers a range of services for international students, including dedicated advisors and an International Student Scholarship."
+        },
+        {
+            "question": "Can I specialize in a particular area of business?",
+            "answer": "The program provides a broad education in business, but you may be able to choose electives in areas like marketing, finance, or entrepreneurship."
+        },
+        {
+            "question": "What are the career outcomes for graduates?",
+            "answer": "Our graduates are prepared for a variety of roles, including Business Manager, Marketing Executive, and many go on to become successful entrepreneurs."
+        },
+        {
+            "question": "Is there an opportunity for an internship?",
+            "answer": "The program includes hands-on practical training, and the university's career services can help you find internship opportunities to gain real-world experience."
+        }
+    ]
   },
   {
     "id": 10,
@@ -413,7 +611,29 @@
       "Global Consultant"
     ],
     "featured": false,
-    "popular": true
+    "popular": true,
+    "faq": [
+        {
+            "question": "What is unique about the Bachelor of International Business program?",
+            "answer": "This program provides specialized knowledge in global market insights, international trade, and ethical business practices, preparing you for a career in the global marketplace."
+        },
+        {
+            "question": "What level of English proficiency is required?",
+            "answer": "Applicants need to have an IELTS score of 7.0 or an equivalent English language qualification."
+        },
+        {
+            "question": "Are there study abroad opportunities?",
+            "answer": "Given the international focus of the program, the university often has partnerships that allow for study abroad or international exchange programs."
+        },
+        {
+            "question": "What kind of jobs can I get with this degree?",
+            "answer": "Graduates can pursue careers as an International Business Analyst, Export Manager, or Global Consultant, among other roles."
+        },
+        {
+            "question": "How does the program prepare students for global careers?",
+            "answer": "The curriculum is designed with a global perspective, offering hands-on training and insights into international trade, ensuring you are ready for a worldwide career."
+        }
+    ]
   },
   {
     "id": 11,

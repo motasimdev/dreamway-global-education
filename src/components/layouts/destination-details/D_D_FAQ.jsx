@@ -2,9 +2,9 @@ import { useState } from "react";
 import Container from "../../Container";
 import Heading from "../../Heading";
 
-const D_D_FAQ = ({ country }) => {
+const D_D_FAQ = ({ country, course }) => {
   const [openIndex, setOpenIndex] = useState(null);
-  const faqs = country?.faq;
+  const faqs = country?.faq || course?.faq || [];
 
   if (!faqs?.length) return null;
 
