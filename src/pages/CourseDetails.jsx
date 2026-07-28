@@ -6,6 +6,7 @@ import C_D_Banner from "../components/layouts/course-details/C_D_Banner";
 import C_D_Overview from "../components/layouts/course-details/C_D_Overview";
 import C_D_ProgramHighlights from "../components/layouts/course-details/C_D_ProgramHighlights";
 import C_D_TuitionFees from "../components/layouts/course-details/C_D_TuitionFees";
+import C_D_UniversityOffering from "../components/layouts/course-details/C_D_UniversityOffering";
 import C_D_CareerOpportunities from "../components/layouts/course-details/C_D_CareerOpportunities";
 import D_D_AdmissionRequirements from "../components/layouts/destination-details/D_D_AdmissionRequirements";
 import D_D_FAQ from "../components/layouts/destination-details/D_D_FAQ";
@@ -48,6 +49,7 @@ const CourseDetails = () => {
         scholarship={course?.scholarship}
         applicationFee={course?.applicationFee}
       />
+      <C_D_UniversityOffering course={course} />
       <D_D_FAQ course={course} />
       <D_D_FreeConsultation course={course}/>
     </>

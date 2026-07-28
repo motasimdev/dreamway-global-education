@@ -188,21 +188,6 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="/courses"
-                    className={({ isActive }) =>
-                      `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
-                        isActive
-                          ? " text-primary shadow-sm"
-                          : "text-secondary hover:text-primary  "
-                      }`
-                    }
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Courses
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
                     to="/destinations"
                     className={({ isActive }) =>
                       `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
@@ -214,6 +199,21 @@ const Header = () => {
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Destinations
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/courses"
+                    className={({ isActive }) =>
+                      `block px-4 py-3 font-jost rounded-full  font-medium text-base ${
+                        isActive
+                          ? " text-primary shadow-sm"
+                          : "text-secondary hover:text-primary  "
+                      }`
+                    }
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Courses
                   </NavLink>
                 </li>
                 <li>

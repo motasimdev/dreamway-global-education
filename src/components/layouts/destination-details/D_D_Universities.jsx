@@ -6,6 +6,7 @@ import { Link } from "react-router";
 import Container from "../../Container";
 import Heading from "../../Heading";
 import universities from "../../../data/universities.json";
+import course from "../../../data/courses.json";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./D_D_Universities.css";
@@ -33,6 +34,14 @@ const D_D_Universities = ({ country }) => {
   }, [country]);
 
   const [swiperInstance, setSwiperInstance] = useState(null);
+
+  const universityIds = course ? [course.universityId].filter(Boolean) : [];
+
+  const matchedUniversities = universities.filter((u) =>
+    universityIds.includes(u.id),
+  );
+
+  if (!matchedUniversities.length) return null;
 
   if (!filteredUniversities.length) {
     return (
@@ -80,7 +89,8 @@ const D_D_Universities = ({ country }) => {
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={24}
             slidesPerView={1}
-            loop={true}
+            loop={matchedUniversities.length > 3}
+            centerInsufficientSlides={true}
             autoplay={{
               delay: 4000,
               disableOnInteraction: false,
