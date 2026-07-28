@@ -62,7 +62,7 @@ const C_D_CareerOpportunities = ({ careerOpportunities }) => {
           <img
             src={careerimg}
             alt="career"
-            className="absolute left-1/2 top-1/2 -translate-1/2 size-120 opacity-45 transition-all duration-300 group-hover:scale-110 group-hover:opacity-55 z-0 pointer-events-none"
+            className="absolute left-1/2 top-1/2 -translate-1/2 size-120 opacity-30 z-0 pointer-events-none"
           />
           <div className="relative grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 z-10">
             {careerOpportunities.map((career, index) => {
