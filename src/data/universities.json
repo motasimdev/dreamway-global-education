@@ -27,7 +27,13 @@
     "meta": {
       "seoTitle": "University of Melbourne | Dreamway Global Education",
       "seoDescription": "Study at University of Melbourne from Bangladesh."
-    }
+    },
+    "courses": [
+      1,
+      5,
+      20,
+      36
+    ]
   },
   {
     "id": 2,
@@ -57,7 +63,10 @@
     "meta": {
       "seoTitle": "Australian National University",
       "seoDescription": "Study at ANU from Bangladesh."
-    }
+    },
+    "courses": [
+      15
+    ]
   },
   {
     "id": 3,
@@ -87,7 +96,11 @@
     "meta": {
       "seoTitle": "University of Sydney",
       "seoDescription": "Study at University of Sydney."
-    }
+    },
+    "courses": [
+      8,
+      27
+    ]
   },
   {
     "id": 4,
@@ -117,7 +130,10 @@
     "meta": {
       "seoTitle": "University of Queensland",
       "seoDescription": "Study at UQ from Bangladesh."
-    }
+    },
+    "courses": [
+      11
+    ]
   },
   {
     "id": 5,
@@ -147,7 +163,11 @@
     "meta": {
       "seoTitle": "Monash University",
       "seoDescription": "Study at Monash University."
-    }
+    },
+    "courses": [
+      2,
+      32
+    ]
   },
   {
     "id": 6,
@@ -177,7 +197,12 @@
     "meta": {
       "seoTitle": "University of Toronto",
       "seoDescription": "Study at University of Toronto from Bangladesh."
-    }
+    },
+    "courses": [
+      3,
+      6,
+      21
+    ]
   },
   {
     "id": 7,
@@ -207,7 +232,11 @@
     "meta": {
       "seoTitle": "University of British Columbia",
       "seoDescription": "Study at UBC Canada."
-    }
+    },
+    "courses": [
+      9,
+      33
+    ]
   },
   {
     "id": 8,
@@ -237,7 +266,10 @@
     "meta": {
       "seoTitle": "McGill University",
       "seoDescription": "Study at McGill University."
-    }
+    },
+    "courses": [
+      14
+    ]
   },
   {
     "id": 9,
@@ -267,7 +299,11 @@
     "meta": {
       "seoTitle": "University of Alberta",
       "seoDescription": "Study at University of Alberta."
-    }
+    },
+    "courses": [
+      12,
+      28
+    ]
   },
   {
     "id": 10,
@@ -297,7 +333,8 @@
     "meta": {
       "seoTitle": "University of Waterloo",
       "seoDescription": "Study at University of Waterloo."
-    }
+    },
+    "courses": []
   },
   {
     "id": 11,
@@ -327,7 +364,10 @@
     "meta": {
       "seoTitle": "University of Oxford",
       "seoDescription": "Study at Oxford from Bangladesh."
-    }
+    },
+    "courses": [
+      18
+    ]
   },
   {
     "id": 12,
@@ -357,7 +397,10 @@
     "meta": {
       "seoTitle": "University of Cambridge",
       "seoDescription": "Study at Cambridge University."
-    }
+    },
+    "courses": [
+      4
+    ]
   },
   {
     "id": 13,
@@ -387,7 +430,10 @@
     "meta": {
       "seoTitle": "Imperial College London",
       "seoDescription": "Study at Imperial College."
-    }
+    },
+    "courses": [
+      7
+    ]
   },
   {
     "id": 14,
@@ -417,7 +463,12 @@
     "meta": {
       "seoTitle": "University College London",
       "seoDescription": "Study at UCL."
-    }
+    },
+    "courses": [
+      13,
+      24,
+      35
+    ]
   },
   {
     "id": 15,
@@ -447,7 +498,8 @@
     "meta": {
       "seoTitle": "University of Edinburgh",
       "seoDescription": "Study at University of Edinburgh."
-    }
+    },
+    "courses": []
   },
   {
     "id": 16,
@@ -477,7 +529,8 @@
     "meta": {
       "seoTitle": "Harvard University | Dreamway Global Education",
       "seoDescription": "Study at Harvard from Bangladesh."
-    }
+    },
+    "courses": []
   },
   {
     "id": 17,
@@ -507,7 +560,8 @@
     "meta": {
       "seoTitle": "MIT | Dreamway Global Education",
       "seoDescription": "Study at Massachusetts Institute of Technology."
-    }
+    },
+    "courses": []
   },
   {
     "id": 18,
@@ -537,7 +591,8 @@
     "meta": {
       "seoTitle": "Stanford University | Dreamway Global Education",
       "seoDescription": "Study at Stanford University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 19,
@@ -567,7 +622,8 @@
     "meta": {
       "seoTitle": "UC Berkeley | Dreamway Global Education",
       "seoDescription": "Study at UC Berkeley."
-    }
+    },
+    "courses": []
   },
   {
     "id": 20,
@@ -597,7 +653,8 @@
     "meta": {
       "seoTitle": "UCLA | Dreamway Global Education",
       "seoDescription": "Study at UCLA from Bangladesh."
-    }
+    },
+    "courses": []
   },
   {
     "id": 21,
@@ -627,7 +684,12 @@
     "meta": {
       "seoTitle": "University of Auckland | Dreamway Global Education",
       "seoDescription": "Study at University of Auckland from Bangladesh."
-    }
+    },
+    "courses": [
+      16,
+      22,
+      31
+    ]
   },
   {
     "id": 22,
@@ -657,7 +719,8 @@
     "meta": {
       "seoTitle": "University of Otago | Dreamway Global Education",
       "seoDescription": "Study at University of Otago."
-    }
+    },
+    "courses": []
   },
   {
     "id": 23,
@@ -687,7 +750,8 @@
     "meta": {
       "seoTitle": "Victoria University of Wellington | Dreamway Global Education",
       "seoDescription": "Study at Victoria University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 24,
@@ -717,7 +781,8 @@
     "meta": {
       "seoTitle": "University of Canterbury | Dreamway Global Education",
       "seoDescription": "Study at University of Canterbury."
-    }
+    },
+    "courses": []
   },
   {
     "id": 25,
@@ -747,7 +812,8 @@
     "meta": {
       "seoTitle": "Massey University | Dreamway Global Education",
       "seoDescription": "Study at Massey University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 26,
@@ -777,7 +843,11 @@
     "meta": {
       "seoTitle": "University of Copenhagen | Dreamway Global Education",
       "seoDescription": "Study at University of Copenhagen."
-    }
+    },
+    "courses": [
+      10,
+      30
+    ]
   },
   {
     "id": 27,
@@ -807,7 +877,8 @@
     "meta": {
       "seoTitle": "Technical University of Denmark | Dreamway Global Education",
       "seoDescription": "Study at DTU."
-    }
+    },
+    "courses": []
   },
   {
     "id": 28,
@@ -837,7 +908,10 @@
     "meta": {
       "seoTitle": "Aarhus University | Dreamway Global Education",
       "seoDescription": "Study at Aarhus University."
-    }
+    },
+    "courses": [
+      17
+    ]
   },
   {
     "id": 29,
@@ -867,7 +941,11 @@
     "meta": {
       "seoTitle": "University of Southern Denmark | Dreamway Global Education",
       "seoDescription": "Study at SDU."
-    }
+    },
+    "courses": [
+      23,
+      34
+    ]
   },
   {
     "id": 30,
@@ -897,7 +975,8 @@
     "meta": {
       "seoTitle": "Aalborg University | Dreamway Global Education",
       "seoDescription": "Study at Aalborg University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 31,
@@ -927,7 +1006,8 @@
     "meta": {
       "seoTitle": "KTH Royal Institute of Technology | Dreamway Global Education",
       "seoDescription": "Study at KTH Sweden."
-    }
+    },
+    "courses": []
   },
   {
     "id": 32,
@@ -957,7 +1037,8 @@
     "meta": {
       "seoTitle": "Lund University | Dreamway Global Education",
       "seoDescription": "Study at Lund University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 33,
@@ -987,7 +1068,8 @@
     "meta": {
       "seoTitle": "Uppsala University | Dreamway Global Education",
       "seoDescription": "Study at Uppsala University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 34,
@@ -1017,7 +1099,8 @@
     "meta": {
       "seoTitle": "Chalmers University of Technology | Dreamway Global Education",
       "seoDescription": "Study at Chalmers."
-    }
+    },
+    "courses": []
   },
   {
     "id": 35,
@@ -1047,7 +1130,10 @@
     "meta": {
       "seoTitle": "Stockholm University | Dreamway Global Education",
       "seoDescription": "Study at Stockholm University."
-    }
+    },
+    "courses": [
+      26
+    ]
   },
   {
     "id": 36,
@@ -1077,7 +1163,8 @@
     "meta": {
       "seoTitle": "University of Helsinki | Dreamway Global Education",
       "seoDescription": "Study at University of Helsinki from Bangladesh."
-    }
+    },
+    "courses": []
   },
   {
     "id": 37,
@@ -1107,7 +1194,8 @@
     "meta": {
       "seoTitle": "Aalto University | Dreamway Global Education",
       "seoDescription": "Study at Aalto University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 38,
@@ -1137,7 +1225,8 @@
     "meta": {
       "seoTitle": "University of Turku | Dreamway Global Education",
       "seoDescription": "Study at University of Turku."
-    }
+    },
+    "courses": []
   },
   {
     "id": 39,
@@ -1167,7 +1256,8 @@
     "meta": {
       "seoTitle": "Tampere University | Dreamway Global Education",
       "seoDescription": "Study at Tampere University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 40,
@@ -1197,7 +1287,8 @@
     "meta": {
       "seoTitle": "University of Oulu | Dreamway Global Education",
       "seoDescription": "Study at University of Oulu."
-    }
+    },
+    "courses": []
   },
   {
     "id": 41,
@@ -1227,7 +1318,8 @@
     "meta": {
       "seoTitle": "KU Leuven | Dreamway Global Education",
       "seoDescription": "Study at KU Leuven from Bangladesh."
-    }
+    },
+    "courses": []
   },
   {
     "id": 42,
@@ -1257,7 +1349,8 @@
     "meta": {
       "seoTitle": "Ghent University | Dreamway Global Education",
       "seoDescription": "Study at Ghent University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 43,
@@ -1287,7 +1380,8 @@
     "meta": {
       "seoTitle": "UCLouvain | Dreamway Global Education",
       "seoDescription": "Study at UCLouvain."
-    }
+    },
+    "courses": []
   },
   {
     "id": 44,
@@ -1317,7 +1411,8 @@
     "meta": {
       "seoTitle": "University of Liège | Dreamway Global Education",
       "seoDescription": "Study at University of Liège."
-    }
+    },
+    "courses": []
   },
   {
     "id": 45,
@@ -1347,7 +1442,8 @@
     "meta": {
       "seoTitle": "Vrije Universiteit Brussel | Dreamway Global Education",
       "seoDescription": "Study at VUB."
-    }
+    },
+    "courses": []
   },
   {
     "id": 46,
@@ -1377,7 +1473,10 @@
     "meta": {
       "seoTitle": "University of Malta | Dreamway Global Education",
       "seoDescription": "Study at University of Malta."
-    }
+    },
+    "courses": [
+      25
+    ]
   },
   {
     "id": 47,
@@ -1407,7 +1506,8 @@
     "meta": {
       "seoTitle": "MCAST Malta | Dreamway Global Education",
       "seoDescription": "Study at MCAST Malta."
-    }
+    },
+    "courses": []
   },
   {
     "id": 48,
@@ -1436,7 +1536,8 @@
     "meta": {
       "seoTitle": "American University of Malta | Dreamway Global Education",
       "seoDescription": "Study at AUM Malta."
-    }
+    },
+    "courses": []
   },
   {
     "id": 49,
@@ -1466,7 +1567,8 @@
     "meta": {
       "seoTitle": "Institute of Tourism Studies Malta | Dreamway Global Education",
       "seoDescription": "Study at ITS Malta."
-    }
+    },
+    "courses": []
   },
   {
     "id": 50,
@@ -1495,7 +1597,8 @@
     "meta": {
       "seoTitle": "St Martin's Institute Malta | Dreamway Global Education",
       "seoDescription": "Study at St Martin's Institute."
-    }
+    },
+    "courses": []
   },
   {
     "id": 51,
@@ -1525,7 +1628,8 @@
     "meta": {
       "seoTitle": "Eötvös Loránd University | Dreamway Global Education",
       "seoDescription": "Study at ELTE Hungary."
-    }
+    },
+    "courses": []
   },
   {
     "id": 52,
@@ -1555,7 +1659,8 @@
     "meta": {
       "seoTitle": "University of Szeged | Dreamway Global Education",
       "seoDescription": "Study at University of Szeged."
-    }
+    },
+    "courses": []
   },
   {
     "id": 53,
@@ -1585,7 +1690,8 @@
     "meta": {
       "seoTitle": "BME Budapest | Dreamway Global Education",
       "seoDescription": "Study at Budapest University of Technology."
-    }
+    },
+    "courses": []
   },
   {
     "id": 54,
@@ -1615,7 +1721,8 @@
     "meta": {
       "seoTitle": "University of Debrecen | Dreamway Global Education",
       "seoDescription": "Study at University of Debrecen."
-    }
+    },
+    "courses": []
   },
   {
     "id": 55,
@@ -1645,7 +1752,8 @@
     "meta": {
       "seoTitle": "Corvinus University | Dreamway Global Education",
       "seoDescription": "Study at Corvinus University Budapest."
-    }
+    },
+    "courses": []
   },
   {
     "id": 56,
@@ -1675,7 +1783,8 @@
     "meta": {
       "seoTitle": "University of Cyprus | Dreamway Global Education",
       "seoDescription": "Study at University of Cyprus."
-    }
+    },
+    "courses": []
   },
   {
     "id": 57,
@@ -1705,7 +1814,8 @@
     "meta": {
       "seoTitle": "Cyprus University of Technology | Dreamway Global Education",
       "seoDescription": "Study at CUT Cyprus."
-    }
+    },
+    "courses": []
   },
   {
     "id": 58,
@@ -1735,7 +1845,8 @@
     "meta": {
       "seoTitle": "University of Nicosia | Dreamway Global Education",
       "seoDescription": "Study at University of Nicosia."
-    }
+    },
+    "courses": []
   },
   {
     "id": 59,
@@ -1765,7 +1876,8 @@
     "meta": {
       "seoTitle": "European University Cyprus | Dreamway Global Education",
       "seoDescription": "Study at EUC Cyprus."
-    }
+    },
+    "courses": []
   },
   {
     "id": 60,
@@ -1794,7 +1906,8 @@
     "meta": {
       "seoTitle": "Frederick University | Dreamway Global Education",
       "seoDescription": "Study at Frederick University Cyprus."
-    }
+    },
+    "courses": []
   },
   {
     "id": 61,
@@ -1824,7 +1937,8 @@
     "meta": {
       "seoTitle": "Trinity College Dublin | Dreamway Global Education",
       "seoDescription": "Study at Trinity College Dublin."
-    }
+    },
+    "courses": []
   },
   {
     "id": 62,
@@ -1854,7 +1968,8 @@
     "meta": {
       "seoTitle": "University College Dublin | Dreamway Global Education",
       "seoDescription": "Study at UCD Ireland."
-    }
+    },
+    "courses": []
   },
   {
     "id": 63,
@@ -1884,7 +1999,8 @@
     "meta": {
       "seoTitle": "University of Galway | Dreamway Global Education",
       "seoDescription": "Study at University of Galway."
-    }
+    },
+    "courses": []
   },
   {
     "id": 64,
@@ -1914,7 +2030,8 @@
     "meta": {
       "seoTitle": "University College Cork | Dreamway Global Education",
       "seoDescription": "Study at UCC Ireland."
-    }
+    },
+    "courses": []
   },
   {
     "id": 65,
@@ -1944,7 +2061,8 @@
     "meta": {
       "seoTitle": "Dublin City University | Dreamway Global Education",
       "seoDescription": "Study at DCU."
-    }
+    },
+    "courses": []
   },
   {
     "id": 66,
@@ -1974,7 +2092,8 @@
     "meta": {
       "seoTitle": "University of Malaya | Dreamway Global Education",
       "seoDescription": "Study at University of Malaya from Bangladesh."
-    }
+    },
+    "courses": []
   },
   {
     "id": 67,
@@ -2004,7 +2123,8 @@
     "meta": {
       "seoTitle": "Universiti Putra Malaysia | Dreamway Global Education",
       "seoDescription": "Study at UPM Malaysia."
-    }
+    },
+    "courses": []
   },
   {
     "id": 68,
@@ -2034,7 +2154,8 @@
     "meta": {
       "seoTitle": "UKM Malaysia | Dreamway Global Education",
       "seoDescription": "Study at Universiti Kebangsaan Malaysia."
-    }
+    },
+    "courses": []
   },
   {
     "id": 69,
@@ -2064,7 +2185,8 @@
     "meta": {
       "seoTitle": "Universiti Sains Malaysia | Dreamway Global Education",
       "seoDescription": "Study at USM Penang."
-    }
+    },
+    "courses": []
   },
   {
     "id": 70,
@@ -2094,7 +2216,8 @@
     "meta": {
       "seoTitle": "Universiti Teknologi Malaysia | Dreamway Global Education",
       "seoDescription": "Study at UTM."
-    }
+    },
+    "courses": []
   },
   {
     "id": 71,
@@ -2124,7 +2247,8 @@
     "meta": {
       "seoTitle": "University of Amsterdam | Dreamway Global Education",
       "seoDescription": "Study at University of Amsterdam."
-    }
+    },
+    "courses": []
   },
   {
     "id": 72,
@@ -2154,7 +2278,8 @@
     "meta": {
       "seoTitle": "TU Delft | Dreamway Global Education",
       "seoDescription": "Study at Delft University of Technology."
-    }
+    },
+    "courses": []
   },
   {
     "id": 73,
@@ -2184,7 +2309,8 @@
     "meta": {
       "seoTitle": "Utrecht University | Dreamway Global Education",
       "seoDescription": "Study at Utrecht University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 74,
@@ -2214,7 +2340,8 @@
     "meta": {
       "seoTitle": "Wageningen University | Dreamway Global Education",
       "seoDescription": "Study at Wageningen University."
-    }
+    },
+    "courses": []
   },
   {
     "id": 75,
@@ -2244,6 +2371,41 @@
     "meta": {
       "seoTitle": "Leiden University | Dreamway Global Education",
       "seoDescription": "Study at Leiden University."
-    }
+    },
+    "courses": []
+  },
+  {
+    "id": 81,
+    "countryId": 15,
+    "slug": "eindhoven-university-of-technology",
+    "name": "Eindhoven University of Technology",
+    "shortName": "TU/e",
+    "logo": "/src/assets/university-logos/tue-logo.png",
+    "banner": "/src/assets/university-logos/tue-banner.jpg",
+    "city": "Eindhoven",
+    "state": "",
+    "type": "Public",
+    "ranking": {
+      "qsWorld": 124,
+      "country": 6
+    },
+    "founded": 1956,
+    "website": "https://www.tue.nl",
+    "description": "A leading university in engineering science & technology.",
+    "featured": false,
+    "popular": true,
+    "availableLevels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "meta": {
+      "seoTitle": "Eindhoven University of Technology | Dreamway Global Education",
+      "seoDescription": "Study at TU/e."
+    },
+    "courses": [
+      19,
+      29
+    ]
   }
 ]
