@@ -12,12 +12,10 @@ import "swiper/css/pagination";
 const C_D_UniversityOffering = ({ course }) => {
   const [swiperInstance, setSwiperInstance] = useState(null);
 
-  const universityIds = course
-    ? [course.universityId].filter(Boolean)
-    : [];
+  // const universityIds = course ? [course.universityId].filter(Boolean) : [];
 
   const matchedUniversities = universities.filter((u) =>
-    universityIds.includes(u.id)
+    u.courses?.includes(course?.id),
   );
 
   if (!matchedUniversities.length) return null;

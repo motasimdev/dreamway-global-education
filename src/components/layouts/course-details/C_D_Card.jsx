@@ -1,5 +1,6 @@
 import { HiArrowRight } from "react-icons/hi2";
 import { Link } from "react-router";
+import countries from "/src/data/countries.json";
 
 const C_D_Card = ({ university }) => {
   if (!university) return null;
@@ -9,31 +10,26 @@ const C_D_Card = ({ university }) => {
     name,
     logo,
     city,
-    country,
+    countryId,
     ranking,
     type,
     shortName,
+    courses,
   } = university;
-
-  const badgeText = ranking?.qsWorld
-    ? `QS #${ranking.qsWorld}`
-    : type
-    ? type
-    : null;
+  const countryName = countries.find((c) => c.id === countryId)?.name ?? "";
 
   return (
-    <Link
-      to={`/universities/${slug}`}
-      className="group block no-underline"
-    >
+    <Link to={`/universities/${slug}`} className="group block no-underline">
       <article className="flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-white shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)] hover:border-primary/30">
         {/* Logo */}
-        <div className="flex h-full w-full items-center justify-center bg-linear-to-br from-gray-100 to-gray-200 transition-transform duration-500 group-hover:scale-105">
+        {/* flex h-full w-full items-center justify-center bg-linear-to-br from-gray-100 to-gray-200 transition-transform duration-500 group-hover:scale-105 */}
+        <div className="flex h-44 items-center justify-center bg-linear-to-br from-gray-100 to-gray-200 p-8">
           {logo ? (
             <img
               src={logo}
               alt={name}
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              // h-full w-full object-cover transition-transform duration-500 group-hover:scale-105
+              className="h-20 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
               loading="lazy"
               decoding="async"
             />
@@ -54,22 +50,41 @@ const C_D_Card = ({ university }) => {
 
           <p className="mt-1 font-jost text-sm text-secondary/70">
             {city}
-            {country ? `, ${country}` : ""}
+            <span className="text-primary font-medium">{countryName  ? `, ${countryName }` : ""}</span>
           </p>
 
           {/* Badges */}
-          {badgeText && (
-            <div className="mt-3">
-              <span className="inline-flex items-center rounded-full border border-secondary/20 bg-white px-3 py-1 font-jost text-xs font-semibold uppercase tracking-wider text-secondary/70">
-                {badgeText}
+
+          <div className="mt-4 flex flex-wrap gap-2">
+            {ranking?.qsWorld && (
+              <span className="inline-flex rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+                QS #{ranking.qsWorld}
               </span>
-            </div>
+            )}
+
+            {type && (
+              <span className="inline-flex rounded-full bg-secondary/10 px-3 py-1 text-xs font-semibold text-secondary">
+                {type}
+              </span>
+            )}
+          </div>
+
+          {/* courses */}
+
+          {courses?.length > 0 && (
+            <p className="mt-4 font-jost text-sm text-secondary/70">
+              Offers{" "}
+              <span className="font-semibold text-primary">
+                {courses.length}
+              </span>{" "}
+              Programs
+            </p>
           )}
 
           {/* CTA */}
           <div className="mt-auto pt-5">
             <span className="inline-flex items-center gap-2 rounded-full border border-secondary/20 bg-white px-5 py-2.5 font-jost text-sm font-semibold text-secondary transition-all duration-300 group-hover:border-primary group-hover:text-primary">
-              View Details
+              View University
               <HiArrowRight
                 size={16}
                 className="transition-transform duration-300 group-hover:translate-x-1"
