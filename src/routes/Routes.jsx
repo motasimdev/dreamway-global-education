@@ -11,6 +11,7 @@ import Faq from "../pages/Faq";
 import Error from "../pages/Error";
 import Universities from "../pages/Universities";
 import CourseDetails from "../pages/CourseDetails";
+import UniversityDetails from "../pages/UniversityDetails";
 
 const Routes = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const Routes = createBrowserRouter([
       { path: "destinations", Component: Destinations },
       { path: "destinations/:slug", Component: DestinationDetails },
       { path: "universities", Component: Universities },
+      { path: "universities/:slug", Component: UniversityDetails },
       { path: "blogs", Component: Blog },
       { path: "blogs/:slug", Component: BlogDetails },
       { path: "faq", Component: Faq },
