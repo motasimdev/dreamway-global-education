@@ -1,9 +1,11 @@
 import { useParams } from "react-router";
 import universities from "/src/data/universities.json";
+import Breadcrumb from "../components/Breadcrumb";
+import U_D_Banner from "../components/layouts/university-details/U_D_Banner";
 
 const UniversityDetails = () => {
   const { slug } = useParams();
-const university = universities.find((c) => c.slug === slug);
+  const university = universities.find((c) => c.slug === slug);
 
   if (!university) {
     return (
@@ -15,9 +17,10 @@ const university = universities.find((c) => c.slug === slug);
     );
   }
   return (
-  <>
-  
-  </>
+    <>
+      <Breadcrumb />
+      <U_D_Banner university={university}/>
+    </>
   );
 };
 

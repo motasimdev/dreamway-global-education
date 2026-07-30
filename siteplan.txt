@@ -123,3 +123,16 @@ tiny graduation cap outline
 
 এগুলো খুব low opacity।
 =============course details============
+
+=============university details============
+Breadcrumb
+Hero Banner
+Overview + Quick Facts
+Programs Offered ⭐
+Why Choose This University
+Campus Life
+Admission Requirements
+Tuition & Scholarships
+FAQ
+CTA
+=============university details============

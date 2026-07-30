@@ -11,6 +11,7 @@ import C_D_CareerOpportunities from "../components/layouts/course-details/C_D_Ca
 import D_D_AdmissionRequirements from "../components/layouts/destination-details/D_D_AdmissionRequirements";
 import D_D_FAQ from "../components/layouts/destination-details/D_D_FAQ";
 import D_D_FreeConsultation from "../components/layouts/destination-details/D_D_FreeConsultation";
+import Breadcrumb from "../components/Breadcrumb";
 
 const CourseDetails = () => {
   const { slug } = useParams();
@@ -30,6 +31,7 @@ const CourseDetails = () => {
   //   }
   return (
     <>
+      <Breadcrumb />
       <C_D_Banner course={course} university={university} country={country} />
       <C_D_Overview course={course} university={university} country={country} />
       <C_D_ProgramHighlights course={course} />
@@ -51,7 +53,7 @@ const CourseDetails = () => {
       />
       <C_D_UniversityOffering course={course} />
       <D_D_FAQ course={course} />
-      <D_D_FreeConsultation course={course}/>
+      <D_D_FreeConsultation course={course} />
     </>
   );
 };

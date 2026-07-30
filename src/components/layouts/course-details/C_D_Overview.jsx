@@ -48,7 +48,7 @@ const C_D_Overview = ({ course, university, country }) => {
   ].filter((item) => item.value);
 
   return (
-    <section className="bg-tertiary py-16 md:py-20 lg:py-24">
+    <section className="bg-[#fffaf6] py-16 md:py-20 lg:py-24">
       <Container>
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 relative">
           <div className="lg:col-span-7 flex items-center">

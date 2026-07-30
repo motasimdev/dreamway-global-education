@@ -102,7 +102,7 @@ const D_D_ChooseCourse = ({ country }) => {
                   to={`/courses/${course.slug}`}
                   className="block no-underline"
                 >
-                  <article className="group flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-tertiary shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)]">
+                  <article className="group flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-[#fffaf6] shadow-[0_14px_35px_rgba(54,69,79,0.08)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(54,69,79,0.14)]">
                     <div className="relative h-56 overflow-hidden">
                       <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
                         <img

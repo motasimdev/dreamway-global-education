@@ -1,10 +1,10 @@
-import Breadcrumb from "../../Breadcrumb";
+
 import Container from "../../Container";
 
 const C_D_Banner = ({ course, university, country }) => {
   return (
     <>
-      <Breadcrumb />
+      
       <section className="bg-[#f7f8fa] py-10 md:py-20 lg:py-10">
         <Container>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center">
