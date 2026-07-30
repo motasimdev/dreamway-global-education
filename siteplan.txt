@@ -127,7 +127,12 @@ tiny graduation cap outline
 =============university details============
 Breadcrumb
 Hero Banner
-Overview + Quick Facts
+Overview + Quick Facts ===
+Intakes
+Scholarships
+internationalStudents
+campusCount
+Overview + Quick Facts ===
 Programs Offered ⭐
 Why Choose This University
 Campus Life
@@ -136,3 +141,9 @@ Tuition & Scholarships
 FAQ
 CTA
 =============university details============
+
+ei koekta jinish deya jay maybe.. egula thik hoile ekta prompt likhe dao. design full website dekhe analyze krbe and apply krbe, ekta modern unique bento style krbe ei info gula diye. infogula prop thke collect krbe universities.json thke.. jdi onno json thke lage tahole shekhan thke nibe. tmi kono design explain krbana.. ami ki chai sheta diba just. dekhi she ki design dey.
+
+"internationalStudents": "31,000+",
+"campusCount": 3,
+"academicCalendar": "Semester"

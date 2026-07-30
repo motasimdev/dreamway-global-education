@@ -2,6 +2,7 @@ import { useParams } from "react-router";
 import universities from "/src/data/universities.json";
 import Breadcrumb from "../components/Breadcrumb";
 import U_D_Banner from "../components/layouts/university-details/U_D_Banner";
+import U_D_Overview from "../components/layouts/university-details/U_D_Overview";
 
 const UniversityDetails = () => {
   const { slug } = useParams();
@@ -20,6 +21,7 @@ const UniversityDetails = () => {
     <>
       <Breadcrumb />
       <U_D_Banner university={university}/>
+      <U_D_Overview university={university}/>
     </>
   );
 };
