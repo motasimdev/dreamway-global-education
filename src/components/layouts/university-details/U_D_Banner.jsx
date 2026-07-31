@@ -36,7 +36,7 @@ const U_D_Banner = ({ university }) => {
   return (
     <section className="relative bg-[#1a1a2e]">
       {banner && (
-        <div className="relative lg:sticky top-20.5 left-0 h-[250px] md:h-[300px] lg:h-[400px]">
+        <div className="relative lg:sticky lg:top-20.5 left-0 h-[250px] md:h-[300px] lg:h-[400px]">
           <img
             src={banner}
             alt={name}

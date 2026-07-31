@@ -7,7 +7,7 @@ const C_D_Banner = ({ course, university, country }) => {
       
       <section className="bg-[#f7f8fa] py-10 md:py-20 lg:py-10">
         <Container>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:items-center">
             <div className="order-2 lg:order-1">
               <div className="flex flex-wrap items-center gap-2">
                 <span className="rounded-full border border-secondary/20 bg-white px-4 py-1.5 font-jost text-xs font-semibold uppercase tracking-wider text-primary">
@@ -44,7 +44,7 @@ const C_D_Banner = ({ course, university, country }) => {
             </div>
 
             <div className="order-1 lg:order-2">
-              <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl">
+              <div className="aspect-4/3 w-full overflow-hidden rounded-3xl">
                 <img
                   src={course.image}
                   alt={course.title}
