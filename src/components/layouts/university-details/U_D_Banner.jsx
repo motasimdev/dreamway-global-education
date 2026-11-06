@@ -45,7 +45,7 @@ const U_D_Banner = ({ university }) => {
           <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a2ec5] via-[#1a1a2e]/70 to-transparent" />
         </div>
       )}
-      <div className="relative ">
+      <div className="relative">
         <Container>
           <div className="relative -mt-20 md:-mt-24 flex flex-col items-center gap-5 pb-12 md:pb-16 animate-fade-in">
             {logo && (
